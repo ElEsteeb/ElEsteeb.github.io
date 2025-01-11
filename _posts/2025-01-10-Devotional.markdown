@@ -11,6 +11,12 @@ The church in Smyrna faced persecution and poverty, yet Jesus spoke to them not 
 
 When we feel crushed by life’s burdens—whether through loss, financial difficulty, or opposition—it’s easy to feel abandoned or defeated. Here we are reminded of the eternal nature of Jesus. He was there at the beginning, and He will be there at the end. He overcame death itself, promising us that no challenge, no pain, is beyond His power.
 
-Jesus' resurrection isn’t just a historical fact; it’s a declaration of victory for us as His followers. Whatever you’re walking through, He walks with you (Isaiah 41:10I). He knows the weight of suffering (Hebrews 4:15) but also the joy of triumph (Romans 8:37). If Christ, the First and the Last, has overcome, so will you in Him (John 16:33).
+Jesus' resurrection isn’t just a historical fact; it’s a declaration of victory for us as His followers. Whatever you’re walking through, He walks with you (Isaiah 41:10). He knows the weight of suffering (Hebrews 4:15) but also the joy of triumph (Romans 8:37). If Christ, the First and the Last, has overcome, so will you in Him (John 16:33).
 
 -steve
+
+<script src="https://www.biblegateway.com/public/link-to-us/tooltips/bglinks.js" type="text/javascript"></script>
+<script type="text/javascript">
+BGLinks.version = "ESV";
+BGLinks.linkVerses();
+</script>
