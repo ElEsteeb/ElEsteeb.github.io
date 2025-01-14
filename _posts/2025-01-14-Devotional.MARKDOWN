@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Devotional 14 January 2025"
-date:   2025-01-10 08:00:00 -0600
+date:   2025-01-14 08:00:00 -0600
 categories: Devotional, Revelation
 ---
 >**Revelation 2:13 ESV**
