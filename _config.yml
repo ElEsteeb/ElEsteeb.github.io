@@ -27,10 +27,14 @@ url: "ElEsteeb.github.io" # the base hostname & protocol for your site, e.g. htt
 twitter_username: EsteebTorres
 github_username:  ElEsteeb
 
+collections:
+  notes:
+
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
