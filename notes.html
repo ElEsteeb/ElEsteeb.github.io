@@ -1,0 +1,14 @@
+---
+layout: default
+title: Class Notes
+---
+<h1>Class Notes</h1>
+
+<ul>
+  {% for notes in site.notes %}
+    <li>
+      <h2>{{ notes.name }}</h2>
+      <p>{{ notes.content | markdownify }}</p>
+    </li>
+  {% endfor %}
+</ul>
