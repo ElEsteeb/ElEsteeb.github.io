@@ -9,7 +9,7 @@ categories: Devotional, Revelation
 >**Revelation 3:1 ESV**
 >“And to the angel of the church in Sardis write: ‘The words of him who has the seven spirits of God and the seven stars. “‘I know your works. You have the reputation of being alive, but you are dead."
 
-Jesus begins His message to the church in Sardis by identifying Himself as the one who holds the fullness of the Spirit ("the seven spirits of God") and the authority over the church ("the seven stars"). This introduction reminds us of Christ’s sovereignty and His intimate knowledge of His people. As Proverbs 15:3 says, "The eyes of the Lord are in every place, keeping watch on the evil and the good." Jesus knows not only what we do but also the condition of our hearts. (Samuel 16:7)
+Jesus begins His message to the church in Sardis by identifying Himself as the one who holds the fullness of the Spirit ("the seven spirits of God") and the authority over the church ("the seven stars"). This introduction reminds us of Christ’s sovereignty and His intimate knowledge of His people. As Proverbs 15:3 says, "The eyes of the Lord are in every place, keeping watch on the evil and the good." Jesus knows not only what we do but also the condition of our hearts. (1 Samuel 16:7)
 
 The church in Sardis had a reputation for life, but Jesus declares it spiritually dead. This sobering assessment echoes Isaiah 29:13: "This people draw near with their mouth and honor me with their lips, while their hearts are far from me." Outward activity and human approval are no substitutes for genuine faith and obedience. Sardis teaches us that reputation without spiritual vitality is meaningless before God.
 
