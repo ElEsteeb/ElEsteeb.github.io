@@ -4,7 +4,7 @@ title:  "Introduction to Christian Eschatology"
 date:   2025-01-05 09:00:00 -0600
 categories: Class Notes, Revelation, Eschatology
 ---
-[<a href="[(drive.google.com/file/d/1kApXB-dN805mHJLXCelnENaWA5_ZrDo6/view?usp=drive_link)]" download>Download as PDF</a>](https://drive.google.com/uc?export=download&id=1kApXB-dN805mHJLXCelnENaWA5_ZrDo6)
+<iframe src="https://drive.google.com/file/d/1kApXB-dN805mHJLXCelnENaWA5_ZrDo6/preview" width="640" height="480" allow="autoplay"></iframe>
 
 Christian eschatology, the study of the "last things" or end times, has been a subject of intense theological debate and scholarly examination throughout church history. The word "eschatology" derives from the Greek words "eschatos" (last) and "logos" (study), encompassing beliefs about death, resurrection, judgment, and the ultimate destiny of both individuals and creation as a whole.We will examine the four main eschatological views within Christianity: Amillennialism, Historic Premillennialism, Dispensational Premillennialism, and Postmillennialism. Each perspective offers unique insights into the interpretation of biblical prophecy and the nature of Christ's return.
 
