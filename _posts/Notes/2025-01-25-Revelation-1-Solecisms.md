@@ -4,7 +4,11 @@ title:  "Revelation 1 Solecisms"
 date:   2025-01-25 09:00:00 -0600
 categories: Class Notes, Revelation, Eschatology
 ---
-Solecisms in the book of Revelation—especially in chapter 1—are widely recognized as part of the distinctive style of its author. These grammatical irregularities, present in the original Greek text, often deviate from standard Koine Greek conventions, contributing to both the book’s unique character and interpretive complexity. Below, I outline the notable solecisms in Revelation 1, providing the Greek and English text when appropriate, an explanation of why each is a solecism, and the grammatically corrected form.
+
+<iframe src="https://drive.google.com/file/d/1OMwKY94iPj5BEQDo8G7DfCjS5rib4SHY/preview" width="640" height="480" allow="autoplay"></iframe>
+
+
+>Solecisms in the book of Revelation—especially in chapter 1—are widely recognized as part of the distinctive style of its author. These grammatical irregularities, present in the original Greek text, often deviate from standard Koine Greek conventions, contributing to both the book’s unique character and interpretive complexity. Below, I outline the notable solecisms in Revelation 1, providing the Greek and English text when appropriate, an explanation of why each is a solecism, and the grammatically corrected form.
 
 ### Revelation 1:4:
 "Grace to you and peace from him who is and who was and who is to come" - The phrase "who is and who was and who is to come" is an unusual construction in Greek, especially for a greeting. The nominative ὁ ὢν is retained for theological emphasis, drawing on the Septuagint’s phrasing of Exodus 3:14 ("I AM WHO I AM") to highlight God's eternal existence. The standard grammar is subverted for rhetorical and theological purposes.
