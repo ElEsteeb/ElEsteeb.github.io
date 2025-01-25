@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Devotional 25 January 2025"
-date:   2025-01-25 09:00:00 -0600
+date:   2025-01-25 08:00:00 -0600
 categories: Devotional, Revelation
 ---
 
