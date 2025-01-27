@@ -5,4 +5,4 @@ position: Brief Description
 ---
 
 Check here to download the slides used in class, and listen to the recording taken on the Sunday the 19th of January, 2025
-[view]({% post_url /Notes/2025-01-25-Revelation-1-Solecisms %})
+[view]({% post_url /Notes/2025-01-19-Class-Recording.md %})
