@@ -1,5 +1,6 @@
 ---
 short_name: Sunday 19 January 2025
+date:   2025-01-19 09:30:00 -0600
 name: Revelation 1:1-6 Part 1
 position: Brief Description
 ---
