@@ -4,6 +4,6 @@
 
 ##**Here are the links to the playlists I mention in this recording:**
 
->[YouTube]({(http://youtube.com/playlist?list=PL_ZEkhXyLW9WsCkcrVY2jVyoTpbPtAsX8)})
+>[YouTube](https://youtube.com/playlist?list=PL_ZEkhXyLW9WsCkcrVY2jVyoTpbPtAsX8)
 >
->[Spotify]({(https://open.spotify.com/playlist/1kFkCrBpbZx0bxgeed8k2v?si=yoTgviJNTP-A_Rh80UVNBw&pi=u-Av4kwKamTh2f)})
+>[Spotify](https://open.spotify.com/playlist/1kFkCrBpbZx0bxgeed8k2v?si=yoTgviJNTP-A_Rh80UVNBw&pi=u-Av4kwKamTh2f)
