@@ -1,5 +1,6 @@
 ---
 short_name: Intro Christian Eschatology
+date:   2025-01-05 09:30:00 -0600
 name: Introduction To Christian Eschatology
 position: Brief Description
 ---

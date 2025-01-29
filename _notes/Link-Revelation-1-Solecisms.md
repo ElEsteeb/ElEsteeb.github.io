@@ -1,5 +1,6 @@
 ---
 short_name: Solecisms in Revelation 1
+date:   2025-01-19 09:30:00 -0600
 name: Solecisms in Revelation 1
 position: Brief Description
 ---
