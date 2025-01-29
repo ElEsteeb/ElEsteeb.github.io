@@ -22,6 +22,10 @@ Revelation 3:14 reminds us that Jesus is the foundation of truth, the perfect re
 -steve
 
 
-<script src="https://www.biblegateway.com/votd/votd.write.callback.js"></script>
-<script src="https://www.biblegateway.com/votd/get/?format=json&version=NET&callback=BG.votdWriteCallback"></script>
+
+<script src="https://www.biblegateway.com/public/link-to-us/tooltips/bglinks.js" type="text/javascript"></script>
+<script type="text/javascript">
+BGLinks.version = "NET";
+BGLinks.linkVerses();
+</script>
 
