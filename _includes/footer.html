@@ -1,7 +1,7 @@
 <footer>
         <p>&copy; {{site.time | date: '%Y'}} {{siie.title}}. All rights reserved. </p>
         <nav>
-            {% for link in site.data.footer.links %}
+            {% for link in data.footer.links %}
                 <a href="{{link.url | relative_url}}">{{link.title}}</a>
             {% endfor %}
         </nav>
