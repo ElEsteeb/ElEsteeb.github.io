@@ -1,8 +1,8 @@
 <footer>
-        <p>&copy; {{site.time | date: '%Y'}} {{siie.title}}. All rights reserved. </p>
+        <p>&copy; {{site.time | date: '%Y'}} {{site.title}}. All rights reserved. </p>
         <nav>
             {% for link in site.data.footer.links %}
-                <a href="{{link.url}}">{{link.title}}</a>
+                <a href="{{link.url | relative.url}}">{{link.name}}</a>
             {% endfor %}
         </nav>
 </footer>
