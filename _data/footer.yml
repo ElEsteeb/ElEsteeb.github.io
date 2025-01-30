@@ -1,9 +1,9 @@
 links:
 - name: Home
-  link: /
+  link: index.markdown
 - name: Devotional
   link: /devotional/
 - name: Class Notes
-  link: /notes.html
+  link: notes.html
 - name: About
-  link: /about/
+  link: about.md
