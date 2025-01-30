@@ -2,7 +2,7 @@
         <p>&copy; {{site.time | date: '%Y'}} {{site.title}}. All rights reserved. </p>
         <nav>
             {% for link in site.data.footer.links %}
-                <a href="{{link.url | relative.url}}">{{link.name}}</a>
+                <a href="{{link.url | relative_url}}">{{link.name}}</a>
             {% endfor %}
         </nav>
 </footer>
