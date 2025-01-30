@@ -21,7 +21,7 @@
 title: Esteeb.com
 email: steve@esteeb.com
 description: >- # this means to ignore newlines until "baseurl:"
-  For now this is just a landing site for all of my current projects. I will be adding more content soon.
+  Information for my Sunday School class, and friends of the church.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "ElEsteeb.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: EsteebTorres
