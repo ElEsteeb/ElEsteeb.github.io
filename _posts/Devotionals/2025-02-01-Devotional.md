@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Devotional 10 January 2025"
+title:  "Devotional 01 February 2025"
 date:   2025-02-01 06:00:00 -0600
 author: Steve Torres
 categories: Devotional, Revelation
