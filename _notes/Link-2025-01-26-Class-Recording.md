@@ -2,6 +2,7 @@
 short_name: Sunday 26 January 2025
 date:   2025-01-26 09:30:00 -0600
 name: Revelation 1:1-6 Part 2
+title: "Revelation 1:1-6 Part 2 Class Recording"
 position: Brief Description
 ---
 
