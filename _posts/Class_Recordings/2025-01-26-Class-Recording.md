@@ -1,5 +1,7 @@
 ---
 name: Revelation 1:1-6 Part 2
+title: "Revelation 1:1-6 Part 2 Class Recording"
+author: Steve Torres
 ---
 <iframe src="https://drive.google.com/file/d/1FtYGqP9VSY7Z-EsL3VDlsVFWrVW7BZF3/preview" width="640" height="480" allow="autoplay"></iframe>
 
