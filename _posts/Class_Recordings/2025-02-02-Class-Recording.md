@@ -2,7 +2,7 @@
 short_name: Sunday 02 February 2025
 date:   2025-02-02 10:30:00 -0600
 name: Revelation 1:7-8 Class Recording
-permalink: Revelation 1:7-8 Class Recording
+title: "Revelation 1:7-8 Class Recording"
 position: Brief Description
 ---
 [Download PDF](https://drive.google.com/file/d/1qgwSWZ0HRjzWjSLZq3zrqPASidp2E6LU/view)
