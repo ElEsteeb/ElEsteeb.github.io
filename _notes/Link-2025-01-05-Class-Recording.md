@@ -2,6 +2,7 @@
 short_name: Sunday 05 January 2025
 date:   2025-01-05 09:30:00 -0600
 name: Introduction To Revelation Part 1
+title: "Introduction To Revelation Part 1 Class Recording"
 position: Brief Description
 ---
 
