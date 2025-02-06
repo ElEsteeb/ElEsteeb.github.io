@@ -6,7 +6,8 @@ author: Steve Torres
 categories: Devotional, Revelation
 ---
 
-<img src="https://github.com/ElEsteeb/ElEsteeb.github.io/blob/main/images/devotionals/Rev-4_5.jpg" alt="Rev-4_5">
+<img src="https://github.com/ElEsteeb/ElEsteeb.github.io/blob/main/images/devotionals/Rev-4_5.jpg?raw=true" alt="Rev 4:5" style="max-width: 80%; height: auto;">
+
 
 
 
