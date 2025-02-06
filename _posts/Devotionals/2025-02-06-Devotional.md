@@ -8,6 +8,8 @@ categories: Devotional, Revelation
 
 <img src="https://github.com/ElEsteeb/ElEsteeb.github.io/blob/main/images/devotionals/Rev-4_5.jpg" alt="Rev-4_5">
 
+
+
 >**Revelation 4:5 ESV**
 >"From the throne came flashes of lightning, and rumblings and peals of thunder, and before the throne were burning seven torches of fire, which are the seven spirits of God,"
 
