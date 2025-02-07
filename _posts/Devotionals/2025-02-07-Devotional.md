@@ -1,4 +1,4 @@
--
+---
 layout: post
 title:  "Devotional 07 February 2025"
 date:   2025-02-07 08:00:00 -0600
