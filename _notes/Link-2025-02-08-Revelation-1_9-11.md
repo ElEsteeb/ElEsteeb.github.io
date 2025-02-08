@@ -8,4 +8,4 @@ author: Steve Torres
 ---
 
 Check here to download the class notes for Sunday, 9 February 2025.
-[view...]({% post_url /Notes/2025-02-08-Revelation-1_9-11.md %})
+[view...](https://github.com/ElEsteeb/ElEsteeb.github.io/blob/main/_posts/Notes/2025-02-08-Revelation-1_9-11.md)
