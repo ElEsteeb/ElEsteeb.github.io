@@ -5,7 +5,8 @@ date:   2025-02-10 08:00:00 -0600
 author: Steve Torres
 categories: Devotional, Revelation
 ---
-![Rev-5-_1-3](https://github.com/ElEsteeb/ElEsteeb.github.io/blob/main/images/devotionals/Rev-5-_1-3.jpg)
+
+<img src="https://github.com/ElEsteeb/ElEsteeb.github.io/blob/main/images/devotionals/Rev-5-_1-3.jpg?raw=true" alt="Revelation 5:1-3" style="max-width: 80%; height: auto;">
 
 >**Revelation 5:1-3 ESV**
 >"Then I saw in the right hand of him who was seated on the throne a scroll written within and on the back, sealed with seven seals. [2] And I saw a mighty angel proclaiming with a loud voice, “Who is worthy to open the scroll and break its seals?” [3] And no one in heaven or on earth or under the earth was able to open the scroll or to look into it"
