@@ -6,5 +6,5 @@ title: "Revelation 1:9-11 Class Recording"
 position: Brief Description
 ---
 
-Check here to download the slides used in class, and listen to the recording taken on the Sunday the 2nd of February, 2025
+Check here to download the slides used in class, and listen to the recording taken on the Sunday the 9th of February, 2025
 [view]({% post_url /Class_Recordings/2025-02-09-Class-Recording %})
