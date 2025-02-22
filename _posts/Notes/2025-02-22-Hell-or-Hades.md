@@ -72,7 +72,8 @@ Key Theological Takeaway:
 ========================
 
 Christian theology distinguishes between the transient (Hades) and the eternal (Hell). Jesus’ teachings and Revelation’s apocalyptic vision together emphasize that final judgment is irrevocable, just, and rooted in divine holiness. This framework underscores the urgency of moral accountability and redemption through Christ.
--
+
+----
 
 **Bibliography:**
 =============
