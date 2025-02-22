@@ -68,12 +68,13 @@ Jesus’ terms and Revelation’s portrayal are complementary, not contradictory
 
 In summary, Hades is the pre-judgment realm of the dead, Hell is the post-judgment state of punishment, Jesus lays the groundwork with terms like Gehenna and eternal fire, and Revelation amplifies this into the lake of fire and second death. Together, they form a cohesive theology of judgment in Christianity.
 
-Key Theological Takeaway
+Key Theological Takeaway:
 ========================
 
 Christian theology distinguishes between the transient (Hades) and the eternal (Hell). Jesus’ teachings and Revelation’s apocalyptic vision together emphasize that final judgment is irrevocable, just, and rooted in divine holiness. This framework underscores the urgency of moral accountability and redemption through Christ.
+-
 
-Bibliography:
+**Bibliography:**
 =============
 
 ### Hades and Hell in Christian Theology:
