@@ -1,6 +1,6 @@
 ---
 short_name: Letter to Ephesus
-date:   2025-02-20 08:30:00 -0600
+date:   2025-03-02 08:30:00 -0600
 name: "The Letter to Ephesus"
 position: Brief Description
 ---
