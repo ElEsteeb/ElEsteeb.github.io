@@ -225,6 +225,7 @@ For contemporary believers, recovering the rich theological heritage of ekklēsi
 In an age of institutional decline and spiritual individualism, the original meaning of ekklēsia reminds believers that the church is not primarily something they attend but something they are—the living assembly of God's people, called out from darkness into light, gathering around Christ as Lord, and sent into the world as witnesses of his kingdom. This recovery of ekklēsia's theological depth offers not just historical insight but transformative potential for the church's ongoing mission in the twenty-first century.
 
 ---
+
 # Bibliography
 
 ## Septuagint Studies
