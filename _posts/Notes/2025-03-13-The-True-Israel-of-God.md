@@ -7,9 +7,9 @@ categories: Class Notes, Revelation, Eschatology, Church, Israel, Jesus
 ---
 [Download PDF](https://drive.google.com/file/d/1MLlw0oERpsj7kZv7ixETmNxsOwu6QhfZ/view)
 
-## Understanding Jesus' Teaching on the "Synagogue of Satan" and the Biblical Distinction Between Ethnic and Spiritual Israel
+# Understanding Jesus' Teaching on the "Synagogue of Satan" and the Biblical Distinction Between Ethnic and Spiritual Israel
 
-# Introduction
+### Introduction
 
 Throughout Scripture, a profound theological tension exists between ethnic identity and covenant faithfulness. When Jesus speaks of the "synagogue of Satan" and those who "say they are Jews and are not" in Revelation 2:9 and 3:9, He addresses a foundational question that threads through biblical history: Who truly constitutes the people of God? This question transcends mere academic interest—it shapes our understanding of salvation history, covenant theology, and the relationship between Israel and the Church.
 
@@ -17,7 +17,7 @@ This paper examines the biblical distinction between ethnic Israel and "true Isr
 
 The central thesis of this study is that Jesus Christ Himself is the Israel of God par excellence, and only those united to Him by faith constitute the "true Israel." This understanding illuminates Jesus' controversial statements regarding the "synagogue of Satan" and helps us navigate the complex relationship between ethnic Israel and the Church without falling into either replacement theology or a bifurcation of God's redemptive plan.
 
-# I. Old Testament Foundations: The Distinction Between Physical and Spiritual Israel
+### I. Old Testament Foundations: The Distinction Between Physical and Spiritual Israel
 
 The Old Testament consistently establishes a principle that mere physical descent from Abraham does not guarantee covenant inclusion. This foundation is crucial for understanding the New Testament's development of "true Israel."
 
