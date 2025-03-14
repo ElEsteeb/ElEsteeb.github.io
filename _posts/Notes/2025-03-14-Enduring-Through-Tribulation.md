@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Enduring Through Tribulation"
-date:   2025-03-14 12:00:00 -0600
+date:   2025-03-14 10:00:00 -0600
 author: Steve Torres
 categories: Class Notes, Revelation, Eschatology, Church, Tribulation, Jesus
 ---
