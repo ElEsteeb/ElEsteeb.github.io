@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Devotional 15 March 2025"
-date:   2025-03-15 06:00:00 -0600
+date:   2025-03-15 05:00:00 -0600
 author: Steve Torres
 categories: Devotional, Revelation
 ---
