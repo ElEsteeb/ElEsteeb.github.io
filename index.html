@@ -1,31 +1,33 @@
 ---
 layout: default
 ---
-<!doctype html>
-<html>
-  <head>
-    <link rel="stylesheet" href="styles.css">  
-    <meta charset="utf-8">
-    <title>My Site</title>
-  </head>
-  <body>
-    <nav>
-      <a href="/" style="color: red;">Home</a>
-      <a href="/devotional/">Devotional</a>
-      <a href="/notes/">Class Notes</a>
-      <a href="/about/">About</a>
-    </nav>
+<div class="home">
+  <h2>Recent Posts</h2>
+  
+  <div class="post-container">
+    {% assign devotionals = site.devotionals | default: site.emptyArray %}
+    {% assign notes = site.notes | default: site.emptyArray %}
+    {% assign recordings = site.class_recordings | default: site.emptyArray %}
+    {% assign site.emptyArray = "" | split: "" %}
     
-    <h2>Debug Test</h2>
-    <p>Time now: {{ site.time }}</p>
-    <p>Test: {{ site.test_variable }}</p>
+    {% assign all_posts = site.emptyArray | concat: devotionals | concat: notes | concat: recordings | sort: "date" | reverse %}
     
-    <div class="post-container">
-      {% if site.devotionals.size > 0 or site.notes.size > 0 or site.class_recordings.size > 0 %}
-        <p>Found some posts!</p>
-      {% else %}
-        <p>No posts found. Please check your collection configuration.</p>
-      {% endif %}
-    </div>
-  </body>
-</html>
+    {% for post in all_posts limit:10 %}
+      <div class="lesson-card">
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <h3>
+          <a class="post-link" href="{{ post.url | relative_url }}">
+            {{ post.title }}
+          </a>
+        </h3>
+        <p>{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
+      </div>
+    {% endfor %}
+  </div>
+  <div style="background-color: #f8f9fa; padding: 10px; margin-bottom: 20px;">
+  <h4>Collection Sizes:</h4>
+  <p>Devotionals: {{ site.devotionals.size }}</p>
+  <p>Notes: {{ site.notes.size }}</p>
+  <p>Class Recordings: {{ site.class_recordings.size }}</p>
+</div>
+</div>
