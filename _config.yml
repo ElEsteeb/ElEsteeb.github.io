@@ -14,4 +14,11 @@ collections:
   class_recordings:
     output: true
     permalink: /recordings/:name
-test_variable: "Jekyll is working!"
+
+# Default layouts for collections
+defaults:
+  - scope:
+      path: ""
+      type: "notes"
+    values:
+      layout: "essay"
