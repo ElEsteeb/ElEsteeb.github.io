@@ -13,19 +13,20 @@
     <a href="/about/">About</a>
   </nav>
   <div class="home">
-    <h2 class="post-list-heading">Posts</h2>
-    <div class="post-container">
-      {% for post in site.posts limit:10 %}
-        <div class="lesson-card">
-          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-          <h3>
-            <a class="post-link" href="{{ post.url | relative_url }}">
-              {{ post.title }}
-            </a>
-          </h3>
-        </div>
-      {% endfor %}
+   <h2 class="post-list-heading">Posts</h2>
+<div class="post-container">
+  {% assign all_posts = site.devotionals | concat: site.notes | concat: site.class_recordings | sort: "date" | reverse %}
+  {% for post in all_posts limit:10 %}
+    <div class="lesson-card">
+      <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+      <h3>
+        <a class="post-link" href="{{ post.url | relative_url }}">
+          {{ post.title }}
+        </a>
+      </h3>
     </div>
+  {% endfor %}
+</div>
   </div>
 
 

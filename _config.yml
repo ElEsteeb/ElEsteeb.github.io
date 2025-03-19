@@ -28,7 +28,12 @@ twitter_username: EsteebTorres
 github_username:  ElEsteeb
 
 collections:
+  devotionals:
+    output: true
   notes:
+    output: true
+  class_recordings:
+    output: true
 
 # Build settings
 theme: minima
