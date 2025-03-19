@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Revelation 1 Solecisms"
 date:   2025-01-25 09:00:00 -0600
 categories: Class Notes, Revelation, Eschatology
