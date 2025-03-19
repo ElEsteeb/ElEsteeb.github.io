@@ -1,0 +1,37 @@
+---
+layout: default
+---
+<div class="recording-content">
+  <h1 class="recording-title">{{ page.title }}</h1>
+  
+  <div class="recording-meta">
+    {{ page.date | date: "%B %d, %Y" }} {% if page.teacher %} • {{ page.teacher }} {% endif %}
+  </div>
+  
+  {% if page.description %}
+  <div class="recording-description">
+    {{ page.description }}
+  </div>
+  {% endif %}
+  
+  {% if page.audio_url %}
+  <div class="audio-container">
+    <iframe class="recording-iframe" src="{{ page.audio_url }}" allowfullscreen></iframe>
+  </div>
+  {% endif %}
+  
+  <div class="recording-content-text">
+    {{ content }}
+  </div>
+  
+  {% if page.resources %}
+  <div class="resources-section">
+    <h3 class="resources-title">Resources</h3>
+    <div class="download-links">
+      {% for resource in page.resources %}
+        <a href="{{ resource.url }}" class="download-link" download>{{ resource.name }}</a>
+      {% endfor %}
+    </div>
+  </div>
+  {% endif %}
+</div>
