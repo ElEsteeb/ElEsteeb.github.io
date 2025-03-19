@@ -28,7 +28,7 @@
     <div class="home">
 <h2 class="post-list-heading">Posts</h2>
 <div class="post-container">
-  {% for post in site.posts limit:15 %}
+  {% for post in site.posts limit:10 %}
     <div class="lesson-card">
       <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
       <h3>
