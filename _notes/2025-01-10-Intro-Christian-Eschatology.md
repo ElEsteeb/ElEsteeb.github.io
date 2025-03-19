@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Introduction to Christian Eschatology"
 date:   2025-01-05 09:00:00 -0600
 categories: Class Notes, Revelation, Eschatology
