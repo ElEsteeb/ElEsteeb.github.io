@@ -13,7 +13,13 @@
     <a href="/about/">About</a>
   </nav>
   <div class="post-container">
-    {% assign all_posts = site.documents | where_exp: "item", "item.collection == 'devotionals' or item.collection == 'notes' or item.collection == 'class_recordings'" | sort: "date" | reverse %}
+  {% assign devotionals = site.devotionals | default: empty_array %}
+  {% assign notes = site.notes | default: empty_array %}
+  {% assign recordings = site.class_recordings | default: empty_array %}
+  {% assign empty_array = "" | split: "" %}
+  {% assign all_posts = empty_array | concat: devotionals | concat: notes | concat: recordings | sort: "date" | reverse %}
+  
+  {% if all_posts.size > 0 %}
     {% for post in all_posts limit:10 %}
       <div class="lesson-card">
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
@@ -24,6 +30,9 @@
         </h3>
       </div>
     {% endfor %}
-  </div>
+  {% else %}
+    <p>No posts found. Please check your collection configuration.</p>
+  {% endif %}
+</div>
  </body>
 </html>
