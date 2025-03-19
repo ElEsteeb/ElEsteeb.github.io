@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "The Theological Significance of Ekklēsia"
 date:   2025-03-08 01:00:00 -0600
 author: Steve Torres
