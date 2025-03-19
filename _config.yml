@@ -36,8 +36,7 @@ collections:
     output: true
 
 # Build settings
-plugins:
-  - jekyll-feed
+
 
 
 # Exclude from processing.
