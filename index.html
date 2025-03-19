@@ -5,40 +5,28 @@
     <meta charset="utf-8">
     <title></title>
   </head>
-  <body>
-    <nav>
-  
-    <a href="/" style="color: red;">
-      Home
-    </a>
-  
-    <a href="/devotional/" >
-      Devotional
-    </a>
-  
-    <a href="/notes/" >
-      Class Notes
-    </a>
-  
-    <a href="/about/" >
-      About
-    </a>
-  
-</nav>
-    <div class="home">
-<h2 class="post-list-heading">Posts</h2>
-<div class="post-container">
-  {% for post in site.posts limit:10 %}
-    <div class="lesson-card">
-      <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-      <h3>
-        <a class="post-link" href="{{ post.url | relative_url }}">
-          {{ post.title }}
-        </a>
-      </h3>
+ <body>
+  <nav>
+    <a href="/" style="color: red;">Home</a>
+    <a href="/devotional/">Devotional</a>
+    <a href="/notes/">Class Notes</a>
+    <a href="/about/">About</a>
+  </nav>
+  <div class="home">
+    <h2 class="post-list-heading">Posts</h2>
+    <div class="post-container">
+      {% for post in site.posts limit:10 %}
+        <div class="lesson-card">
+          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+          <h3>
+            <a class="post-link" href="{{ post.url | relative_url }}">
+              {{ post.title }}
+            </a>
+          </h3>
+        </div>
+      {% endfor %}
     </div>
-  {% endfor %}
-</div>
+  </div>
 
 
     <script>window.enableEventObserver=true</script>
