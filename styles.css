@@ -754,10 +754,12 @@ img {
 }
 
 .intro-section p {
-  margin-bottom: 1rem;
-  font-size: 17px;
+  margin-bottom: 1.7em;
+  font-size: 19px;
   color: #333;
+  font-family: Georgia, serif;
   transition: color 0.3s;
+}
 }
 
 .intro-section h3 {
