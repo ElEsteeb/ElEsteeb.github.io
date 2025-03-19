@@ -1,30 +1,37 @@
 document.addEventListener('DOMContentLoaded', function() {
-  // Mobile menu toggle
   const menuToggle = document.querySelector('.menu-toggle');
   const navLinks = document.querySelector('.nav-links');
   if (menuToggle) {
     menuToggle.addEventListener('click', function() {
-      navLinks.classList.toggle('active'); // Show/hide nav links
-      menuToggle.classList.toggle('active'); // Trigger hamburger to X animation
+      navLinks.classList.toggle('active');
+      menuToggle.classList.toggle('active');
     });
   }
 
-  // Dark mode toggle
   const darkModeToggle = document.querySelector('.dark-mode-toggle');
   if (darkModeToggle) {
     darkModeToggle.addEventListener('click', function() {
-      document.body.classList.toggle('dark-mode');
-      const isDark = document.body.classList.contains('dark-mode');
-      localStorage.setItem('darkMode', isDark ? 'enabled' : 'disabled');
-      darkModeToggle.textContent = isDark ? '☀' : '☾'; // Switch icon
+      const body = document.body;
+      body.classList.toggle('dark-mode');
+      const isDark = body.classList.contains('dark-mode');
+      if (isDark) {
+        body.classList.remove('light-mode');
+        localStorage.setItem('darkMode', 'enabled');
+        darkModeToggle.textContent = '☀';
+      } else {
+        body.classList.add('light-mode');
+        localStorage.setItem('darkMode', 'disabled');
+        darkModeToggle.textContent = '☾';
+      }
     });
 
-    // Load saved preference
     const savedDarkMode = localStorage.getItem('darkMode');
     if (savedDarkMode === 'enabled') {
       document.body.classList.add('dark-mode');
+      document.body.classList.remove('light-mode');
       darkModeToggle.textContent = '☀';
     } else {
+      document.body.classList.add('light-mode');
       darkModeToggle.textContent = '☾';
     }
   }
