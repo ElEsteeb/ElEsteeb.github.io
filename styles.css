@@ -809,7 +809,8 @@ body.dark-mode .intro-section h3 {
     font-size: 16px;
   }
 
- .social-share {
+ /* Social Sharing Buttons */
+.social-share {
   margin: 20px 0;
   font-size: 16px;
   display: flex;
@@ -856,7 +857,7 @@ body.dark-mode .intro-section h3 {
   opacity: 0.9;
 }
 
-/* Dark mode styles */
+/* Dark mode styles for social sharing */
 body.dark-mode .social-share span {
   color: #f3f4f6;
 }
