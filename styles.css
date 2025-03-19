@@ -808,4 +808,59 @@ body.dark-mode .intro-section h3 {
   .intro-section p {
     font-size: 16px;
   }
+
+ .social-share {
+  margin: 20px 0;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.social-share span {
+  margin-right: 10px;
+  color: #2c3e50;
+  transition: color 0.3s;
+}
+
+.share-btn {
+  display: inline-block;
+  padding: 8px 15px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 14px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.share-btn.facebook {
+  background-color: #3b5998;
+  color: #fff;
+}
+
+.share-btn.twitter {
+  background-color: #1da1f2;
+  color: #fff;
+}
+
+.share-btn.linkedin {
+  background-color: #0077b5;
+  color: #fff;
+}
+
+.share-btn.pinterest {
+  background-color: #bd081c;
+  color: #fff;
+}
+
+.share-btn:hover {
+  opacity: 0.9;
+}
+
+/* Dark mode styles */
+body.dark-mode .social-share span {
+  color: #f3f4f6;
+}
+
+body.dark-mode .share-btn:hover {
+  opacity: 0.8;
 }
