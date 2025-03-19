@@ -2,10 +2,13 @@ document.addEventListener('DOMContentLoaded', function() {
   const menuToggle = document.querySelector('.menu-toggle');
   const navLinks = document.querySelector('.nav-links');
   if (menuToggle) {
+    console.log('Menu toggle found:', menuToggle); // Debug
     menuToggle.addEventListener('click', function() {
       navLinks.classList.toggle('active');
       menuToggle.classList.toggle('active');
     });
+  } else {
+    console.log('Menu toggle not found'); // Debug
   }
 
   const darkModeToggle = document.querySelector('.dark-mode-toggle');
