@@ -1,8 +1,22 @@
 ---
-layout: default
 ---
-<div class="home">
-  <h2>Recent Posts</h2>
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="{{ '/styles.css' | relative_url }}">
+  <meta charset="utf-8">
+  <title>My Site</title>
+</head>
+<body>
+  <nav>
+    <a href="/" style="color: red;">Home</a>
+    <a href="/devotional/">Devotional</a>
+    <a href="/notes/">Class Notes</a>
+    <a href="/about/">About</a>
+  </nav>
+  
+  <div class="home">
+    <h2>Recent Posts</h2>
   
   <div class="post-container">
     {% assign devotionals = site.devotionals | default: site.emptyArray %}
@@ -19,8 +33,6 @@ layout: default
           <a class="post-link" href="{{ post.url | relative_url }}">
             {{ post.title }}
           </a>
-        </h3>
-        <p>{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
       </div>
     {% endfor %}
   </div>
