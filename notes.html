@@ -1,13 +1,34 @@
 ---
-title: Class Notes
-permalink: /notes/
 ---
-<h1>Class Notes</h1>
-
-<ul>
-  {% for notes in site.notes %}
-    <li>
-      <h2>{{ notes.name }}</h2>
-    </li>
-  {% endfor %}
-</ul>
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="{{ '/styles.css' | relative_url }}">
+  <meta charset="utf-8">
+  <title>Class Notes</title>
+</head>
+<body>
+  <nav>
+    <a href="/">Home</a>
+    <a href="/devotional/">Devotional</a>
+    <a href="/notes/" style="color: red;">Class Notes</a>
+    <a href="/class_recordings/">Class Recordings</a>
+    <a href="/about/">About</a>
+  </nav>
+  
+  <div class="content">
+    <h1>Class Notes</h1>
+    
+    <div class="post-list">
+      {% assign sorted_posts = site.notes | sort: "date" | reverse %}
+      {% for post in sorted_posts %}
+        <div class="post-item">
+          <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+          <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+          <p>{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</body>
+</html>
