@@ -7,7 +7,10 @@ url: "https://elesteeb.github.io" # or just "elesteeb.github.io"
 collections:
   devotionals:
     output: true
+    permalink: /devotional/:name
   notes:
     output: true
+    permalink: /notes/:name
   class_recordings:
     output: true
+    permalink: /recordings/:name
