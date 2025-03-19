@@ -26,7 +26,8 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     const savedDarkMode = localStorage.getItem('darkMode');
-    if (savedDarkMode === 'enabled') {
+    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    if (savedDarkMode === 'enabled' || (savedDarkMode === null && prefersDark)) {
       document.body.classList.add('dark-mode');
       document.body.classList.remove('light-mode');
       darkModeToggle.textContent = '☀';
