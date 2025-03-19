@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -31,34 +30,30 @@
 
   <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
 
-{% include analytics.html %}
-
+  {% include analytics.html %}
 </head>
 
 <body>
-<nav>
-  <div class="menu-toggle">
-    <div class="bar"></div>
-    <div class="bar"></div>
-    <div class="bar"></div>
-  </div>
-  <div class="nav-links">
-    <a href="/" {% if page.url == '/' %}style="color: red;"{% endif %}>Home</a>
-    <a href="/devotional.html" {% if page.url == '/devotional.html' %}style="color: red;"{% endif %}>Devotional</a>
-    <a href="/notes.html" {% if page.url == '/notes.html' %}style="color: red;"{% endif %}>Class Notes</a>
-    <a href="/class_recordings.html" {% if page.url == '/class_recordings.html' %}style="color: red;"{% endif %}>Class Recordings</a>
-  </div>
-</nav>
+  <nav>
+    <div class="menu-toggle">
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+    </div>
+    <div class="nav-links">
+      <a href="/" {% if page.url == '/' %}style="color: red;"{% endif %}>Home</a>
+      <a href="/devotional.html" {% if page.url == '/devotional.html' %}style="color: red;"{% endif %}>Devotional</a>
+      <a href="/notes.html" {% if page.url == '/notes.html' %}style="color: red;"{% endif %}>Class Notes</a>
+      <a href="/class_recordings.html" {% if page.url == '/class_recordings.html' %}style="color: red;"{% endif %}>Class Recordings</a>
+    </div>
+  </nav>
   
   <div class="content">
     {{ content }}
+    {% include social-share.html %}
   </div>
 
-{% include social-share.html %}
-
-  <!-- Dark mode toggle button (optional) -->
+  <!-- Dark mode toggle button -->
   <button class="dark-mode-toggle">🌓</button>
-
-<script src="{{ '/assets/js/main.js' | relative_url }}"></script>
 </body>
 </html>
