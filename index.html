@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
   <head>
-	<link rel="stylesheet" href="styles.css">  
+    <link rel="stylesheet" href="styles.css">  
     <meta charset="utf-8">
     <title></title>
   </head>
@@ -12,19 +12,18 @@
     <a href="/notes/">Class Notes</a>
     <a href="/about/">About</a>
   </nav>
- <div class="post-container">
-  {% assign all_posts = site.documents | where_exp: "item", "item.collection == 'devotionals' or item.collection == 'notes' or item.collection == 'class_recordings'" | sort: "date" | reverse %}
-  {% for post in all_posts limit:10 %}
-    <div class="lesson-card">
-      <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-      <h3>
-        <a class="post-link" href="{{ post.url | relative_url }}">
-          {{ post.title }}
-        </a>
-      </h3>
-    </div>
-  {% endfor %}
-</div>
+  <div class="post-container">
+    {% assign all_posts = site.documents | where_exp: "item", "item.collection == 'devotionals' or item.collection == 'notes' or item.collection == 'class_recordings'" | sort: "date" | reverse %}
+    {% for post in all_posts limit:10 %}
+      <div class="lesson-card">
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <h3>
+          <a class="post-link" href="{{ post.url | relative_url }}">
+            {{ post.title }}
+          </a>
+        </h3>
+      </div>
+    {% endfor %}
   </div>
-  </body>
+ </body>
 </html>
