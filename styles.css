@@ -59,3 +59,163 @@ nav a:hover {
   text-align: center;
   color: #2c3e50;
 }
+
+/* Container for essays */
+.essay-content {
+  max-width: 700px; /* Slightly narrower than cards for better readability */
+  margin: 40px auto;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  line-height: 1.7; /* Improved line spacing for readability */
+}
+
+/* Essay typography */
+.essay-content p {
+  margin-bottom: 1.5em;
+  font-size: 18px;
+  color: #333;
+}
+
+.essay-content h1 {
+  font-size: 32px;
+  color: #2c3e50;
+  margin-bottom: 0.5em;
+  line-height: 1.2;
+}
+
+.essay-content h2 {
+  font-size: 26px;
+  color: #2c3e50;
+  margin: 1.5em 0 0.5em;
+}
+
+.essay-content h3 {
+  font-size: 22px;
+  color: #2c3e50;
+  margin: 1.2em 0 0.5em;
+}
+
+/* Essay metadata */
+.essay-meta {
+  color: #777;
+  font-size: 16px;
+  font-style: italic;
+  margin-bottom: 30px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #eee;
+}
+
+/* Blockquotes for essays */
+.essay-content blockquote {
+  border-left: 4px solid #3498db;
+  padding-left: 20px;
+  margin-left: 0;
+  color: #555;
+  font-style: italic;
+}
+
+/* Links within essays */
+.essay-content a {
+  color: #3498db;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.2s;
+}
+
+.essay-content a:hover {
+  border-color: #3498db;
+}
+
+/* Lists within essays */
+.essay-content ul, .essay-content ol {
+  margin-bottom: 1.5em;
+  padding-left: 25px;
+}
+
+.essay-content li {
+  margin-bottom: 0.5em;
+}
+
+/* Code blocks */
+.essay-content pre, .essay-content code {
+  background-color: #f8f8f8;
+  border: 1px solid #e8e8e8;
+  border-radius: 3px;
+  font-family: Consolas, Monaco, 'Andale Mono', monospace;
+}
+
+.essay-content pre {
+  padding: 15px;
+  overflow: auto;
+  margin-bottom: 1.5em;
+}
+
+.essay-content code {
+  padding: 2px 5px;
+}
+
+/* Images in essays */
+.essay-content img {
+  max-width: 100%;
+  height: auto;
+  margin: 20px 0;
+  border-radius: 3px;
+}
+
+/* Tables */
+.essay-content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1.5em;
+}
+
+.essay-content th, .essay-content td {
+  padding: 12px 15px;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+}
+
+.essay-content th {
+  background-color: #f5f5f5;
+}
+
+/* Dark mode support (optional) */
+@media (prefers-color-scheme: dark) {
+  .essay-content {
+    background-color: #1f2937;
+    color: #e5e7eb;
+  }
+  
+  .essay-content p {
+    color: #e5e7eb;
+  }
+  
+  .essay-content h1, .essay-content h2, .essay-content h3 {
+    color: #f3f4f6;
+  }
+  
+  .essay-content blockquote {
+    color: #d1d5db;
+    border-left-color: #60a5fa;
+  }
+  
+  .essay-content a {
+    color: #60a5fa;
+  }
+  
+  .essay-content pre, .essay-content code {
+    background-color: #374151;
+    border-color: #4b5563;
+    color: #e5e7eb;
+  }
+  
+  .essay-content th {
+    background-color: #374151;
+  }
+  
+  .essay-content th, .essay-content td {
+    border-bottom: 1px solid #4b5563;
+  }
+}
