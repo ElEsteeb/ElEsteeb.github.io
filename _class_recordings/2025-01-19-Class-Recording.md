@@ -1,12 +1,10 @@
 ---
-short_name: Sunday 19 January 2025
-date:   2025-01-19 10:30:00 -0600
-name: Revelation 1:1-6 Part 1 Class Recording
+layout: class_recording
 title: "Revelation 1:1-6 Part 1 Class Recording"
-position: Brief Description
+date:   2025-01-19 10:30:00 -0600
+teacher: "Steve Torres"
+audio_url: "https://drive.google.com/file/d/1eShzMHyQrXIgQCerXYe4n2eu2Q1c4oOm/preview"
+resources:
+  - name: "Download PDF"
+    url: "https://drive.google.com/file/d/1FtYGqP9VSY7Z-EsL3VDlsVFWrVW7BZF3/view"
 ---
-
-<iframe src="https://drive.google.com/file/d/1FtYGqP9VSY7Z-EsL3VDlsVFWrVW7BZF3/preview" width="640" height="480" allow="autoplay"></iframe>
-
-
-<iframe src="https://drive.google.com/file/d/1eShzMHyQrXIgQCerXYe4n2eu2Q1c4oOm/preview" width="640" height="480" allow="autoplay"></iframe>
