@@ -12,6 +12,10 @@ nav {
   padding: 10px;
   text-align: center;
   transition: background-color 0.3s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 nav a {
@@ -19,6 +23,7 @@ nav a {
   margin: 0 15px;
   text-decoration: none;
   transition: color 0.3s;
+  padding: 5px;
 }
 
 nav a:hover {
@@ -412,6 +417,7 @@ nav a:hover {
     background-color: #3b82f6;
   }
 }
+
 /* Class recordings specific styles */
 .recording-content {
   max-width: 700px;
@@ -534,4 +540,208 @@ nav a:hover {
     background-color: #60a5fa;
     color: #1f2937;
   }
+}
+
+/* Mobile menu styles */
+.menu-toggle {
+  display: none;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.menu-toggle .bar {
+  width: 25px;
+  height: 3px;
+  background-color: #fff;
+  margin: 5px 0;
+  transition: 0.3s;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  /* General adjustments */
+  body {
+    padding: 10px;
+  }
+  
+  /* Navigation adjustments */
+  nav {
+    padding: 8px;
+    justify-content: space-between;
+  }
+  
+  .menu-toggle {
+    display: block;
+    margin-left: 10px;
+  }
+  
+  .nav-links {
+    display: none;
+    width: 100%;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 10px;
+  }
+  
+  .nav-links.active {
+    display: flex;
+  }
+  
+  nav a {
+    margin: 5px 0;
+    padding: 8px;
+    display: block;
+    font-size: 16px;
+  }
+  
+  /* Content containers adjustments */
+  .essay-content,
+  .devotional-content,
+  .recording-content {
+    padding: 20px;
+    margin: 20px auto;
+  }
+  
+  /* Typography adjustments */
+  .essay-content h1,
+  .devotional-content h1,
+  .recording-title {
+    font-size: 24px;
+  }
+  
+  .essay-content h2 {
+    font-size: 22px;
+  }
+  
+  .essay-content h3,
+  .resources-title {
+    font-size: 18px;
+  }
+  
+  .essay-content p,
+  .devotional-content p {
+    font-size: 16px;
+  }
+  
+  /* Table responsiveness */
+  .essay-content table {
+    display: block;
+    overflow-x: auto;
+  }
+  
+  /* Audio player adjustments */
+  .recording-iframe {
+    height: 150px;
+  }
+  
+  /* Download links */
+  .download-link {
+    display: block;
+    margin-right: 0;
+  }
+}
+
+/* Even smaller screens */
+@media (max-width: 480px) {
+  /* Tighter spacing */
+  .essay-content,
+  .devotional-content,
+  .recording-content {
+    padding: 15px;
+  }
+  
+  /* Smaller typography */
+  .essay-content h1,
+  .devotional-content h1,
+  .recording-title {
+    font-size: 22px;
+  }
+  
+  .essay-content p,
+  .devotional-content p {
+    font-size: 15px;
+    margin-bottom: 1.2em;
+  }
+  
+  /* Audio player further reduction */
+  .recording-iframe {
+    height: 120px;
+  }
+  
+  /* Dark mode toggle adjustment */
+  .dark-mode-toggle {
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+  }
+}
+
+/* Fix for images across all device sizes */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Support for dark mode with class for JS toggle */
+body.dark-mode {
+  background-color: #121212;
+  color: #e5e7eb;
+}
+
+body.dark-mode nav {
+  background-color: #1a2639;
+}
+
+body.dark-mode nav a:hover {
+  color: #60a5fa;
+}
+
+body.dark-mode .lesson-card {
+  background-color: #1f2937;
+  border-color: #374151;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+body.dark-mode .lesson-card .post-meta {
+  color: #9ca3af;
+}
+
+body.dark-mode .lesson-card a {
+  color: #e5e7eb;
+}
+
+body.dark-mode .lesson-card a:hover {
+  color: #60a5fa;
+}
+
+body.dark-mode .post-list-heading {
+  color: #f3f4f6;
+}
+
+body.dark-mode .essay-content,
+body.dark-mode .devotional-content,
+body.dark-mode .recording-content {
+  background-color: #1f2937;
+  color: #e5e7eb;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+}
+
+body.dark-mode .essay-content p,
+body.dark-mode .devotional-content p {
+  color: #e5e7eb;
+}
+
+body.dark-mode .essay-content h1,
+body.dark-mode .essay-content h2,
+body.dark-mode .essay-content h3,
+body.dark-mode .devotional-content h1,
+body.dark-mode .recording-title,
+body.dark-mode .resources-title {
+  color: #f3f4f6;
 }
