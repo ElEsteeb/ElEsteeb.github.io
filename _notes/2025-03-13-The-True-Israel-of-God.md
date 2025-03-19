@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "The True Israel of God"
 date:   2025-03-13 01:00:00 -0600
 author: Steve Torres
