@@ -742,4 +742,68 @@ img {
   body:not(.light-mode) .resources-title {
     color: #f3f4f6;
   }
+  .intro-section {
+  max-width: 800px;
+  margin: 20px auto 30px;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  line-height: 1.6;
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.intro-section p {
+  margin-bottom: 1rem;
+  font-size: 17px;
+  color: #333;
+  transition: color 0.3s;
+}
+
+.intro-section h3 {
+  color: #2c3e50;
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-size: 20px;
+  transition: color 0.3s;
+}
+
+/* Dark mode support */
+body.dark-mode .intro-section {
+  background-color: #1f2937;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+body.dark-mode .intro-section p {
+  color: #e5e7eb;
+}
+
+body.dark-mode .intro-section h3 {
+  color: #f3f4f6;
+}
+
+/* Auto dark mode for prefers-color-scheme */
+@media (prefers-color-scheme: dark) {
+  body:not(.light-mode) .intro-section {
+    background-color: #1f2937;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  body:not(.light-mode) .intro-section p {
+    color: #e5e7eb;
+  }
+  body:not(.light-mode) .intro-section h3 {
+    color: #f3f4f6;
+  }
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .intro-section {
+    padding: 15px;
+    margin: 15px auto 20px;
+  }
+  
+  .intro-section p {
+    font-size: 16px;
+  }
 }
