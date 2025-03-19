@@ -28,81 +28,17 @@
     <div class="home">
 <h2 class="post-list-heading">Posts</h2>
 <div class="post-container">
-  <div class="lesson-card">
-    <span class="post-meta">Jan 14, 2025</span>
-    <h3>
-      <a class="post-link" href="/devotional,/revelation/2025/01/14/Devotional.html">
-        Devotional 14 January 2025
-      </a>
-    </h3>
-  </div>
-  <div class="lesson-card">
-    <span class="post-meta">Jan 13, 2025</span>
-    <h3>
-      <a class="post-link" href="/devotional,/revelation/2025/01/13/Devotional.html">
-        Devotional 13 January 2025
-      </a>
-    </h3>
-  </div>
-  <div class="lesson-card">
-    <span class="post-meta">Jan 11, 2025</span>
-    <h3>
-      <a class="post-link" href="/devotional,/revelation/2025/01/11/Devotional.html">
-        Devotional 11 January 2025
-      </a>
-    </h3>
-  </div>
-  <div class="lesson-card">
-    <span class="post-meta">Jan 10, 2025</span>
-    <h3>
-      <a class="post-link" href="/class/notes,/revelation/2025/01/10/Solecisms-Revelation-1.html">
-        Solecisms in Revelation 1
-      </a>
-    </h3>
-  </div>
-  <div class="lesson-card">
-    <span class="post-meta">Jan 10, 2025</span>
-    <h3>
-      <a class="post-link" href="/devotional,/revelation/2025/01/10/Devotional.html">
-        Devotional 10 January 2025
-      </a>
-    </h3>
-  </div>
-  <div class="lesson-card">
-    <span class="post-meta">Jan 9, 2025</span>
-    <h3>
-      <a class="post-link" href="/devotional,/revelation/2025/01/09/Devotional.markdown.html">
-        Devotional, 09 January 2025
-      </a>
-    </h3>
-  </div>
-  <div class="lesson-card">
-    <span class="post-meta">Jan 8, 2025</span>
-    <h3>
-      <a class="post-link" href="/devotional,/revelation/2025/01/08/Devotional.html">
-        Devotional 08 January 2025
-      </a>
-    </h3>
-  </div>
-  <div class="lesson-card">
-    <span class="post-meta">Jan 7, 2025</span>
-    <h3>
-      <a class="post-link" href="/devotional,/revelation/2025/01/07/Devotional.html">
-        Devotional 07 January 2025
-      </a>
-    </h3>
-  </div>
-  <div class="lesson-card">
-    <span class="post-meta">Jan 5, 2025</span>
-    <h3>
-      <a class="post-link" href="/class/notes,/revelation,/eschatology/2025/01/05/Intro-Christian-Eschatology.html">
-        Introduction to Christian Eschatology
-      </a>
-    </h3>
-  </div>
+  {% for post in site.posts limit:15 %}
+    <div class="lesson-card">
+      <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+      <h3>
+        <a class="post-link" href="{{ post.url | relative_url }}">
+          {{ post.title }}
+        </a>
+      </h3>
+    </div>
+  {% endfor %}
 </div>
-
-    <p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p></div>
 
 
     <script>window.enableEventObserver=true</script>
