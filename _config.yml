@@ -4,6 +4,8 @@ description: >- # this means to ignore newlines until "baseurl:"
   Information for my Sunday School class, and friends of the church.
 baseurl: ""
 url: "https://elesteeb.github.io" # or just "elesteeb.github.io"
+# Google Analytics
+google_analytics: G-Y0QLNLWWLX
 collections:
   devotionals:
     output: true
