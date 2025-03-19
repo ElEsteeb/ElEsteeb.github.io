@@ -1,11 +1,10 @@
 ---
-layout: post
 title:  "Hell or Hades"
 date:   2025-02-22 09:00:00 -0600
 author: Steve Torres
 categories: Revelation
 ---
-# Hell or Hades
+
 [Download PDF](https://drive.google.com/file/d/1nR223PIYAnWoOX73AEmgeuowEacygTAW/view)
 
 In Christian theology, the terms "Hades" and "Hell" often get conflated in popular usage, but they have distinct meanings rooted in biblical language and context. Let’s break this down, then connect it to Jesus’ terms for the final judgment of the wicked and how Revelation portrays that judgment.
