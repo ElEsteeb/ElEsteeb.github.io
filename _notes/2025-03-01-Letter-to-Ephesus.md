@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Revelation 2:1-7: Letter to Ephesus"
 date:   2025-03-01 01:00:00 -0600
 author: Steve Torres
