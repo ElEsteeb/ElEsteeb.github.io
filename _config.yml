@@ -3,7 +3,7 @@ email: steve@esteeb.com
 description: >- # this means to ignore newlines until "baseurl:"
   Information for my Sunday School class, and friends of the church.
 baseurl: ""
-url: "ElEsteeb.github.io"
+url: "https://elesteeb.github.io" # or just "elesteeb.github.io"
 collections:
   devotionals:
     output: true
