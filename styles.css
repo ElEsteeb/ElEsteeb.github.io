@@ -1,3 +1,4 @@
+/* Updated to fix hamburger position and visibility - March 2025 */
 body {
   font-family: Arial, sans-serif;
   background-color: #f5f5f5;
@@ -9,7 +10,7 @@ body {
 
 nav {
   background-color: #2c3e50;
-  padding: 20px 10px; /* Increased top padding to make room for hamburger */
+  padding: 40px 10px 10px 10px; /* Increased top padding, reduced bottom */
   text-align: center;
   transition: background-color 0.3s;
   display: flex;
@@ -18,9 +19,8 @@ nav {
   flex-wrap: wrap;
   gap: 15px;
   position: relative;
+  min-height: 60px; /* Ensure nav has enough height */
 }
-
-
 
 nav a {
   color: #fff;
@@ -73,7 +73,7 @@ nav a:hover {
   text-align: center;
   color: #2c3e50;
   transition: color 0.3s;
-  margin-top: 60px; /* Added to push it below the nav */
+  margin-top: 80px; /* Increased to account for nav height */
 }
 
 /* Container for essays */
@@ -550,7 +550,7 @@ body.dark-mode .download-link:hover {
   cursor: pointer;
   padding: 5px;
   position: absolute;
-  top: 15px; /* Adjusted to fit within nav padding */
+  top: 10px; /* Adjusted to sit within nav padding */
   left: 15px;
   z-index: 1001;
 }
@@ -558,21 +558,19 @@ body.dark-mode .download-link:hover {
 .menu-toggle .bar {
   width: 25px;
   height: 3px;
-  background-color: #fff; /* Default for dark mode nav */
+  background-color: #fff; /* White for both modes, visible against #2c3e50 */
   margin: 5px 0;
   transition: 0.3s;
-}
-
-body.light-mode .menu-toggle .bar {
-  background-color: #fff; /* Ensure visibility against #2c3e50 nav */
 }
 
 .menu-toggle.active .bar:nth-child(1) {
   transform: rotate(45deg) translate(5px, 5px) !important;
 }
+
 .menu-toggle.active .bar:nth-child(2) {
   opacity: 0 !important;
 }
+
 .menu-toggle.active .bar:nth-child(3) {
   transform: rotate(-45deg) translate(6px, -6px) !important;
 }
@@ -590,12 +588,12 @@ body.light-mode .menu-toggle .bar {
   }
 
   nav {
-    padding: 8px;
+    padding: 40px 10px 10px 10px; /* Match desktop padding */
     justify-content: space-between;
   }
 
   .menu-toggle {
-    display: block;
+    display: block !important; /* Ensure it shows on mobile */
   }
 
   .nav-links {
@@ -694,168 +692,6 @@ body.light-mode .menu-toggle .bar {
 img {
   max-width: 100%;
   height: auto;
-}
-
-/* Remove the old @media (prefers-color-scheme: dark) section and replace with this */
-
-/* Default dark mode styles */
-body.dark-mode {
-  background-color: #121212;
-  color: #e5e7eb;
-}
-
-body.dark-mode nav {
-  background-color: #1a2639;
-}
-
-body.dark-mode nav a:hover {
-  color: #60a5fa;
-}
-
-body.dark-mode .lesson-card {
-  background-color: #1f2937;
-  border-color: #374151;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-}
-
-body.dark-mode .lesson-card .post-meta {
-  color: #9ca3af;
-}
-
-body.dark-mode .lesson-card a {
-  color: #e5e7eb;
-}
-
-body.dark-mode .lesson-card a:hover {
-  color: #60a5fa;
-}
-
-body.dark-mode .post-list-heading {
-  color: #f3f4f6;
-}
-
-body.dark-mode .essay-content {
-  background-color: #1f2937;
-  color: #e5e7eb;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
-}
-
-body.dark-mode .essay-content p {
-  color: #e5e7eb;
-}
-
-body.dark-mode .essay-content h1,
-body.dark-mode .essay-content h2,
-body.dark-mode .essay-content h3 {
-  color: #f3f4f6;
-}
-
-body.dark-mode .essay-meta {
-  color: #9ca3af;
-  border-bottom-color: #374151;
-}
-
-body.dark-mode .essay-content blockquote {
-  color: #d1d5db;
-  border-left-color: #60a5fa;
-}
-
-body.dark-mode .essay-content a {
-  color: #60a5fa;
-}
-
-body.dark-mode .essay-content a:hover {
-  border-color: #60a5fa;
-}
-
-body.dark-mode .essay-content li {
-  color: #e5e7eb;
-}
-
-body.dark-mode .essay-content pre,
-body.dark-mode .essay-content code {
-  background-color: #374151;
-  border-color: #4b5563;
-  color: #e5e7eb;
-}
-
-body.dark-mode .essay-content th {
-  background-color: #374151;
-}
-
-body.dark-mode .essay-content th,
-body.dark-mode .essay-content td {
-  border-bottom-color: #4b5563;
-}
-
-body.dark-mode .devotional-content {
-  background-color: #1f2937;
-  color: #e5e7eb;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
-}
-
-body.dark-mode .devotional-content p {
-  color: #e5e7eb;
-}
-
-body.dark-mode .devotional-content h1 {
-  color: #f3f4f6;
-}
-
-body.dark-mode .scripture {
-  background-color: #2d3748;
-  color: #e5e7eb;
-  border-left-color: #60a5fa;
-}
-
-body.dark-mode .devotional-meta {
-  color: #9ca3af;
-  border-bottom-color: #374151;
-}
-
-body.dark-mode .recording-content {
-  background-color: #1f2937;
-  color: #e5e7eb;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
-}
-
-body.dark-mode .recording-meta {
-  color: #9ca3af;
-  border-bottom-color: #374151;
-}
-
-body.dark-mode .recording-title {
-  color: #f3f4f6;
-}
-
-body.dark-mode .audio-container {
-  border-color: #374151;
-}
-
-body.dark-mode .resources-section {
-  border-top-color: #374151;
-}
-
-body.dark-mode .resources-title {
-  color: #f3f4f6;
-}
-
-body.dark-mode .download-link {
-  background-color: #374151;
-  color: #e5e7eb;
-}
-
-body.dark-mode .download-link:hover {
-  background-color: #60a5fa;
-  color: #1f2937;
-}
-
-body.dark-mode .dark-mode-toggle {
-  background-color: #60a5fa;
-}
-
-body.dark-mode .dark-mode-toggle:hover {
-  background-color: #3b82f6;
 }
 
 /* Auto dark mode for prefers-color-scheme */
