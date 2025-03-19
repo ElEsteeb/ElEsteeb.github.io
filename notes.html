@@ -1,5 +1,4 @@
 ---
-layout: default
 title: Class Notes
 permalink: /notes/
 ---
@@ -9,7 +8,6 @@ permalink: /notes/
   {% for notes in site.notes %}
     <li>
       <h2>{{ notes.name }}</h2>
-      <p>{{ notes.content | markdownify }}</p>
     </li>
   {% endfor %}
 </ul>
