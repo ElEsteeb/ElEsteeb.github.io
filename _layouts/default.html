@@ -8,14 +8,26 @@
 </head>
 <body>
 <nav>
-  <a href="/" {% if page.url == '/' %}style="color: red;"{% endif %}>Home</a>
-  <a href="/devotional.html" {% if page.url == '/devotional.html' %}style="color: red;"{% endif %}>Devotional</a>
-  <a href="/notes.html" {% if page.url == '/notes.html' %}style="color: red;"{% endif %}>Class Notes</a>
-  <a href="/class_recordings.html" {% if page.url == '/class_recordings.html' %}style="color: red;"{% endif %}>Class Recordings</a>
+  <div class="menu-toggle">
+    <div class="bar"></div>
+    <div class="bar"></div>
+    <div class="bar"></div>
+  </div>
+  <div class="nav-links">
+    <a href="/" {% if page.url == '/' %}style="color: red;"{% endif %}>Home</a>
+    <a href="/devotional.html" {% if page.url == '/devotional.html' %}style="color: red;"{% endif %}>Devotional</a>
+    <a href="/notes.html" {% if page.url == '/notes.html' %}style="color: red;"{% endif %}>Class Notes</a>
+    <a href="/class_recordings.html" {% if page.url == '/class_recordings.html' %}style="color: red;"{% endif %}>Class Recordings</a>
+  </div>
 </nav>
   
   <div class="content">
     {{ content }}
   </div>
+
+  <!-- Dark mode toggle button (optional) -->
+  <button class="dark-mode-toggle">🌓</button>
+
+<script src="{{ '/assets/js/main.js' | relative_url }}"></script>
 </body>
 </html>
