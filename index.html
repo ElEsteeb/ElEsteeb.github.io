@@ -1,35 +1,26 @@
 ---
 layout: default
-title: Esteeb.com
+title: Home
 ---
-<!DOCTYPE html>
-<html>
-<head>
-  <link rel="stylesheet" href="{{ '/styles.css' | relative_url }}">
-  <meta charset="utf-8">
-  <title>Esteeb.com</title>
-</head>
-<body>
-   
-  <div class="home">
-    <h2>Recent Posts</h2>
+<h2>Recent Posts</h2>
   
-  <div class="post-container">
-    {% assign devotionals = site.devotionals | default: site.emptyArray %}
-    {% assign notes = site.notes | default: site.emptyArray %}
-    {% assign recordings = site.class_recordings | default: site.emptyArray %}
-    {% assign site.emptyArray = "" | split: "" %}
-    
-    {% assign all_posts = site.emptyArray | concat: devotionals | concat: notes | concat: recordings | sort: "date" | reverse %}
-    
-    {% for post in all_posts limit:10 %}
-      <div class="lesson-card">
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <h3>
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title }}
-          </a>
-      </div>
-    {% endfor %}
-  </div>
+<div class="post-container">
+  {% assign devotionals = site.devotionals | default: site.emptyArray %}
+  {% assign notes = site.notes | default: site.emptyArray %}
+  {% assign recordings = site.class_recordings | default: site.emptyArray %}
+  {% assign site.emptyArray = "" | split: "" %}
+  
+  {% assign all_posts = site.emptyArray | concat: devotionals | concat: notes | concat: recordings | sort: "date" | reverse %}
+  
+  {% for post in all_posts limit:10 %}
+    <div class="lesson-card">
+      <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+      <h3>
+        <a class="post-link" href="{{ post.url | relative_url }}">
+          {{ post.title }}
+        </a>
+      </h3>
+      <p>{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
+    </div>
+  {% endfor %}
 </div>
