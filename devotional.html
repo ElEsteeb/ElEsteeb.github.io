@@ -1,15 +1,15 @@
 ---
 layout: default
-title: Devotionals
+title: Devotional
 ---
-<h2>Devotionals</h2>
+<h2>Devotional</h2>
   
 <div class="post-container">
   {% assign posts = site.devotionals | sort: "date" | reverse %}
   
   {% for post in posts %}
     <div class="lesson-card">
-      <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+      <span class="post-meta">{{ post.date | date: "%B %-d, %Y" }}</span>
       <h3>
         <a class="post-link" href="{{ post.url | relative_url }}">
           {{ post.title }}
