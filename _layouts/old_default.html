@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title }} | {{ site.title }}</title>
+  <link rel="stylesheet" href="{{ '/styles.css' | relative_url }}">
+
+  <!-- Open Graph Meta Tags -->
+  <meta property="og:title" content="{{ page.title | default: site.title }}">
+  <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <meta property="og:url" content="{{ page.url | absolute_url }}">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="{{ site.title }}">
+  {% if page.image %}
+    <meta property="og:image" content="{{ page.image | absolute_url }}">
+  {% else %}
+    <meta property="og:image" content="{{ '/assets/images/default-image.jpg' | absolute_url }}">
+  {% endif %}
+
+  <!-- Twitter Card Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ page.title | default: site.title }}">
+  <meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  {% if page.image %}
+    <meta name="twitter:image" content="{{ page.image | absolute_url }}">
+  {% else %}
+    <meta name="twitter:image" content="{{ '/assets/images/default-image.jpg' | absolute_url }}">
+  {% endif %}
+
+  <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
+
+  {% include analytics.html %}
+</head>
+
+<body>
+  <nav>
+    <div class="menu-toggle">
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+    </div>
+    <div class="nav-links">
+      <a href="/" {% if page.url == '/' %}style="color: red;"{% endif %}>Home</a>
+      <a href="/devotional.html" {% if page.url == '/devotional.html' %}style="color: red;"{% endif %}>Devotional</a>
+      <a href="/notes.html" {% if page.url == '/notes.html' %}style="color: red;"{% endif %}>Class Notes</a>
+      <a href="/class_recordings.html" {% if page.url == '/class_recordings.html' %}style="color: red;"{% endif %}>Class Recordings</a>
+    </div>
+  </nav>
+  
+  <div class="content">
+    {{ content }}
+    {% include social-share.html %}
+  </div>
+
+  <!-- Dark mode toggle button -->
+  <button class="dark-mode-toggle">🌓</button>
+</body>
+</html>
