@@ -133,8 +133,3 @@ Mounce, Robert H. _The Book of Revelation. Rev. ed. The New International Commen
 
 Osborne, Grant R. _Revelation. Baker Exegetical Commentary on the New Testament._ Grand Rapids, MI: Baker Academic, 2002.
 
-<script src="https://www.biblegateway.com/public/link-to-us/tooltips/bglinks.js" type="text/javascript"></script>
-<script type="text/javascript">
-BGLinks.version = "ESV";
-BGLinks.linkVerses();
-</script>
