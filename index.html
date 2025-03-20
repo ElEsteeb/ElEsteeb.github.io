@@ -19,7 +19,7 @@ title: Home
   
   {% for post in all_posts limit:10 %}
     <div class="lesson-card">
-      <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+      <span class="post-meta">{{ post.date | date: "%B %-d, %Y" }}</span>
       <h3>
         <a class="post-link" href="{{ post.url | relative_url }}">
           {{ post.title }}
