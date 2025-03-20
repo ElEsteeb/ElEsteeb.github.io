@@ -55,5 +55,25 @@
 
   <!-- Dark mode toggle button -->
   <button class="dark-mode-toggle">🌓</button>
+
+  <!-- Add RefTagger Script -->
+  <script src="https://api.reftagger.com/v2/RefTagger.js" async></script>
+  <script>
+    window.refTagger = {
+      settings: {
+        bibleVersion: "ESV", // Default to English Standard Version; you can change this
+        addLogosLink: true,  // Adds a link to open the verse in Logos Bible Software
+        linksOpenNewWindow: true, // Open links in a new window
+        socialSharing: ["twitter", "facebook"], // Add social sharing options to the tooltip
+        tagChapters: true // Automatically tag chapter references (e.g., "Romans 3")
+      }
+    };
+    (function(d, t) {
+      var g = d.createElement(t), s = d.getElementsByTagName(t)[0];
+      g.src = "https://api.reftagger.com/v2/RefTagger.js";
+      g.async = true;
+      s.parentNode.insertBefore(g, s);
+    }(document, "script"));
+  </script>
 </body>
 </html>
