@@ -1,0 +1,16 @@
+---
+layout: default
+---
+<div class="devotional-content">
+  <h1>{{ page.title }}</h1>
+  
+  <div class="devotional-meta">
+    {{ page.date | date: "%B %d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}
+  </div>
+  
+  {% if page.image %}
+  <img src="{{ page.image | relative_url }}" alt="{{ page.title }}" class="devotional-image">
+  {% endif %}
+  
+  {{ content }}
+</div>
