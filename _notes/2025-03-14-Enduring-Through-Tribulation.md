@@ -231,8 +231,3 @@ Schreiner, Thomas R. *New Testament Theology: Magnifying God in Christ*. Grand R
 
 Wright, N. T. *Surprised by Hope: Rethinking Heaven, the Resurrection, and the Mission of the Church*. New York: HarperOne, 2008\.  
 
-<script src="https://www.biblegateway.com/public/link-to-us/tooltips/bglinks.js" type="text/javascript"></script>
-<script type="text/javascript">
-BGLinks.version = "ESV";
-BGLinks.linkVerses();
-</script>
