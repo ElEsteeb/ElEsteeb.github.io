@@ -529,9 +529,3 @@ De Jong, James A. As the Waters Cover the Sea: Millennial Expectations in the Ri
 
 Murray, Iain. The Puritan Hope: Revival and the Interpretation of Prophecy. Banner of Truth, 1971.
 
-
-<script src="https://www.biblegateway.com/public/link-to-us/tooltips/bglinks.js" type="text/javascript"></script>
-<script type="text/javascript">
-BGLinks.version = "ESV";
-BGLinks.linkVerses();
-</script>
