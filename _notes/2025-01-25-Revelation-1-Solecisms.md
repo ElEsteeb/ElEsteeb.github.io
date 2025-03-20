@@ -71,10 +71,3 @@ Thompson, Steven. The Apocalypse and Semitic Syntax. Society for New Testament S
 Wallace, Daniel B. Greek Grammar Beyond the Basics: An Exegetical Syntax of the New Testament. Grand Rapids: Zondervan, 1996.
 
 Young, Richard A. Intermediate New Testament Greek: A Linguistic and Exegetical Approach. Nashville: Broadman & Holman, 1994.graphy:
-
-
-<script src="https://www.biblegateway.com/public/link-to-us/tooltips/bglinks.js" type="text/javascript"></script>
-<script type="text/javascript">
-BGLinks.version = "ESV";
-BGLinks.linkVerses();
-</script>
