@@ -340,8 +340,3 @@ Sacks, Jonathan. *Not in God's Name: Confronting Religious Violence*. New York: 
 
 Wyschogrod, Michael. *Abraham's Promise: Judaism and Jewish-Christian Relations*. Grand Rapids: Eerdmans, 2004\.
 
-<script src="https://www.biblegateway.com/public/link-to-us/tooltips/bglinks.js" type="text/javascript"></script>
-<script type="text/javascript">
-BGLinks.version = "ESV";
-BGLinks.linkVerses();
-</script>
