@@ -357,8 +357,4 @@ Moulton, James Hope, and George Milligan. *The Vocabulary of the Greek Testament
 
 Silva, Moisés, ed. *New International Dictionary of New Testament Theology and Exegesis*. 5 vols. Grand Rapids, MI: Zondervan, 2014.
 
-<script src="https://www.biblegateway.com/public/link-to-us/tooltips/bglinks.js" type="text/javascript"></script>
-<script type="text/javascript">
-BGLinks.version = "ESV";
-BGLinks.linkVerses();
-</script>
+
