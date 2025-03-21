@@ -134,7 +134,7 @@ nav {
   position: relative; /* Ensure it’s in the normal document flow */
   max-width: 800px;
   margin: 20px auto;
-  padding: 0 10px:
+  padding: 0 10px;
   padding-top: 60px;
   z-index: 1; /* Lower z-index than #search-results */
 }
