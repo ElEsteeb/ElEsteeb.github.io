@@ -117,6 +117,7 @@ nav a:hover {
 .post-container {
   max-width: 800px;
   margin: 20px auto;
+  padding-top: 70px; /* Match nav height */
 }
 
 .lesson-card {
