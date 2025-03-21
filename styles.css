@@ -310,4 +310,59 @@ body.dark-mode .dark-mode-toggle:hover {
     bottom: 10px;
     right: 10px;
   }
+/* Lesson Cards */
+.lesson-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.lesson-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.lesson-card h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.lesson-card p {
+  margin-bottom: 10px;
+  color: #666;
+}
+
+.lesson-card a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+.lesson-card a:hover {
+  text-decoration: underline;
+}
+
+/* Dark mode support for lesson cards */
+body.dark-mode .lesson-card {
+  background-color: #2d3748;
+  border-color: #4a5568;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+body.dark-mode .lesson-card h2 {
+  color: #e5e7eb;
+}
+
+body.dark-mode .lesson-card p {
+  color: #a0aec0;
+}
+
+body.dark-mode .lesson-card a {
+  color: #60a5fa;
+}
+  
 }
