@@ -924,4 +924,107 @@ body.dark-mode .libiblio-tooltip .tooltip-footer {
 body.dark-mode .libiblio-tooltip a {
   color: #60a5fa;
 }
+/* Search Bar Styling */
+.search-container {
+  position: relative;
+  display: inline-block;
+  margin-left: 10px;
+}
+
+#search-input {
+  padding: 5px 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+  background-color: #fff;
+  color: #333;
+  width: 200px;
+  transition: border-color 0.3s;
+}
+
+#search-input:focus {
+  outline: none;
+  border-color: #3498db;
+}
+
+#search-results {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  max-height: 200px;
+  overflow-y: auto;
+  z-index: 1000;
+  display: none;
+}
+
+.search-result {
+  padding: 8px 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.search-result:last-child {
+  border-bottom: none;
+}
+
+.search-result a {
+  color: #2c3e50;
+  text-decoration: none;
+  display: block;
+}
+
+.search-result a:hover {
+  color: #3498db;
+}
+
+/* Dark mode support for search */
+body.dark-mode #search-input {
+  background-color: #1f2937;
+  color: #e5e7eb;
+  border-color: #374151;
+}
+
+body.dark-mode #search-input:focus {
+  border-color: #60a5fa;
+}
+
+body.dark-mode #search-results {
+  background-color: #1f2937;
+  border-color: #374151;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+body.dark-mode .search-result {
+  border-bottom-color: #374151;
+}
+
+body.dark-mode .search-result a {
+  color: #e5e7eb;
+}
+
+body.dark-mode .search-result a:hover {
+  color: #60a5fa;
+}
+
+/* Mobile adjustments for search */
+@media (max-width: 768px) {
+  .search-container {
+    display: block;
+    margin: 10px 0;
+    width: 100%;
+  }
+
+  #search-input {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  #search-results {
+    width: 100%;
+  }
+}
 }
