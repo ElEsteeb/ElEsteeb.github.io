@@ -924,6 +924,7 @@ body.dark-mode .libiblio-tooltip .tooltip-footer {
 body.dark-mode .libiblio-tooltip a {
   color: #60a5fa;
 }
+  
 /* Search Bar Styling */
 .search-container {
   position: relative;
@@ -939,32 +940,42 @@ body.dark-mode .libiblio-tooltip a {
   background-color: #fff;
   color: #333;
   width: 200px;
-  transition: border-color 0.3s;
+  transition: border-color 0.3s, box-shadow 0.3s;
 }
 
 #search-input:focus {
   outline: none;
   border-color: #3498db;
+  box-shadow: 0 0 5px rgba(52, 152, 219, 0.3);
 }
 
 #search-results {
   position: absolute;
-  top: 100%;
+  top: calc(100% + 5px); /* Add a small gap between input and results */
   left: 0;
   right: 0;
-  background-color: #fff;
-  border: 1px solid #ddd;
+  background-color: #2c3e50; /* Match the navigation bar background */
+  border: 1px solid #34495e; /* Slightly lighter border for contrast */
   border-radius: 4px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
   max-height: 200px;
   overflow-y: auto;
   z-index: 1000;
-  display: none;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-10px);
+  transition: opacity 0.2s ease, visibility 0.2s ease, transform 0.2s ease;
+}
+
+#search-results.active {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
 }
 
 .search-result {
-  padding: 8px 10px;
-  border-bottom: 1px solid #eee;
+  padding: 10px 15px; /* Slightly more padding for a polished look */
+  border-bottom: 1px solid #34495e;
 }
 
 .search-result:last-child {
@@ -972,13 +983,16 @@ body.dark-mode .libiblio-tooltip a {
 }
 
 .search-result a {
-  color: #2c3e50;
+  color: #e5e7eb; /* Match the navigation link color */
   text-decoration: none;
   display: block;
+  font-size: 14px;
+  transition: background-color 0.2s ease;
 }
 
 .search-result a:hover {
-  color: #3498db;
+  background-color: #34495e; /* Subtle hover effect */
+  color: #60a5fa;
 }
 
 /* Dark mode support for search */
@@ -990,12 +1004,13 @@ body.dark-mode #search-input {
 
 body.dark-mode #search-input:focus {
   border-color: #60a5fa;
+  box-shadow: 0 0 5px rgba(96, 165, 250, 0.3);
 }
 
 body.dark-mode #search-results {
-  background-color: #1f2937;
+  background-color: #1f2937; /* Match dark mode navigation background */
   border-color: #374151;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 
 body.dark-mode .search-result {
@@ -1007,10 +1022,11 @@ body.dark-mode .search-result a {
 }
 
 body.dark-mode .search-result a:hover {
+  background-color: #374151;
   color: #60a5fa;
 }
 
-/* Mobile adjustments for search */
+/* Mobile adjustments for search (unchanged) */
 @media (max-width: 768px) {
   .search-container {
     display: block;
@@ -1026,5 +1042,4 @@ body.dark-mode .search-result a:hover {
   #search-results {
     width: 100%;
   }
-}
 }
