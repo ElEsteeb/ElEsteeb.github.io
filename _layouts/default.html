@@ -162,8 +162,9 @@
     const darkModeToggle = document.querySelector('.dark-mode-toggle');
     if (darkModeToggle) {
       const toggleDarkMode = () => {
-        console.log('Toggling dark mode'); // Debug log
+        console.log('Toggling dark mode');
         document.body.classList.toggle('dark-mode');
+        console.log('Body classes:', document.body.classList.toString()); // Debug log
         localStorage.setItem('darkMode', document.body.classList.contains('dark-mode') ? 'enabled' : 'disabled');
       };
       darkModeToggle.addEventListener('click', toggleDarkMode);
