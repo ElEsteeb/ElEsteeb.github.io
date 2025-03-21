@@ -364,3 +364,22 @@ body.dark-mode .lesson-card p {
 body.dark-mode .lesson-card a {
   color: #60a5fa;
 }
+
+/* Devotional Scripture Formatting */
+.scripture {
+  font-family: 'Georgia', serif; /* Use a serif font for scripture */
+  font-style: italic;
+  color: #555;
+  font-size: 1.1em;
+  line-height: 1.8;
+  margin: 15px 0;
+  padding-left: 20px;
+  border-left: 4px solid #3498db;
+}
+
+/* Dark mode support for scripture */
+body.dark-mode .scripture {
+  color: #b0b0b0;
+  border-left-color: #60a5fa;
+}
+}
