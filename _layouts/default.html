@@ -158,22 +158,23 @@
 
   <!-- Dark mode toggle script -->
   <script>
-    document.addEventListener('DOMContentLoaded', function() {
-      const darkModeToggle = document.querySelector('.dark-mode-toggle');
-      if (darkModeToggle) {
-        const toggleDarkMode = () => {
-          document.body.classList.toggle('dark-mode');
-          localStorage.setItem('darkMode', document.body.classList.contains('dark-mode') ? 'enabled' : 'disabled');
-        };
-        darkModeToggle.addEventListener('click', toggleDarkMode);
-        darkModeToggle.addEventListener('touchstart', toggleDarkMode);
-      }
+  document.addEventListener('DOMContentLoaded', function() {
+    const darkModeToggle = document.querySelector('.dark-mode-toggle');
+    if (darkModeToggle) {
+      const toggleDarkMode = () => {
+        console.log('Toggling dark mode'); // Debug log
+        document.body.classList.toggle('dark-mode');
+        localStorage.setItem('darkMode', document.body.classList.contains('dark-mode') ? 'enabled' : 'disabled');
+      };
+      darkModeToggle.addEventListener('click', toggleDarkMode);
+      darkModeToggle.addEventListener('touchstart', toggleDarkMode);
+    }
 
-      // Load dark mode preference on page load
-      if (localStorage.getItem('darkMode') === 'enabled') {
-        document.body.classList.add('dark-mode');
-      }
-    });
+    // Load dark mode preference on page load
+    if (localStorage.getItem('darkMode') === 'enabled') {
+      document.body.classList.add('dark-mode');
+    }
+  });
   </script>
 </body>
 </html>
