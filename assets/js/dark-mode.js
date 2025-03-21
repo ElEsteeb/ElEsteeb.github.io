@@ -5,17 +5,29 @@ try {
     if (darkModeToggle) {
       const toggleDarkMode = () => {
         console.log('Before toggling - Body classes:', document.body.classList.toString());
-        document.body.classList.toggle('dark-mode');
-        document.body.classList.toggle('light-mode');
+        // Check the current state and set the opposite
+        if (document.body.classList.contains('dark-mode')) {
+          document.body.classList.remove('dark-mode');
+          document.body.classList.add('light-mode');
+          localStorage.setItem('darkMode', 'disabled');
+        } else {
+          document.body.classList.remove('light-mode');
+          document.body.classList.add('dark-mode');
+          localStorage.setItem('darkMode', 'enabled');
+        }
         console.log('After toggling - Body classes:', document.body.classList.toString());
-        localStorage.setItem('darkMode', document.body.classList.contains('dark-mode') ? 'enabled' : 'disabled');
       };
+      // Remove any existing listeners to prevent duplicates
+      darkModeToggle.removeEventListener('click', toggleDarkMode);
+      darkModeToggle.removeEventListener('touchstart', toggleDarkMode);
+      // Add the listeners
       darkModeToggle.addEventListener('click', toggleDarkMode);
       darkModeToggle.addEventListener('touchstart', toggleDarkMode);
     } else {
       console.error('Dark mode toggle button not found');
     }
 
+    // Initialize the mode
     const storedDarkMode = localStorage.getItem('darkMode');
     const prefersDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches;
     if (storedDarkMode) {
@@ -37,6 +49,7 @@ try {
         localStorage.setItem('darkMode', 'disabled');
       }
     }
+    console.log('Initial body classes:', document.body.classList.toString());
   }, 100);
 } catch (e) {
   console.error('Error in dark mode toggle script:', e);
