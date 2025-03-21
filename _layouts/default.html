@@ -77,62 +77,76 @@
   <!-- Lunr.js for search -->
   <script src="https://unpkg.com/lunr/lunr.js"></script>
   <script>
-    document.addEventListener('DOMContentLoaded', function() {
-      // Fetch the search index
-      fetch('{{ "/search-index.json" | relative_url }}')
-        .then(response => {
-          if (!response.ok) {
-            throw new Error(`Failed to fetch search index: ${response.status} ${response.statusText}`);
+  document.addEventListener('DOMContentLoaded', function() {
+    // Fetch the search index
+    fetch('{{ "/search-index.json" | relative_url }}')
+      .then(response => {
+        if (!response.ok) {
+          throw new Error(`Failed to fetch search index: ${response.status} ${response.statusText}`);
+        }
+        return response.json();
+      })
+      .then(data => {
+        // Initialize Lunr.js
+        const idx = lunr(function() {
+          this.ref('url');
+          this.field('title', { boost: 10 });
+          this.field('content');
+          data.forEach(doc => this.add(doc));
+        });
+
+        // Search functionality
+        const searchInput = document.getElementById('search-input');
+        const searchResults = document.getElementById('search-results');
+
+        function positionSearchResults() {
+          const inputRect = searchInput.getBoundingClientRect();
+          searchResults.style.top = `${inputRect.bottom + window.scrollY + 5}px`; // 5px gap below input
+          searchResults.style.left = `${inputRect.left + window.scrollX}px`;
+          searchResults.style.width = `${inputRect.width}px`; // Match the width of the input
+        }
+
+        searchInput.addEventListener('input', function() {
+          const query = this.value.trim();
+          if (query.length < 2) {
+            searchResults.innerHTML = '';
+            searchResults.classList.remove('active');
+            return;
           }
-          return response.json();
-        })
-        .then(data => {
-          // Initialize Lunr.js
-          const idx = lunr(function() {
-            this.ref('url');
-            this.field('title', { boost: 10 });
-            this.field('content');
-            data.forEach(doc => this.add(doc));
-          });
+          const results = idx.search(query + '*');
+          if (results.length === 0) {
+            searchResults.innerHTML = '<div class="search-result">No results found.</div>';
+          } else {
+            searchResults.innerHTML = results.map(result => {
+              const item = data.find(doc => doc.url === result.ref);
+              return `<div class="search-result"><a href="${item.url}">${item.title}</a></div>`;
+            }).join('');
+          }
+          positionSearchResults();
+          searchResults.classList.add('active');
+        });
 
-          // Search functionality
-          const searchInput = document.getElementById('search-input');
-          const searchResults = document.getElementById('search-results');
-          searchInput.addEventListener('input', function() {
-            const query = this.value.trim();
-            if (query.length < 2) {
-              searchResults.innerHTML = '';
-              searchResults.classList.remove('active');
-              return;
-            }
-            const results = idx.search(query + '*');
-            if (results.length === 0) {
-              searchResults.innerHTML = '<div class="search-result">No results found.</div>';
-            } else {
-              searchResults.innerHTML = results.map(result => {
-                const item = data.find(doc => doc.url === result.ref);
-                return `<div class="search-result"><a href="${item.url}">${item.title}</a></div>`;
-              }).join('');
-            }
-            searchResults.classList.add('active');
-          });
+        // Reposition on window resize or scroll
+        window.addEventListener('resize', positionSearchResults);
+        window.addEventListener('scroll', positionSearchResults);
 
-          // Hide results when clicking outside
-          document.addEventListener('click', function(event) {
-            if (!searchInput.contains(event.target) && !searchResults.contains(event.target)) {
-              searchResults.classList.remove('active');
-            }
-          });
-        })
-        .catch(error => {
-          console.error('Error loading search index:', error);
-          const searchResults = document.getElementById('search-results');
-          if (searchResults) {
-            searchResults.innerHTML = '<div class="search-result">Error loading search index. Please try again later.</div>';
-            searchResults.classList.add('active');
+        // Hide results when clicking outside
+        document.addEventListener('click', function(event) {
+          if (!searchInput.contains(event.target) && !searchResults.contains(event.target)) {
+            searchResults.classList.remove('active');
           }
         });
-    });
-  </script>
+      })
+      .catch(error => {
+        console.error('Error loading search index:', error);
+        const searchResults = document.getElementById('search-results');
+        if (searchResults) {
+          searchResults.innerHTML = '<div class="search-result">Error loading search index. Please try again later.</div>';
+          searchResults.classList.add('active');
+          positionSearchResults();
+        }
+      });
+  });
+</script>
 </body>
 </html>
