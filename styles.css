@@ -1,0 +1,942 @@
+/* Updated to fix hamburger position, visibility, and add search bar - March 2025 */
+
+/* Base Styles and Variables */
+:root {
+  --primary-color: #2c3e50;
+  --secondary-color: #3498db;
+  --primary-accent: #60a5fa;
+  --background-light: #f5f5f5;
+  --background-dark: #121212;
+  --text-light: #333;
+  --text-dark: #e5e7eb;
+  --card-light: #fff;
+  --card-dark: #1f2937;
+  --border-light: #ddd;
+  --border-dark: #374151;
+  --meta-light: #777;
+  --meta-dark: #9ca3af;
+  --heading-light: #2c3e50;
+  --heading-dark: #f3f4f6;
+  --shadow-light: 0 2px 5px rgba(0, 0, 0, 0.1);
+  --shadow-dark: 0 2px 5px rgba(0, 0, 0, 0.2);
+  --shadow-card-light: 0 2px 10px rgba(0, 0, 0, 0.05);
+  --shadow-card-dark: 0 2px 10px rgba(0, 0, 0, 0.15);
+  --transition-default: 0.3s;
+}
+
+/* Reset and Base Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: var(--background-light);
+  color: var(--text-light);
+  margin: 0;
+  padding: 20px;
+  transition: background-color var(--transition-default), color var(--transition-default);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Navigation */
+nav {
+  background-color: var(--primary-color);
+  padding: 40px 10px 10px 10px;
+  text-align: center;
+  transition: background-color var(--transition-default);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  min-height: 60px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  transition: color var(--transition-default);
+  padding: 5px;
+}
+
+nav a:hover {
+  color: var(--secondary-color);
+}
+
+/* Search Bar */
+.search-container {
+  display: inline-block;
+  margin-left: 10px;
+  position: relative;
+}
+
+#search-input {
+  padding: 5px 10px;
+  border: 1px solid var(--border-light);
+  border-radius: 4px;
+  font-size: 14px;
+  background-color: var(--card-light);
+  color: var(--text-light);
+  width: 200px;
+  transition: border-color var(--transition-default), box-shadow var(--transition-default);
+}
+
+#search-input:focus {
+  outline: none;
+  border-color: var(--secondary-color);
+  box-shadow: 0 0 5px rgba(52, 152, 219, 0.3);
+}
+
+#search-results {
+  position: fixed;
+  background-color: var(--primary-color);
+  border: 1px solid #34495e;
+  border-radius: 4px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  max-height: 300px;
+  overflow-y: auto;
+  z-index: 1000;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-10px);
+  transition: opacity 0.2s ease, visibility 0.2s ease, transform 0.2s ease;
+}
+
+#search-results.active {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.search-result {
+  padding: 12px 15px;
+  border-bottom: 1px solid #34495e;
+}
+
+.search-result:last-child {
+  border-bottom: none;
+}
+
+.search-result a {
+  color: var(--text-dark);
+  text-decoration: none;
+  display: block;
+  font-size: 14px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.search-result a:hover {
+  background-color: #34495e;
+  color: var(--primary-accent);
+}
+
+/* Common Content Containers */
+.post-container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding-top: 70px;
+}
+
+.content-container {
+  margin: 40px auto;
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: var(--shadow-card-light);
+  line-height: 1.7;
+  transition: background-color var(--transition-default), box-shadow var(--transition-default);
+  background-color: var(--card-light);
+}
+
+.essay-content {
+  max-width: 700px;
+}
+
+.devotional-content {
+  max-width: 650px;
+  padding: 35px;
+  line-height: 1.8;
+}
+
+.recording-content {
+  max-width: 700px;
+}
+
+/* Post Cards */
+.lesson-card {
+  background-color: var(--card-light);
+  border: 1px solid var(--border-light);
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 15px;
+  box-shadow: var(--shadow-light);
+  transition: background-color var(--transition-default), border-color var(--transition-default), box-shadow var(--transition-default);
+}
+
+.lesson-card .post-meta {
+  color: var(--meta-light);
+  font-size: 14px;
+  transition: color var(--transition-default);
+}
+
+.lesson-card h3 {
+  margin: 5px 0;
+}
+
+.lesson-card a {
+  color: var(--heading-light);
+  text-decoration: none;
+  transition: color var(--transition-default);
+}
+
+.lesson-card a:hover {
+  color: var(--secondary-color);
+  text-decoration: underline;
+}
+
+.post-list-heading {
+  text-align: center;
+  color: var(--heading-light);
+  transition: color var(--transition-default);
+  margin-top: 80px;
+}
+
+/* Typography */
+.content-text {
+  margin-bottom: 1.5em;
+  transition: color var(--transition-default);
+}
+
+.essay-content p {
+  font-size: 18px;
+  color: var(--text-light);
+}
+
+.devotional-content p {
+  margin-bottom: 1.7em;
+  font-size: 19px;
+  color: var(--text-light);
+  font-family: Georgia, serif;
+}
+
+/* Headings */
+.content-heading {
+  color: var(--heading-light);
+  margin-bottom: 0.5em;
+  line-height: 1.2;
+  transition: color var(--transition-default);
+}
+
+.essay-content h1 {
+  font-size: 32px;
+}
+
+.essay-content h2 {
+  font-size: 26px;
+  margin: 1.5em 0 0.5em;
+}
+
+.essay-content h3 {
+  font-size: 22px;
+  margin: 1.2em 0 0.5em;
+}
+
+.devotional-content h1 {
+  font-size: 32px;
+  margin-bottom: 0.7em;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.recording-title {
+  font-size: 28px;
+}
+
+/* Meta Information */
+.meta-info {
+  color: var(--meta-light);
+  font-size: 16px;
+  margin-bottom: 30px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid var(--border-light);
+  transition: color var(--transition-default), border-color var(--transition-default);
+}
+
+.essay-meta {
+  font-style: italic;
+}
+
+.devotional-meta {
+  text-align: center;
+}
+
+/* Components */
+.scripture {
+  font-style: italic;
+  padding: 15px 25px;
+  background-color: #f9f9f9;
+  border-left: 4px solid var(--secondary-color);
+  margin: 20px 0;
+  font-size: 18px;
+  color: #444;
+  transition: background-color var(--transition-default), border-left-color var(--transition-default), color var(--transition-default);
+}
+
+.devotional-image {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-bottom: 25px;
+}
+
+/* Links within essays */
+.essay-content a {
+  color: var(--secondary-color);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.2s, color var(--transition-default);
+}
+
+.essay-content a:hover {
+  border-color: var(--secondary-color);
+}
+
+/* Lists */
+.essay-content ul, 
+.essay-content ol {
+  margin-bottom: 1.5em;
+  padding-left: 25px;
+}
+
+.essay-content li {
+  margin-bottom: 0.5em;
+  transition: color var(--transition-default);
+}
+
+/* Code blocks */
+.essay-content pre, 
+.essay-content code {
+  background-color: #f8f8f8;
+  border: 1px solid #e8e8e8;
+  border-radius: 3px;
+  font-family: Consolas, Monaco, 'Andale Mono', monospace;
+  transition: background-color var(--transition-default), border-color var(--transition-default), color var(--transition-default);
+}
+
+.essay-content pre {
+  padding: 15px;
+  overflow: auto;
+  margin-bottom: 1.5em;
+}
+
+.essay-content code {
+  padding: 2px 5px;
+}
+
+/* Blockquotes */
+.essay-content blockquote {
+  border-left: 4px solid var(--secondary-color);
+  padding-left: 20px;
+  margin-left: 0;
+  color: #555;
+  font-style: italic;
+  transition: color var(--transition-default), border-left-color var(--transition-default);
+}
+
+/* Tables */
+.essay-content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1.5em;
+}
+
+.essay-content th, 
+.essay-content td {
+  padding: 12px 15px;
+  border-bottom: 1px solid var(--border-light);
+  text-align: left;
+  transition: border-color var(--transition-default), background-color var(--transition-default);
+}
+
+.essay-content th {
+  background-color: var(--background-light);
+  transition: background-color var(--transition-default);
+}
+
+/* Audio/Recording styles */
+.audio-container {
+  margin: 25px 0;
+  border-radius: 5px;
+  overflow: hidden;
+  border: 1px solid var(--border-light);
+  transition: border-color var(--transition-default);
+}
+
+.recording-iframe {
+  width: 100%;
+  height: 180px;
+  border: none;
+  display: block;
+}
+
+/* Resources section */
+.resources-section {
+  margin-top: 30px;
+  padding-top: 20px;
+  border-top: 1px solid var(--border-light);
+  transition: border-color var(--transition-default);
+}
+
+.resources-title {
+  font-size: 22px;
+  color: var(--heading-light);
+  margin-bottom: 15px;
+  transition: color var(--transition-default);
+}
+
+/* Download links */
+.download-links {
+  margin-top: 15px;
+}
+
+.download-link {
+  display: inline-block;
+  margin-right: 15px;
+  margin-bottom: 10px;
+  padding: 8px 15px;
+  background-color: var(--background-light);
+  border-radius: 4px;
+  color: var(--heading-light);
+  text-decoration: none;
+  transition: background-color var(--transition-default), color var(--transition-default);
+}
+
+.download-link:hover {
+  background-color: var(--secondary-color);
+  color: #fff;
+}
+
+/* Intro section */
+.intro-section {
+  max-width: 800px;
+  margin: 20px auto 30px;
+  background-color: var(--card-light);
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: var(--shadow-light);
+  line-height: 1.6;
+  transition: background-color var(--transition-default), box-shadow var(--transition-default);
+}
+
+.intro-section p {
+  margin-bottom: 1.7em;
+  font-size: 19px;
+  color: var(--text-light);
+  font-family: Georgia, serif;
+  transition: color var(--transition-default);
+}
+
+.intro-section h3 {
+  color: var(--heading-light);
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-size: 20px;
+  transition: color var(--transition-default);
+}
+
+/* Dark mode toggle */
+.dark-mode-toggle {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  font-size: 24px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  transition: background-color var(--transition-default);
+  z-index: 2000;
+}
+
+.dark-mode-toggle:hover {
+  background-color: #1a2639;
+}
+
+/* Social Sharing */
+.social-share {
+  margin: 20px 0;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.social-share span {
+  margin-right: 10px;
+  color: var(--heading-light);
+  transition: color var(--transition-default);
+}
+
+.share-btn {
+  display: inline-block;
+  padding: 8px 15px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 14px;
+  transition: background-color var(--transition-default), color var(--transition-default);
+}
+
+.share-btn.facebook {
+  background-color: #3b5998;
+  color: #fff;
+}
+
+.share-btn.twitter {
+  background-color: #1da1f2;
+  color: #fff;
+}
+
+.share-btn.linkedin {
+  background-color: #0077b5;
+  color: #fff;
+}
+
+.share-btn.pinterest {
+  background-color: #bd081c;
+  color: #fff;
+}
+
+.share-btn:hover {
+  opacity: 0.9;
+}
+
+/* Mobile menu */
+.menu-toggle {
+  display: none;
+  cursor: pointer;
+  padding: 5px;
+  position: absolute;
+  top: 10px;
+  left: 15px;
+  z-index: 1100;
+}
+
+.menu-toggle .bar {
+  width: 25px;
+  height: 3px;
+  background-color: #fff;
+  margin: 5px 0;
+  transition: all 0.3s ease;
+}
+
+.menu-toggle.active .bar:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+
+.menu-toggle.active .bar:nth-child(2) {
+  opacity: 0;
+}
+
+.menu-toggle.active .bar:nth-child(3) {
+  transform: rotate(-45deg) translate(6px, -6px);
+}
+
+.nav-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+/* Dark Mode Styles */
+.dark-mode,
+body.dark-mode,
+html body.dark-mode {
+  background-color: var(--background-dark);
+  color: var(--text-dark);
+}
+
+.dark-mode nav,
+body.dark-mode nav,
+html body.dark-mode nav {
+  background-color: #1a2639;
+}
+
+.dark-mode nav a:hover,
+body.dark-mode nav a:hover,
+html body.dark-mode nav a:hover {
+  color: var(--primary-accent);
+}
+
+.dark-mode .lesson-card,
+.dark-mode .essay-content,
+.dark-mode .devotional-content,
+.dark-mode .recording-content,
+.dark-mode .intro-section {
+  background-color: var(--card-dark);
+  border-color: var(--border-dark);
+  box-shadow: var(--shadow-card-dark);
+}
+
+.dark-mode .post-meta,
+.dark-mode .essay-meta,
+.dark-mode .devotional-meta,
+.dark-mode .recording-meta {
+  color: var(--meta-dark);
+  border-bottom-color: var(--border-dark);
+}
+
+.dark-mode .post-list-heading,
+.dark-mode h1,
+.dark-mode h2,
+.dark-mode h3,
+.dark-mode .resources-title {
+  color: var(--heading-dark);
+}
+
+.dark-mode p,
+.dark-mode li {
+  color: var(--text-dark);
+}
+
+.dark-mode .scripture {
+  background-color: #2d3748;
+  color: var(--text-dark);
+  border-left-color: var(--primary-accent);
+}
+
+.dark-mode #search-input {
+  background-color: var(--card-dark);
+  color: var(--text-dark);
+  border-color: var(--border-dark);
+}
+
+.dark-mode #search-input:focus {
+  border-color: var(--primary-accent);
+  box-shadow: 0 0 5px rgba(96, 165, 250, 0.3);
+}
+
+.dark-mode #search-results {
+  background-color: var(--card-dark);
+  border-color: var(--border-dark);
+}
+
+.dark-mode .search-result {
+  border-bottom-color: var(--border-dark);
+}
+
+.dark-mode .search-result a:hover {
+  background-color: var(--border-dark);
+  color: var(--primary-accent);
+}
+
+.dark-mode .dark-mode-toggle {
+  background-color: var(--primary-accent);
+}
+
+.dark-mode .dark-mode-toggle:hover {
+  background-color: #3b82f6;
+}
+
+.dark-mode .audio-container,
+.dark-mode .resources-section {
+  border-color: var(--border-dark);
+}
+
+.dark-mode .download-link {
+  background-color: var(--border-dark);
+  color: var(--text-dark);
+}
+
+.dark-mode .download-link:hover {
+  background-color: var(--primary-accent);
+  color: var(--card-dark);
+}
+
+.dark-mode .social-share span {
+  color: var(--heading-dark);
+}
+
+.dark-mode .essay-content blockquote {
+  color: #d1d5db;
+  border-left-color: var(--primary-accent);
+}
+
+.dark-mode .essay-content a {
+  color: var(--primary-accent);
+}
+
+.dark-mode .essay-content a:hover {
+  border-color: var(--primary-accent);
+}
+
+.dark-mode .essay-content pre,
+.dark-mode .essay-content code {
+  background-color: var(--border-dark);
+  border-color: #4b5563;
+  color: var(--text-dark);
+}
+
+.dark-mode .essay-content th {
+  background-color: var(--border-dark);
+}
+
+.dark-mode .essay-content th,
+.dark-mode .essay-content td {
+  border-bottom-color: #4b5563;
+}
+
+/* Media Queries */
+@media (max-width: 767px) {
+  body {
+    padding: 10px;
+  }
+
+  nav {
+    padding: 40px 10px 10px 10px;
+    justify-content: space-between;
+  }
+
+  .menu-toggle {
+    display: block !important;
+  }
+
+  .nav-links {
+    display: none;
+    width: 100%;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 10px;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  nav a {
+    margin: 5px 0;
+    padding: 8px;
+    display: block;
+    font-size: 16px;
+  }
+
+  .search-container {
+    display: block;
+    margin: 10px 20px;
+    width: calc(100% - 40px);
+  }
+
+  #search-input {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  #search-results {
+    width: 100% !important;
+  }
+
+  .search-result a {
+    white-space: normal;
+  }
+
+  .essay-content,
+  .devotional-content,
+  .recording-content {
+    padding: 20px;
+    margin: 20px auto;
+  }
+
+  .essay-content h1,
+  .devotional-content h1,
+  .recording-title {
+    font-size: 24px;
+  }
+
+  .essay-content h2 {
+    font-size: 22px;
+  }
+
+  .essay-content h3,
+  .resources-title {
+    font-size: 18px;
+  }
+
+  .essay-content p,
+  .devotional-content p {
+    font-size: 16px;
+  }
+
+  .essay-content table {
+    display: block;
+    overflow-x: auto;
+  }
+
+  .recording-iframe {
+    height: 150px;
+  }
+
+  .download-link {
+    display: block;
+    margin-right: 0;
+  }
+
+  .intro-section {
+    padding: 15px;
+    margin: 15px auto 20px;
+  }
+  
+  .intro-section p {
+    font-size: 16px;
+  }
+
+  .dark-mode-toggle {
+    bottom: 10px;
+    right: 10px;
+  }
+  
+  .social-share {
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .share-btn {
+    padding: 6px 12px;
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 480px) {
+  .essay-content,
+  .devotional-content,
+  .recording-content {
+    padding: 15px;
+  }
+
+  .essay-content h1,
+  .devotional-content h1,
+  .recording-title {
+    font-size: 22px;
+  }
+
+  .essay-content p,
+  .devotional-content p {
+    font-size: 15px;
+    margin-bottom: 1.2em;
+  }
+
+  .recording-iframe {
+    height: 120px;
+  }
+
+  .dark-mode-toggle {
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .nav-links {
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+
+  .nav-links a {
+    margin-right: 10px;
+    font-size: 14px;
+  }
+
+  .search-container {
+    margin-left: 5px;
+  }
+
+  #search-input {
+    width: 150px;
+  }
+
+  .menu-toggle {
+    display: none;
+  }
+
+  .essay-content,
+  .devotional-content,
+  .recording-content {
+    padding: 25px;
+  }
+
+  .dark-mode-toggle {
+    bottom: 15px;
+    right: 15px;
+  }
+}
+
+/* Auto dark mode for prefers-color-scheme */
+@media (prefers-color-scheme: dark) {
+  body:not(.light-mode) {
+    background-color: var(--background-dark);
+    color: var(--text-dark);
+  }
+  
+  body:not(.light-mode) nav {
+    background-color: #1a2639;
+  }
+  
+  body:not(.light-mode) nav a:hover {
+    color: var(--primary-accent);
+  }
+  
+  body:not(.light-mode) .lesson-card,
+  body:not(.light-mode) .essay-content,
+  body:not(.light-mode) .devotional-content,
+  body:not(.light-mode) .recording-content,
+  body:not(.light-mode) .intro-section {
+    background-color: var(--card-dark);
+    box-shadow: var(--shadow-card-dark);
+  }
+  
+  body:not(.light-mode) .lesson-card {
+    border-color: var(--border-dark);
+  }
+  
+  body:not(.light-mode) .post-meta,
+  body:not(.light-mode) .lesson-card .post-meta {
+    color: var(--meta-dark);
+  }
+  
+  body:not(.light-mode) .lesson-card a,
+  body:not(.light-mode) .essay-content p,
+  body:not(.light-mode) .devotional-content p {
+    color: var(--text-dark);
+  }
+  
+  body:not(.light-mode) .lesson-card a:hover {
+    color: var(--primary-accent);
+  }
+  
+  body:not(.light-mode) .post-list-heading,
+  body:not(.light-mode) .essay-content h1,
+  body:not(.light-mode) .essay-content h2,
+  body:not(.light-mode) .essay-content h3,
+  body:not(.light-mode) .devotional-content h1,
+  body:not(.light-mode) .recording-title,
+  body:not(.light-mode) .resources-title,
+  body:not(.light-mode) .intro-section h3 {
+    color: var(--heading-dark);
+  }
+}
