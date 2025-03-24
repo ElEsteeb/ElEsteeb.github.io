@@ -939,19 +939,4 @@ html body.dark-mode nav a:hover {
   body:not(.light-mode) .intro-section h3 {
     color: var(--heading-dark);
   }
-  
-.site-logo {
-  max-height: 30px; /* Smaller size to fit the nav bar */
-  width: auto;      /* Keeps the aspect ratio */
-  margin: 5px;      /* Reduced spacing for a snug fit */
-  vertical-align: middle; /* Aligns with text or menu toggle */
-}
-
-/* Ensure it scales down on mobile if needed */
-@media (max-width: 768px) {
-  .site-logo {
-    max-height: 25px; /* Even smaller for mobile */
-    margin: 3px;
-  }
-}
 }
