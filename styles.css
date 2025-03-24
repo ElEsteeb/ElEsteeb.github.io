@@ -939,4 +939,10 @@ html body.dark-mode nav a:hover {
   body:not(.light-mode) .intro-section h3 {
     color: var(--heading-dark);
   }
+  
+.site-logo {
+  max-height: 50px;
+  width: auto;
+  margin: 10px; /* Optional: adds spacing */
+}
 }
