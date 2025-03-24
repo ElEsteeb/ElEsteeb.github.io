@@ -24,3 +24,6 @@ defaults:
       type: "notes"
     values:
       layout: "essay"
+
+plugins:
+  - jekyll-seo-tag
