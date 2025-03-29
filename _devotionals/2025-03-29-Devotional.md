@@ -1,7 +1,7 @@
 ---
 layout: devotional
-title:  "Devotional 21 March 2025"
-date:   2025-03-21 05:00:00 -0600
+title:  "Devotional 29 March 2025"
+date:   2025-03-29 05:00:00 -0600
 author: Steve Torres
 categories: Devotional, Revelation
 ---
