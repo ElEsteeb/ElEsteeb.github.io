@@ -8,7 +8,7 @@ categories: Devotional, Revelation
 <img src="https://sitemedia.esteeb.com/file/esteebcomsitemedia/devotional_images/Revelation/Rev-16_1-2.jpg?raw=true" alt="Revelation 5:4-5.jpg" style="max-width: 100%; height: auto;">
 
 <div class="scripture">
-  "Then I heard a loud voice from the temple telling the seven angels, "Go and pour out on the earth the seven bowls of the wrath of God." So the first angel went and poured out his bowl on the earth, and harmful and painful sores came upon the people who bore the mark of the beast and worshiped its image." (Revelation 16:2, ESV)
+  "Then I heard a loud voice from the temple telling the seven angels, "Go and pour out on the earth the seven bowls of the wrath of God." So the first angel went and poured out his bowl on the earth, and harmful and painful sores came upon the people who bore the mark of the beast and worshiped its image." (Revelation 16:1-2, ESV)
 </div>
 
 As the first bowl of judgment is poured out, we see a striking parallel to the plagues of Egypt, particularly the sixth plague where boils afflicted the Egyptians (Exodus 9:8-12). This judgment also recalls the first trumpet in Revelation 8:7, where fire and hail turn a third of the earth to ash. Now, what was once concealed beneath the surface—hidden corruption—begins to manifest visibly. The sores symbolize a spiritual disease that has long been festering within those who follow the beast, finally revealing itself in undeniable affliction.
