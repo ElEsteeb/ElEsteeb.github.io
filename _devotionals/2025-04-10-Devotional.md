@@ -19,4 +19,4 @@ Out of the mouths of the dragon, beast, and false prophet come demonic spiritsâ€
 
 But behind all of it, God is orchestrating the fulfillment of His word. The prayers of the saints are being answered. The old age is passing away, and the Kingdom of the Lamb is advancing.
 
-Let us remember: even the actions of the enemies of God are orchestrated towards God's holy purposes (Genesis 50:20). Even as Cyrus, the Persian king, was once called God's "anointed" (Isaiah 45:1), so too, Vespasian, and later Titus, would serve Gods will, as all rulers ultimately must bow to the Kind of kings, and Lord of lords.
+Let us remember: even the actions of the enemies of God are orchestrated towards God's holy purposes (Genesis 50:20). Even as Cyrus, the Persian king, was once called God's "anointed" (Isaiah 45:1), so too, Vespasian, and later Titus, would serve Gods will, as all rulers ultimately must bow to the King of kings, and Lord of lords.
