@@ -5,7 +5,7 @@ date:   2025-04-15 05:00:00 -0600
 author: Steve Torres
 categories: Devotional, Revelation
 ---
-<img src="https://sitmedia.esteeb.com/file/esteebcomsitemedia/devotional_images/Revelation/Rev-16_19.jpg?raw=true" alt="Revelation 16:19.jpg" style="max-width: 100%; height: auto;">
+<img src="https://sitemedia.esteeb.com/file/esteebcomsitemedia/devotional_images/Revelation/Rev-16_19.jpg?raw=true" alt="Revelation 16:19.jpg" style="max-width: 100%; height: auto;">
 
 <div class="scripture">
   “The great city was split into three parts, and the cities of the nations fell, and God remembered Babylon the great, to make her drain the cup of the wine of the fury of his wrath. And every island fled away, and no mountains were to be found. And great hailstones, about one hundred pounds each, fell from heaven on people; and they cursed God for the plague of the hail, because the plague was so severe.” (Revelation 16:19–21, ESV)
