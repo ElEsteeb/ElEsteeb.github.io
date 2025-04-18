@@ -948,7 +948,7 @@ html body.dark-mode nav a:hover {
     color: var(--heading-dark);
   }
 
-  rtBibleRef{
+  bibleref{
     color: var(--primary-accent);
   }
 }
