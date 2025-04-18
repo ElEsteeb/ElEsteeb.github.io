@@ -325,8 +325,8 @@ nav a:hover {
 /* Code blocks */
 .essay-content pre, 
 .essay-content code {
-  background-color: #f8f8f8;
-  border: 1px solid #e8e8e8;
+  background-color: var(--secondary-color);
+  border: 1px solid var(--secondary-color);
   border-radius: 3px;
   font-family: Consolas, Monaco, 'Andale Mono', monospace;
   transition: background-color var(--transition-default), border-color var(--transition-default), color var(--transition-default);
