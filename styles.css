@@ -282,7 +282,7 @@ nav a:hover {
 .scripture {
   font-style: italic;
   padding: 15px 25px;
-  background-color: var(--secondary-color)
+  background-color: var(--secondary-color);
   border-left: 4px solid var(--secondary-color);
   margin: 20px 0;
   font-size: 18px;
