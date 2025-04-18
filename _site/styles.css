@@ -947,4 +947,8 @@ html body.dark-mode nav a:hover {
   body:not(.light-mode) .intro-section h3 {
     color: var(--heading-dark);
   }
+
+  rtBibleRef{
+    color: var(--primary-accent);
+  }
 }
