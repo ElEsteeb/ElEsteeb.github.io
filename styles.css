@@ -7,6 +7,7 @@
   --primary-accent: #60a5fa;
   --background-light: #f5f5f5;
   --background-dark: #121212;
+  --intro-section-dark: #e1d66f;
   --text-light: #333;
   --text-dark: #e5e7eb;
   --card-light: #fff;
@@ -440,7 +441,7 @@ nav a:hover {
 .intro-section p {
   margin-bottom: 1.7em;
   font-size: 19px;
-  color: var(--text-light);
+  color: var(--intro-section-dark);
   font-family: Georgia, serif;
   transition: color var(--transition-default);
 }
@@ -575,7 +576,7 @@ html body.dark-mode {
 .dark-mode nav,
 body.dark-mode nav,
 html body.dark-mode nav {
-  background-color: #405a85;
+  background-color: #1a2639;
 }
 
 .dark-mode nav a:hover,
