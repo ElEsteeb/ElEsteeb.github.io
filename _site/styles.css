@@ -10,7 +10,7 @@
   --text-light: #333;
   --text-dark: #e5e7eb;
   --card-light: #fff;
-  --card-dark: #462e07;
+  --card-dark: #291900;
   --border-light: #ddd;
   --border-dark: #462e07;
   --meta-light: #777;
@@ -583,7 +583,7 @@ html body.dark-mode {
 .dark-mode nav,
 body.dark-mode nav,
 html body.dark-mode nav {
-  background-color: #1a2639;
+  background-color: #000000;
 }
 
 .dark-mode nav a:hover,
@@ -624,7 +624,7 @@ html body.dark-mode nav a:hover {
 }
 
 .dark-mode .scripture {
-  background-color: #033600;
+  background-color: var(--secondary-color);
   color: var(--text-dark);
   border-left-color: var(--secondary-color);
 }
