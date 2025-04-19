@@ -5,17 +5,17 @@
   --primary-color: #046810;
   --secondary-color: #1c2f00;
   --primary-accent: #d5bf00;
-  --background-light: #f5f5f5;
+  --background-light: #001b05;
   --background-dark: #001b05;
-  --text-light: #333;
-  --text-dark: #e5e7eb;
-  --card-light: #fff;
-  --card-dark: #291900;
-  --border-light: #ddd;
+  --text-light: #ffffff;
+  --text-dark: #ffffff;
+  --card-light: #462e07;
+  --card-dark: #462e07;
+  --border-light: #462e07;
   --border-dark: #462e07;
-  --meta-light: #777;
-  --meta-dark: #9ca3af;
-  --heading-light: #c7ad19;
+  --meta-light: #ffffff;
+  --meta-dark: #ffffff;
+  --heading-light: #f6f6f3;
   --heading-dark: #f6f6f3;
   --shadow-light: 0 2px 5px rgba(0, 0, 0, 0.1);
   --shadow-dark: 0 2px 5px rgba(0, 0, 0, 0.2);
@@ -282,7 +282,7 @@ nav a:hover {
 .scripture {
   font-style: italic;
   padding: 15px 25px;
-  background-color: #f9f9f9;
+  background-color: var(--secondary-color);
   border-left: 4px solid var(--secondary-color);
   margin: 20px 0;
   font-size: 18px;
@@ -325,8 +325,8 @@ nav a:hover {
 /* Code blocks */
 .essay-content pre, 
 .essay-content code {
-  background-color: #f8f8f8;
-  border: 1px solid #e8e8e8;
+  background-color: var(--secondary-color);
+  border: 1px solid var(--secondary-color);
   border-radius: 3px;
   font-family: Consolas, Monaco, 'Andale Mono', monospace;
   transition: background-color var(--transition-default), border-color var(--transition-default), color var(--transition-default);
@@ -624,7 +624,7 @@ html body.dark-mode nav a:hover {
 }
 
 .dark-mode .scripture {
-  background-color: var(--secondary-color);
+  background-color: #033600;
   color: var(--text-dark);
   border-left-color: var(--secondary-color);
 }
@@ -637,7 +637,7 @@ html body.dark-mode nav a:hover {
 
 .dark-mode #search-input:focus {
   border-color: var(--primary-accent);
-  box-shadow: 0 0 5px rgba(96, 165, 250, 0.3);
+  box-shadow: 0 0 5px #1646014d;
 }
 
 .dark-mode #search-results {
@@ -659,7 +659,7 @@ html body.dark-mode nav a:hover {
 }
 
 .dark-mode .dark-mode-toggle:hover {
-  background-color: var(--primary-accent);
+  background-color: #eaf63b;
 }
 
 .dark-mode .audio-container,
@@ -682,7 +682,7 @@ html body.dark-mode nav a:hover {
 }
 
 .dark-mode .essay-content blockquote {
-  color: #d1d5db;
+  color: var(--text-dark
   border-left-color: var(--primary-accent);
 }
 
@@ -697,7 +697,7 @@ html body.dark-mode nav a:hover {
 .dark-mode .essay-content pre,
 .dark-mode .essay-content code {
   background-color: var(--border-dark);
-  border-color: var(--primary-accent);
+  border-color: var(--border-dark);
   color: var(--text-dark);
 }
 
@@ -902,7 +902,7 @@ html body.dark-mode nav a:hover {
   }
   
   body:not(.light-mode) nav {
-    background-color: #1a2639;
+    background-color: var(--secondary-color);
   }
   
   body:not(.light-mode) nav a:hover {
@@ -946,9 +946,5 @@ html body.dark-mode nav a:hover {
   body:not(.light-mode) .resources-title,
   body:not(.light-mode) .intro-section h3 {
     color: var(--heading-dark);
-  }
-
-  bibleref{
-    color: var(--primary-accent);
   }
 }
