@@ -659,7 +659,7 @@ html body.dark-mode nav a:hover {
 }
 
 .dark-mode .dark-mode-toggle:hover {
-  background-color: #3b82f6;
+  background-color: var(--primary-accent);
 }
 
 .dark-mode .audio-container,
@@ -707,7 +707,7 @@ html body.dark-mode nav a:hover {
 
 .dark-mode .essay-content th,
 .dark-mode .essay-content td {
-  border-bottom-color: #4b5563;
+  border-bottom-color: var(--border-dark);
 }
 
 /* Media Queries */
