@@ -114,17 +114,32 @@
   </div>
 
   <!-- RefTagger Script -->
-<script src="https://api.reftagger.com/v2/RefTagger.js" async></script>
 <script>
-  window.refTagger = {
-    settings: {
-      bibleVersion: "ESV",
-      addLogosLink: true,
-      linksOpenNewWindow: true,
-      socialSharing: ["twitter", "facebook"],
-      tagChapters: true
-    }
-  };
+	var refTagger = {
+		settings: {
+			bibleReader: "bible.faithlife",
+			bibleVersion: "ESV",			
+			socialSharing: ["twitter","facebook","google"],
+			tooltipStyle: "dark",
+			customStyle : {
+				heading: {
+					backgroundColor : "#025019",
+					color : "#ffffff"
+				},
+				body   : {
+					color : "#ffffff"
+				}
+			}
+		}
+	};
+	(function(d, t) {
+		var n=d.querySelector("[nonce]");
+		refTagger.settings.nonce = n && (n.nonce||n.getAttribute("nonce"));
+		var g = d.createElement(t), s = d.getElementsByTagName(t)[0];
+		g.src = "https://api.reftagger.com/v2/RefTagger.js";
+		g.nonce = refTagger.settings.nonce;
+		s.parentNode.insertBefore(g, s);
+	}(document, "script"));
 </script>
 
   <!-- Lunr.js for search -->

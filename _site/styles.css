@@ -697,7 +697,7 @@ html body.dark-mode nav a:hover {
 .dark-mode .essay-content pre,
 .dark-mode .essay-content code {
   background-color: var(--border-dark);
-  border-color: #4b5563;
+  border-color: var(--primary-accent);
   color: var(--text-dark);
 }
 
