@@ -23,6 +23,6 @@ Even more stunning is Paul’s declaration in 1 Corinthians 6:3 that we will jud
 
 Jesus said that among those born of women, none was greater than John the Baptist—but even the least in the Kingdom is greater than he (Luke 7:28). Why? Because all the prophets spoke until John (Matt. 11:13). Now, Christ has come, and we are in Him. The age of mystery has given way to fulfillment. 
 
-And what is the spirit of prophecy? Not merely future-telling. Not mysticism. It is the testimony of Jesus. He is the center, the substance, and the subject of all revelation. As Habakkuk foretold, “The earth will be filled with the knowledge of the glory of the Lord as the waters cover the sea.” Christ is that glory. The stone that the builders rejected (Matthew 21:42-43) is becoming the mountain that fills the whole earth (Daniel 2:34-35, 44-45)
+And what is the spirit of prophecy? Not merely future-telling. Not mysticism. It is the testimony of Jesus. He is the center, the substance, and the subject of all revelation. As Habakkuk foretold, “The earth will be filled with the knowledge of the glory of the Lord as the waters cover the sea.” (Habakkuk 2:14) Christ is that glory. The stone that the builders rejected (Matthew 21:42-43) is becoming the mountain that fills the whole earth (Daniel 2:34-35, 44-45)
 
 Now, we go. We speak. We live as the prophetic people of God, proclaiming that Jesus is Lord, and that the New Covenant is here. The Old has passed away, the New has come. The Spirit is in us—and that Spirit is the Spirit of prophecy.
