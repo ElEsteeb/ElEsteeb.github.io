@@ -901,7 +901,7 @@ html body.dark-mode nav a:hover {
   }
   
   body:not(.light-mode) nav {
-    background-color: var(--secondary-color);
+    background-color: var(--primary-accent);
   }
   
   body:not(.light-mode) nav a:hover {
