@@ -667,7 +667,7 @@ html body.dark-mode nav a:hover {
 }
 
 .dark-mode .download-link {
-  background-color: var(--border-dark);
+  background-color: var(--primary-accent);
   color: var(--text-dark);
 }
 
