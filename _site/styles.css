@@ -303,7 +303,6 @@ nav a:hover {
   color: var(--primary-accent);
   text-decoration: none;
   border-bottom: 1px solid transparent;
-  transition: border-color 0.2s, color var(--transition-default);
 }
 
 .essay-content a:hover {
@@ -347,7 +346,7 @@ nav a:hover {
   border-left: 4px solid var(--secondary-color);
   padding-left: 20px;
   margin-left: 0;
-  color: #555;
+  color: var(--primary-accent);
   font-style: italic;
   transition: color var(--transition-default), border-left-color var(--transition-default);
 }
