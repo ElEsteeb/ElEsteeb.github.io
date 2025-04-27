@@ -412,7 +412,7 @@ nav a:hover {
   margin-right: 15px;
   margin-bottom: 10px;
   padding: 8px 15px;
-  background-color: var(--background-light);
+  background-color: var(--primary-accent);
   border-radius: 4px;
   color: var(--heading-light);
   text-decoration: none;
@@ -420,7 +420,7 @@ nav a:hover {
 }
 
 .download-link:hover {
-  background-color: var(--secondary-color);
+  background-color: var(--primary-accent);
   color: #fff;
 }
 
