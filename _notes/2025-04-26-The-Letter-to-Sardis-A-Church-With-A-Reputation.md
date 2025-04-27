@@ -1,4 +1,5 @@
 ---
+layout: devotional
 title:  "The Letter to the Church in Sardis"
 date:   2025-04-26 10:00:00 -0600
 author: Steve Torres
