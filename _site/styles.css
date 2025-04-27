@@ -198,7 +198,7 @@ nav a:hover {
 }
 
 .lesson-card a:hover {
-  color: var(--secondary-color);
+  color: var(--primary-accent);
   text-decoration: underline;
 }
 
@@ -300,14 +300,14 @@ nav a:hover {
 
 /* Links within essays */
 .essay-content a {
-  color: var(--secondary-color);
+  color: var(--primary-accent);
   text-decoration: none;
   border-bottom: 1px solid transparent;
   transition: border-color 0.2s, color var(--transition-default);
 }
 
 .essay-content a:hover {
-  border-color: var(--secondary-color);
+  border-color: var(--primary-accent);
 }
 
 /* Lists */
