@@ -682,7 +682,7 @@ html body.dark-mode nav a:hover {
 }
 
 .dark-mode .essay-content blockquote {
-  color: var(--text-dark
+  color: var(--text-dark);
   border-left-color: var(--primary-accent);
 }
 
