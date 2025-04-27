@@ -5,8 +5,7 @@ author: Steve Torres
 categories: Class Notes, Revelation, Eschatology, Church, Jesus, Sardis, Complacency
 ---
 ## A Church with a Reputation
-<a href="https://sitemedia.esteeb.com/file/esteebcomsitemedia/docs/Revelation/The-Letter-to-Sardis_+A-Church-with-a-Reputation.pdf" download>Download PDF</a>
-
+<a class="download-link" href="https://sitemedia.esteeb.com/file/esteebcomsitemedia/docs/Revelation/The-Letter-to-Sardis_+A-Church-with-a-Reputation.pdf" download>Download PDF</a>
 ## Introduction
 
 The seven letters to the churches in Asia Minor, found in Revelation chapters 2-3, stand as powerful testimonies of Christ's ongoing relationship with His church. Each letter provides unique insights into the spiritual conditions of early Christian communities while offering timeless principles for believers in all ages. Among these seven epistles, the letter to Sardis—the fifth in the sequence—holds a particularly sobering message. This letter carries a stark warning against spiritual complacency and the dangers of living on past reputation while lacking present vitality.
