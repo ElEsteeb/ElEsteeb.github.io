@@ -286,7 +286,7 @@ nav a:hover {
   border-left: 4px solid var(--secondary-color);
   margin: 20px 0;
   font-size: 18px;
-  color: #444;
+  color: var(--primary-accent);
   transition: background-color var(--transition-default), border-left-color var(--transition-default), color var(--transition-default);
 }
 
