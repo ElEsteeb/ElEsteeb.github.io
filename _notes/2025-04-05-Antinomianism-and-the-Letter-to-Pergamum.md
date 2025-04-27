@@ -1,4 +1,5 @@
 ---
+layout: default
 title:  "Antinomianism and the Letter to Pergamum"
 date:   2025-04-05 10:00:00 -0600
 author: Steve Torres
