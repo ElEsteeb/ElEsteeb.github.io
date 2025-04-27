@@ -1,4 +1,5 @@
 ---
+layout: devotional
 title:  "Enduring Through Tribulation"
 date:   2025-03-14 10:00:00 -0600
 author: Steve Torres

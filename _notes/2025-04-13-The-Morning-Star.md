@@ -1,4 +1,5 @@
 ---
+layout: devotional
 title:  "The Morning Star"
 date:   2025-04-13 10:00:00 -0600
 author: Steve Torres

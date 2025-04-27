@@ -1,4 +1,5 @@
 ---
+layout: devotional
 title:  "Suffering Well"
 date:   2025-03-22 10:00:00 -0600
 author: Steve Torres
