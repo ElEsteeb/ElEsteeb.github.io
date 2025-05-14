@@ -1,11 +1,11 @@
 ---
 layout: devotional
-title:  "Devotional 05 May 2025"
-date:   2025-05-05 05:00:00 -0600
+title:  "Devotional 14 May 2025"
+date:   2025-05-14 05:00:00 -0600
 author: Steve Torres
 categories: Devotional, Revelation
 ---
-<img src="https://sitemedia.esteeb.com/file/esteebcomsitemedia/devotional_images/Revelation/Rev-21_5.jpg?raw=true" alt="Revelation 21:5.jpg" style="max-width: 100%; height: auto;">
+<img src="https://sitemedia.esteeb.com/file/esteebcomsitemedia/devotional_images/Revelation/Rev-22_1-2.jpg?raw=true" alt="Revelation 22:1-2.jpg" style="max-width: 100%; height: auto;">
 
 <div class="scripture">
   "Then the angel showed me the river of the water of life, bright as crystal, flowing from the throne of God and of the Lamb through the middle of the street of the city; also, on either side of the river, the tree of life with its twelve kinds of fruit, yielding its fruit each month. The leaves of the tree were for the healing of the nations." (Revelation 22:1–2, ESV)
