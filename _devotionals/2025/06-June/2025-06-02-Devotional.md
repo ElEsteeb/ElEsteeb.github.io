@@ -5,7 +5,7 @@ date:   2025-06-02 05:00:00 -0600
 author: Steve Torres
 categories: Devotional, Hebrews
 ---
-<img src="https://sitemedia.esteeb.com/file/esteebcomsitemedia/devotional_images/Hebrews/Heb-2_11.jpg?raw=true" alt="Hebrews 2:11.jpg" style="max-width: 100%; height: auto;">
+<img src="https://sitemedia.esteeb.com/file/esteebcomsitemedia/devotional_images/Hebrews/Hebrews-2_11.jpg?raw=true" alt="Hebrews 2:11.jpg" style="max-width: 100%; height: auto;">
 
 <div class="scripture">
   "For it was fitting that he, for whom and by whom all things exist, in bringing many sons to glory, should make the founder of their salvation perfect through suffering. For he who sanctifies and those who are sanctified all have one source. That is why he is not ashamed to call them brothers, saying, “I will tell of your name to my brothers; in the midst of the congregation I will sing your praise.” And again, “I will put my trust in him.” And again, “Behold, I and the children God has given me.” (Hebrews 2:10-13, ESV)
