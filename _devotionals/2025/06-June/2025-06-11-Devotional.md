@@ -5,7 +5,7 @@ date:   2025-06-11 05:00:00 -0600
 author: Steve Torres
 categories: Devotional, Hebrews
 ---
-<img src="https://sitemedia.esteeb.com/file/esteebcomsitemedia/devotional_images/Hebrews/Heb-1_1-2.jpg?raw=true" alt="Hebrews 21:5.jpg" style="max-width: 100%; height: auto;">
+<img src="https://sitemedia.esteeb.com/file/esteebcomsitemedia/devotional_images/Hebrews/Heb-4_3.jpg?raw=true" alt="Hebrews 4:3a.jpg" style="max-width: 100%; height: auto;">
 
 <div class="scripture">
   "For we who have believed enter that rest, as he has said, “As I swore in my wrath,‘They shall not enter my rest,’” although his works were finished from the foundation of the world. For he has somewhere spoken of the seventh day in this way: “And God rested on the seventh day from all his works.” (Hebrews 4:3-4, ESV)
