@@ -1,6 +1,6 @@
 ---
 layout: devotional
-title:  "Devotional 10 Junio 2025"
+title:  "Devocional 10 Junio 2025"
 date:   2025-06-10 05:00:00 -0600
 author: Steve Torres
 categories: Devotional, Hebrews
