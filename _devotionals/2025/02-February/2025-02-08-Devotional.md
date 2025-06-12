@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: devotional
 title:  "Devotional 08 February 2025"
 date:   2025-02-08 08:00:00 -0600
 author: Steve Torres
@@ -21,10 +21,3 @@ True worship is not just singing praises; it is the posture of a heart that reco
 One day, we too will stand before the throne, joining the chorus of the redeemed. Until then, our lives should echo this heavenly reality—living in constant worship, surrender, and awe of our sovereign King. Whatever we have achieved, whatever rewards we receive, may we be found willing to cast them before His throne, proclaiming with the elders: “Worthy are you, our Lord and God.”
 
 
-
-
-<script src="https://www.biblegateway.com/public/link-to-us/tooltips/bglinks.js" type="text/javascript"></script>
-<script type="text/javascript">
-BGLinks.version = "ESV";
-BGLinks.linkVerses();
-</script>

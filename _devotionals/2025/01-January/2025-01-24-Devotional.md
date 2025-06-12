@@ -2,6 +2,7 @@
 layout: post
 title:  "Devotional 24 January 2025"
 date:   2025-01-24 08:00:00 -0600
+author: Steve Torres
 categories: Devotional, Revelation
 ---
 
@@ -16,11 +17,3 @@ This passage also challenges us to remain faithful in the face of trials. The ch
 
 Take heart in knowing that the One who holds the key of David is both holy and true. He is trustworthy and faithful to fulfill His promises. As you reflect on this verse, ask Him to open doors for His purposes in your life and to help you trust Him when a door remains closed.
 
--steve
-
-
-<script src="https://www.biblegateway.com/public/link-to-us/tooltips/bglinks.js" type="text/javascript"></script>
-<script type="text/javascript">
-BGLinks.version = "ESV";
-BGLinks.linkVerses();
-</script>

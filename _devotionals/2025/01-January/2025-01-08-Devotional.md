@@ -1,7 +1,8 @@
 ---
-layout: post
+layout: devotional
 title:  "Devotional 08 January 2025"
 date:   2025-01-08 09:00:00 -0600
+author: Steve Torres
 categories: Devotional, Revelation
 ---
 >**Revelation 2:3-5 ESV**
@@ -17,12 +18,4 @@ Take time to reflect on your initial joy in Christ. Recall the passion and excit
 
 Let us live each day watchful, but with hearts overflowing with the love of Christ, sharing His gospel with the world.
 
--steve
 
-
-
-<script src="https://www.biblegateway.com/public/link-to-us/tooltips/bglinks.js" type="text/javascript"></script>
-<script type="text/javascript">
-BGLinks.version = "ESV";
-BGLinks.linkVerses();
-</script>

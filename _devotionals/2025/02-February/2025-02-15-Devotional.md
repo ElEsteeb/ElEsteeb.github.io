@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: devotional
 title:  "Devotional 15 February 2025"
 date:   2025-02-15 07:00:00 -0600
 author: Steve Torres
@@ -18,9 +18,3 @@ The Lamb, Jesus Christ, is at the center of this cosmic chorus. He alone is wort
 
 This passage should stir our hearts. The worship of Jesus is not something reserved for the future—it begins now. If all creation will one day bow before Him, how much more should we, who have already tasted His grace? Let your life be an echo of this heavenly song, giving Christ the worship He is due today and forever.
 
-
-<script src="https://www.biblegateway.com/public/link-to-us/tooltips/bglinks.js" type="text/javascript"></script>
-<script type="text/javascript">
-BGLinks.version = "ESV";
-BGLinks.linkVerses();
-</script>

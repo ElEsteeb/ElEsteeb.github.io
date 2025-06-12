@@ -1,7 +1,8 @@
 ---
-layout: post
+layout: devotional
 title:  "Devotional 29 January 2025"
 date:   2025-01-29 08:00:00 -0600
+author: Steve Torres
 categories: Devotional, Revelation
 ---
 <iframe src="https://drive.google.com/file/d/1_Ukm2Rn_dZ6oX0mN6a-TfaFffIoGoNv3/preview" width="640" height="480" allow="autoplay"></iframe>
@@ -16,11 +17,3 @@ This passage reminds us that Jesus sees past outward appearances and into the de
 
 The danger of spiritual complacency is that it numbs us to our true need for Christ. We may rest in material security, religious activity, or past experiences, failing to recognize our desperate dependence on Him (John 15:5). Jesus, in His mercy, calls us to repentance and wholehearted devotion (Revelation 3:19-20). The question remains: will we submit to Him to expose our hearts and transform us, or will we continue in self-deception?
 
--steve
-
-
-<script src="https://www.biblegateway.com/public/link-to-us/tooltips/bglinks.js" type="text/javascript"></script>
-<script type="text/javascript">
-BGLinks.version = "ESV";
-BGLinks.linkVerses();
-</script>

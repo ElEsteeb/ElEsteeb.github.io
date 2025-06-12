@@ -5,12 +5,20 @@
     <div class="bar"></div>
   </div>
   <div class="nav-links">
-    <a href="/" {% if page.url == '/' %}style="color: red;"{% endif %}>Home</a>
-    <a href="/devotional.html" {% if page.url == '/devotional.html' %}style="color: red;"{% endif %}>Devotional</a>
-    <a href="/notes.html" {% if page.url == '/notes.html' %}style="color: red;"{% endif %}>Class Notes</a>
-    <a href="/class_recordings.html" {% if page.url == '/class_recordings.html' %}style="color: red;"{% endif %}>Class Recordings</a>
+    <a href="{{ '/' | relative_url }}" {% if page.url == '/' %}style="color: red;"{% endif %}>
+      {{ site.data.locales[site.active_lang].navigation.home }}
+    </a>
+    <a href="{{ '/devotional.html' | relative_url }}" {% if page.url == '/devotional.html' %}style="color: red;"{% endif %}>
+      {{ site.data.locales[site.active_lang].navigation.devotional }}
+    </a>
+    <a href="{{ '/notes.html' | relative_url }}" {% if page.url == '/notes.html' %}style="color: red;"{% endif %}>
+      {{ site.data.locales[site.active_lang].navigation.class_notes }}
+    </a>
+    <a href="{{ '/class_recordings.html' | relative_url }}" {% if page.url == '/class_recordings.html' %}style="color: red;"{% endif %}>
+      {{ site.data.locales[site.active_lang].navigation.class_recordings }}
+    </a>
     <div class="search-container">
-      <input type="text" id="search-input" placeholder="Search...">
+      <input type="text" id="search-input" placeholder="{{ site.data.locales[site.active_lang].navigation.search_placeholder }}">
     </div>
   </div>
 </nav>

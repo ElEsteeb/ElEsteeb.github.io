@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: devotional
 title:  "Devotional 11 February 2025"
 date:   2025-02-11 08:00:00 -0600
 author: Steve Torres
@@ -18,8 +18,3 @@ In Christ, every Old Testament promise of a coming Deliverer finds its fulfillme
 
 -steve
 
-<script src="https://www.biblegateway.com/public/link-to-us/tooltips/bglinks.js" type="text/javascript"></script>
-<script type="text/javascript">
-BGLinks.version = "ESV";
-BGLinks.linkVerses();
-</script>

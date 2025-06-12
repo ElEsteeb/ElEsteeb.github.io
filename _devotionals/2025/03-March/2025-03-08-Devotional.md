@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: devotional
 title:  "Devotional 08 March 2025"
 date:   2025-03-08 06:00:00 -0600
 author: Steve Torres
@@ -19,8 +19,3 @@ Yet even amid this sobering warning, there is encouragement for those who belong
 When you see the world unravel, remember that Jesus has never lost control. The cries of the eagle are not just declarations of judgment — they are reminders that God sees, God hears, and God acts. Trust Him, for He alone is your refuge.
 
 
-<script src="https://www.biblegateway.com/public/link-to-us/tooltips/bglinks.js" type="text/javascript"></script>
-<script type="text/javascript">
-BGLinks.version = "ESV";
-BGLinks.linkVerses();
-</script>

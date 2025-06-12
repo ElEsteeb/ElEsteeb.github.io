@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: devotional
 title:  "Devotional 11 March 2025"
 date:   2025-03-11 06:00:00 -0600
 author: Steve Torres
@@ -21,8 +21,3 @@ This torment had boundaries. The locusts could only harm those without God's sea
 Rejecting God's call brings devastating consequences. Yet for those who cling to Christ, there is hope. While Rome’s false peace crumbled in fear and torment, Jesus remains the Prince of Peace, ruling with love and authority. If you feel tormented, trapped, or overwhelmed by the weight of life’s struggles, let this passage be a reminder to seek the One who gives true peace. Though the world may rage, Jesus is the Good Shepherd who guards His flock — and no power of darkness can snatch them from His hand (John 10:28). His peace is true peace that endures when all else fails.
 
 
-<script src="https://www.biblegateway.com/public/link-to-us/tooltips/bglinks.js" type="text/javascript"></script>
-<script type="text/javascript">
-BGLinks.version = "ESV";
-BGLinks.linkVerses();
-</script>

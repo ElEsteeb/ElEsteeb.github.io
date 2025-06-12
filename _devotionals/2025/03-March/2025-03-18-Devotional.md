@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: devotional
 title:  "Devotional 18 March 2025"
 date:   2025-03-18 05:00:00 -0600
 author: Steve Torres
@@ -22,8 +22,3 @@ This reality is sobering. God's Word is not neutral; it either leads us to repen
 
 Today, let the Word of God speak to you. Do not resist its truth. Instead, believe in the One to whom it points — Jesus Christ — and walk in His light.
 
-<script src="https://www.biblegateway.com/public/link-to-us/tooltips/bglinks.js" type="text/javascript"></script>
-<script type="text/javascript">
-BGLinks.version = "ESV";
-BGLinks.linkVerses();
-</script>

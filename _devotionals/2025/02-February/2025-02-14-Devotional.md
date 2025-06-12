@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: devotional
 title:  "Devotional 14 February 2025"
 date:   2025-02-14 07:00:00 -0600
 author: Steve Torres
@@ -18,8 +18,3 @@ This passage reminds us that worship is the only right response to Christ’s sa
 
 
 
-<script src="https://www.biblegateway.com/public/link-to-us/tooltips/bglinks.js" type="text/javascript"></script>
-<script type="text/javascript">
-BGLinks.version = "ESV";
-BGLinks.linkVerses();
-</script>

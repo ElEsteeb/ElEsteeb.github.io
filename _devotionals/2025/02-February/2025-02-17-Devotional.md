@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: devotional
 title:  "Devotional 17 February 2025"
 date:   2025-02-17 07:00:00 -0600
 author: Steve Torres
@@ -17,10 +17,3 @@ The first seal brings forth a rider on a white horse, a symbol of conquest. This
 What awe this should inspire in us! Christ is not a passive observer; He holds the scroll and commands history itself. His death did not merely save—it also inaugurated the revelation of God’s will. As the seals are broken, we are reminded that nothing in this world, no ruler, no kingdom, and no event, is beyond the authority of the risen Lamb. “The LORD has established his throne in the heavens, and his kingdom rules over all” (Psalm 103:19). Let us live with confidence, knowing that the same Lamb who redeemed us is the One guiding all of history in His perfect plan.
 
 
-
-
-<script src="https://www.biblegateway.com/public/link-to-us/tooltips/bglinks.js" type="text/javascript"></script>
-<script type="text/javascript">
-BGLinks.version = "ESV";
-BGLinks.linkVerses();
-</script>

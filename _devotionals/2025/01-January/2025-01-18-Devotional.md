@@ -1,7 +1,8 @@
 ---
-layout: post
+layout: devotional
 title:  "Devotional 18 January 2025"
 date:   2025-01-18 08:00:00 -0600
+author: Steve Torres
 categories: Devotional, Revelation
 ---
 
@@ -15,13 +16,3 @@ Christ’s hatred of sin is not a contradiction to His love but a reflection of 
 The passage also highlights Christ’s patience. He gave Jezebel time to repent, but her continued defiance led to severe consequences. This reminds us that Christ does not tolerate sin indefinitely. While His patience is great, His justice will not be delayed forever. His judgment against sin serves as a warning to others, ensuring that "all the churches will know that I am he who searches mind and heart" (Revelation 2:23). His intimate knowledge of our innermost thoughts underscores the seriousness of His call to holiness.
 
 As members of Christ’s church, we are called to reflect His love by rejecting what is evil. Romans 12:9 urges believers to "abhor what is evil; hold fast to what is good." To tolerate sin within ourselves or the church is to compromise the very holiness Christ died to secure for us. His hatred of sin is not an act of cruelty but a demonstration of His fierce and faithful love—a love that purifies, restores, and preserves His bride. May we heed His call to repentance, knowing that His discipline leads us to life and holiness. Let us examine our own hearts today, knowing that Christ sees all. Where have we grown tolerant of sin? What evil practices have we allowed to take root? The time for repentance is now.
-
--steve
-
-
-
-<script src="https://www.biblegateway.com/public/link-to-us/tooltips/bglinks.js" type="text/javascript"></script>
-<script type="text/javascript">
-BGLinks.version = "ESV";
-BGLinks.linkVerses();
-</script>

@@ -1,7 +1,8 @@
 ---
-layout: post
+layout: devotional
 title:  "Devotional 13 January 2025"
 date:   2025-01-13 09:00:00 -0600
+author: Steve Torres
 categories: Devotional, Revelation
 ---
 >**Revelation 2:12 ESV**
@@ -16,11 +17,3 @@ In a world often filled with confusion and compromise, Revelation 2:12 reminds u
 Today, let us submit to the authority of Christ and His Word. When we face battles—whether against sin, fear, or worldly influences—let us wield the sword of the Spirit, which is the Word of God (Ephesians 6:17). Let us trust in its ability to guide, correct, and equip us for every good work (2 Timothy 3:16-17).
 
 May we find confidence in Christ’s supreme authority and the power of His Word to shape our lives, cut away what hinders, and empower us to walk in truth.
-
--steve
-
-<script src="https://www.biblegateway.com/public/link-to-us/tooltips/bglinks.js" type="text/javascript"></script>
-<script type="text/javascript">
-BGLinks.version = "ESV";
-BGLinks.linkVerses();
-</script>

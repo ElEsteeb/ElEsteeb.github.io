@@ -1,7 +1,8 @@
 ---
-layout: post
+layout: devotional
 title:  "Devotional 22 January 2025"
 date:   2025-01-22 08:00:00 -0600
+author: Steve Torres
 categories: Devotional, Revelation
 ---
 
@@ -17,11 +18,3 @@ The call to "remember" points us back to the foundation of the gospel. Like the 
 
 Finally, the warning that Christ will come "like a thief" urges us to live with readiness (1 Thessalonians 5:2-6). His return will be sudden and unexpected, making it crucial to remain steadfast and watchful, whether we get to see his return, or he calls us home before. Let us heed this call, not allowing our faith to grow cold but actively pursuing lives that glorify Him (Hebrews 10:23-25).
 
--steve
-
-
-<script src="https://www.biblegateway.com/public/link-to-us/tooltips/bglinks.js" type="text/javascript"></script>
-<script type="text/javascript">
-BGLinks.version = "ESV";
-BGLinks.linkVerses();
-</script>

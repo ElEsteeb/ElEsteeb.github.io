@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: devotional
 title:  "Devotional 18 February 2025"
 date:   2025-02-18 06:00:00 -0600
 author: Steve Torres
@@ -18,8 +18,4 @@ This moment in Revelation reveals the consequences of a world that rejects God. 
 
 So how should we respond? Not with fear, but with trust. Christ, the Lamb who opens the seals, is the same Lamb who was slain for us (Revelation 5:6-9). The one who holds history is the one who holds His people. Even in a world consumed by strife, we can rest in this truth: “The LORD sits enthroned over the flood; the LORD sits enthroned as king forever” (Psalm 29:10). "Come and see!" Nothing is out of control when the Lamb is on the throne.
 
-<script src="https://www.biblegateway.com/public/link-to-us/tooltips/bglinks.js" type="text/javascript"></script>
-<script type="text/javascript">
-BGLinks.version = "ESV";
-BGLinks.linkVerses();
-</script>
+

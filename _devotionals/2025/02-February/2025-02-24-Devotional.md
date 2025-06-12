@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: devotional
 title:  "Devotional 24 February 2025"
 date:   2025-02-24 06:00:00 -0600
 author: Steve Torres
@@ -16,9 +16,3 @@ This sealing is not a promise of ease but of endurance. The early church, though
 
 This passage is a powerful reminder that, no matter how chaotic the world appears, God’s people are never forgotten. Even amid tribulation, His plans remain unshaken. Though nations rise and fall, economies collapse, and persecution spreads, Christ secures His church. “God is our refuge and strength, a very present help in trouble” (Psalm 46:1). The same God who held back judgment until His servants were sealed is the God who sustains us today. We are not at the mercy of the storm—we are sealed by the living God, and nothing can separate us from His love (Romans 8:38-39).
 
-
-<script src="https://www.biblegateway.com/public/link-to-us/tooltips/bglinks.js" type="text/javascript"></script>
-<script type="text/javascript">
-BGLinks.version = "ESV";
-BGLinks.linkVerses();
-</script>

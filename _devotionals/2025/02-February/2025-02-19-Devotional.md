@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: devotional
 title:  "Devotional 19 February 2025"
 date:   2025-02-19 06:00:00 -0600
 author: Steve Torres
@@ -17,9 +17,3 @@ The black horse brings economic hardship, yet it does not ride forth apart from 
 Wicked rulers may think they control the world, but Daniel 2:21 reminds us that “He changes times and seasons; he removes kings and sets up kings.” Even in times of economic distress, God’s people can trust in His provision. Just as He sustained Elijah in famine (1 Kings 17:6), so He will sustain us because he is the Bread of Life (John 6:35). Our hope is not in economies or governments, but in the Lamb who was slain and now reigns over all.
 
 So take heart! Inflation, corruption, and scarcity are not the final word. Christ is. Though the world may seem unstable, the throne of God is unshaken. “The earth is the Lord’s and the fullness thereof, the world and those who dwell therein” (Psalm 24:1). Come and see! In every season, He remains faithful, and His Kingdom will never fail.
-
-<script src="https://www.biblegateway.com/public/link-to-us/tooltips/bglinks.js" type="text/javascript"></script>
-<script type="text/javascript">
-BGLinks.version = "ESV";
-BGLinks.linkVerses();
-</script>

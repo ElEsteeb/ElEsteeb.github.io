@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: devotional
 title:  "Devotional 04 February 2025"
 date:   2025-02-04 06:00:00 -0600
 author: Steve Torres
@@ -16,9 +16,3 @@ Encircling the throne is a rainbow, described as having the appearance of an eme
 
 This vision calls us to worship in awe and confidence. The God who reigns in holiness is also the God who redeems and sustains His people. His throne is not only a place of judgment but also a place of mercy, encircled by the very promise of His faithfulness. Let this image shape your faith today—rest in the certainty that the One who sits enthroned is both righteous and gracious, unchanging in His love and power (Hebrews 13:8).
 
-
-<script src="https://www.biblegateway.com/public/link-to-us/tooltips/bglinks.js" type="text/javascript"></script>
-<script type="text/javascript">
-BGLinks.version = "ESV";
-BGLinks.linkVerses();
-</script>

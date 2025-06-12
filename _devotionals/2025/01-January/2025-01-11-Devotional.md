@@ -1,7 +1,8 @@
 ---
-layout: post
+layout: devotional
 title:  "Devotional 11 January 2025"
 date:   2025-01-11 09:00:00 -0600
+author: Steve Torres
 categories: Devotional, Revelation
 ---
 >**Revelation 2:9-11 ESV** “I know your tribulation and  your poverty (but you are rich) and the slander  of those who say that they are Jews and are not, but are a synagogue of Satan. Do not fear what you are about to suffer. Behold, the devil is about to throw some of you into prison, that you may be tested, and for ten days you will have tribulation. Be faithful unto death, and I will give you the crown of life. He who has an ear, let him hear what the Spirit says to the churches. The one who conquers will not be hurt by the second death."
@@ -16,11 +17,3 @@ Ultimately, Jesus assures the overcomers that they will receive the crown of lif
 
 Take heart today. God knows your suffering. He is not absent but present, refining your faith and drawing you closer to Himself. Stand firm, trust His purposes, and remember that He is working all things for your ultimate good and His eternal glory.
 
--steve
-
-
-<script src="https://www.biblegateway.com/public/link-to-us/tooltips/bglinks.js" type="text/javascript"></script>
-<script type="text/javascript">
-BGLinks.version = "ESV";
-BGLinks.linkVerses();
-</script>

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: devotional
 title:  "Devotional 13 March 2025"
 date:   2025-03-13 06:00:00 -0600
 author: Steve Torres
@@ -20,8 +20,4 @@ This passage warns us that a hardened heart is dangerous. God’s warnings are n
 
 If God is speaking to you—through hardship, Scripture, or conviction—heed His voice. His warnings are not cruel but gracious. They call us to repentance, where we find mercy, hope, and life in Christ.
 
-<script src="https://www.biblegateway.com/public/link-to-us/tooltips/bglinks.js" type="text/javascript"></script>
-<script type="text/javascript">
-BGLinks.version = "ESV";
-BGLinks.linkVerses();
-</script>
+

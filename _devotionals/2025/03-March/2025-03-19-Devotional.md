@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: devotional
 title:  "Devotional 19 March 2025"
 date:   2025-03-19 05:00:00 -0600
 author: Steve Torres
@@ -24,9 +24,3 @@ The scene concludes with the temple opening to reveal the ark of the covenant â€
 
 Rejoice in this truth! Christ reigns now, and His reign will never end. Though the world rages, the King is on His throne â€” and nothing can stop His kingdom from filling the earth with His glory.
 
-
-<script src="https://www.biblegateway.com/public/link-to-us/tooltips/bglinks.js" type="text/javascript"></script>
-<script type="text/javascript">
-BGLinks.version = "ESV";
-BGLinks.linkVerses();
-</script>

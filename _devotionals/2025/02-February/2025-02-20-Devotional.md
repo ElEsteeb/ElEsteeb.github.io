@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: devotional
 title:  "Devotional 20 February 2025"
 date:   2025-02-20 08:00:00 -0600
 author: Steve Torres
@@ -18,9 +18,3 @@ This is where the glory of Christ shines most brightly. He is not only sovereign
 
 So do not fear! The world may seem overcome by chaos, but Christ is on the throne. Calling to our hearts, "Peace, be still." The Lamb who was slain is the same Lamb who reigns. The one who permits Death’s advance is the same one who swallowed up death in victory (1 Corinthians 15:54-57). One day, He will cast Death and Hades into the lake of fire (Revelation 20:14), and His people will reign with Him forever. Until then, we walk in faith, knowing that nothing—neither death nor life—can separate us from His love (Romans 8:38-39).
 
-
-<script src="https://www.biblegateway.com/public/link-to-us/tooltips/bglinks.js" type="text/javascript"></script>
-<script type="text/javascript">
-BGLinks.version = "ESV";
-BGLinks.linkVerses();
-</script>

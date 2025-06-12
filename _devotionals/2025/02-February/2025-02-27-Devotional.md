@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: devotional
 title:  "Devotional 27 February 2025"
 date:   2025-02-27 06:00:00 -0600
 author: Steve Torres
@@ -19,9 +19,3 @@ This wealth, the riches of God's grace, is what Paul describes in Ephesians 2:7�
 Paul speaks again of this wealth in Romans 9:22–24, where he reveals that God has patiently endured vessels of wrath (Rev. 6:12-17)“in order to make known the riches of his glory for vessels of mercy, which he has prepared beforehand for glory.” The redeemed stand before the throne because they have received this wealth—not through their own merit, but because God, in His great mercy, has lavished upon them the riches of His grace. His wrath and grace forever intermingled in his cross.
 
 Heaven's worship shifts from longing to fulfillment, from expectation to gratitude. We, too, live in the tension between these realities. We cry out for deliverance, but we also stand firm in the assurance that God has already provided everything in Christ. Let our worship be filled with thanksgiving, for the wealth of His grace is already ours.
-
-<script src="https://www.biblegateway.com/public/link-to-us/tooltips/bglinks.js" type="text/javascript"></script>
-<script type="text/javascript">
-BGLinks.version = "ESV";
-BGLinks.linkVerses();
-</script>

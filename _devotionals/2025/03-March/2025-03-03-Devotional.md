@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: devotional
 title:  "Devotional 3 March 2025"
 date:   2025-03-03 06:00:00 -0600
 author: Steve Torres
@@ -20,8 +20,3 @@ We, too, may feel that our prayers rise in silence. We may wonder if God hears, 
 
 So let us persevere. Let us trust that no prayer is forgotten, no tear unseen, no plea unheard. Though heaven may seem silent for a time, the day will come when God will rise in response. And when He does, all the earth will know—He is the Lord.
 
-<script src="https://www.biblegateway.com/public/link-to-us/tooltips/bglinks.js" type="text/javascript"></script>
-<script type="text/javascript">
-BGLinks.version = "ESV";
-BGLinks.linkVerses();
-</script>

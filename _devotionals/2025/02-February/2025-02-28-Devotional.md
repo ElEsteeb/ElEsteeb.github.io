@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: devotional
 title:  "Devotional 28 February 2025"
 date:   2025-02-28 06:00:00 -0600
 author: Steve Torres
@@ -20,9 +20,3 @@ These promises are not just for the churches of John’s time. The seven letters
 
 This vision reminds us that suffering is not the end of the story. The path of tribulation leads to triumph. The One who calls us to endure is the same One who will wipe away every tear (Revelation 7:17). As we read the news of yet more of our brothers and sisters dying for the name of Christ we remember that whatever trials the church will face, we hold fast to the promise that, we too, will stand before the throne, clothed in the righteousness of Christ, never to hunger, thirst, or weep again.
 
-
-<script src="https://www.biblegateway.com/public/link-to-us/tooltips/bglinks.js" type="text/javascript"></script>
-<script type="text/javascript">
-BGLinks.version = "ESV";
-BGLinks.linkVerses();
-</script>

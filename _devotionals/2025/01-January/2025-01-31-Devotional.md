@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: devotional
 title:  "Devotional 31 January 2025"
 date:   2025-01-31 08:00:00 -0600
 author: Steve Torres
@@ -18,9 +18,3 @@ For those who heed His voice, Jesus promises victory. The one who conquers—who
 
 
 
-
-<script src="https://www.biblegateway.com/public/link-to-us/tooltips/bglinks.js" type="text/javascript"></script>
-<script type="text/javascript">
-BGLinks.version = "ESV";
-BGLinks.linkVerses();
-</script>

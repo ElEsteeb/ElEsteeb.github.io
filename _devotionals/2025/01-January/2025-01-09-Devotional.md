@@ -1,7 +1,8 @@
 ---
-layout: post
+layout: devotional
 title:  "Devotional, 09 January 2025"
 date:   2025-01-09 09:00:00 -0600
+author: Steve Torres
 categories: Devotional, Revelation
 ---
 
@@ -16,10 +17,3 @@ This promise reminds us of God’s ultimate plan of redemption. Through Jesus’
 
 As we struggle with life’s difficulties, this passage offers hope. It assures us that faithfulness to Christ, both in rejecting false teachers and spreading the truth in love, has eternal rewards (2 Corinthians 4:17). No matter how challenging the path may seem, the promise of paradise and eternal life with Him awaits. This hope anchors us in times of hardship and reminds us of the ultimate victory we have in Jesus.
 
--steve
-
-<script src="https://www.biblegateway.com/public/link-to-us/tooltips/bglinks.js" type="text/javascript"></script>
-<script type="text/javascript">
-BGLinks.version = "ESV";
-BGLinks.linkVerses();
-</script>

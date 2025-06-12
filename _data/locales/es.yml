@@ -1,0 +1,7 @@
+# _data/locales/es.yml
+navigation:
+  home: "Inicio"
+  devotional: "Devocional"
+  class_notes: "Apuntes de Clase"
+  class_recordings: "Grabaciones de Clase"
+  search_placeholder: "Buscar..."

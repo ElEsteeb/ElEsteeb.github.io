@@ -1,7 +1,8 @@
 ---
-layout: post
+layout: devotional
 title:  "Devotional 15 January 2025"
 date:   2025-01-15 08:00:00 -0600
+author: Steve Torres
 categories: Devotional, Revelation
 ---
 
@@ -14,12 +15,3 @@ Jesus’ authority to judge and cleanse His people is emphasized throughout Reve
 
 Christ’s call to repentance is a loving invitation to be cleansed and restored to holiness. Throughout Scripture, God commands His people to be set apart (Leviticus 19:2; Hebrews 12:14). Repentance is the path to alignment with His will. By turning from sin and submitting to Christ’s authority, believers reflect His character and stand as a light in a dark world.
 
--steve
-
-
-
-<script src="https://www.biblegateway.com/public/link-to-us/tooltips/bglinks.js" type="text/javascript"></script>
-<script type="text/javascript">
-BGLinks.version = "ESV";
-BGLinks.linkVerses();
-</script>

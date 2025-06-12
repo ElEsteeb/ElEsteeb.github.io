@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: devotional
 title:  "Devotional 12 February 2025"
 date:   2025-02-12 08:00:00 -0600
 author: Steve Torres
@@ -16,8 +16,3 @@ This passage reminds us that true victory comes through apparent weakness. Jesus
 
 In a world obsessed with strength and self-sufficiency, this vision calls us to a different kind of power—the power of surrender to God’s perfect will (2 Corinthians 12:9-10). Just as Jesus’ sacrifice ushered in His greatest glory (Hebrews 12:2), our faithfulness in trials will be met with eternal reward (James 1:12). The Lamb reigns, and because He does, we have unshakable hope (1 Peter 1:3-4).
 
-<script src="https://www.biblegateway.com/public/link-to-us/tooltips/bglinks.js" type="text/javascript"></script>
-<script type="text/javascript">
-BGLinks.version = "ESV";
-BGLinks.linkVerses();
-</script>

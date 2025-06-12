@@ -1,7 +1,8 @@
 ---
-layout: post
+layout: devotional
 title:  "Devotional 10 January 2025"
 date:   2025-01-10 09:00:00 -0600
+author: Steve Torres
 categories: Devotional, Revelation
 ---
 >**Revelation 2:8 ESV**
@@ -13,10 +14,3 @@ When we feel crushed by life’s burdens—whether through loss, financial diffi
 
 Jesus' resurrection isn’t just a historical fact; it’s a declaration of victory for us as His followers. Whatever you’re walking through, He walks with you (Isaiah 41:10). He knows the weight of suffering (Hebrews 4:15) but also the joy of triumph (Romans 8:37). If Christ, the First and the Last, has overcome, so will you in Him (John 16:33).
 
--steve
-
-<script src="https://www.biblegateway.com/public/link-to-us/tooltips/bglinks.js" type="text/javascript"></script>
-<script type="text/javascript">
-BGLinks.version = "ESV";
-BGLinks.linkVerses();
-</script>

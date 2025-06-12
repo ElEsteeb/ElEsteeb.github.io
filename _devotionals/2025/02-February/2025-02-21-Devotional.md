@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: devotional
 title:  "Devotional 21 February 2025"
 date:   2025-02-21 05:00:00 -0600
 author: Steve Torres
@@ -18,8 +18,3 @@ The world sees persecution as defeat, but in Christ’s kingdom, it is the seed 
 
 So take heart. We may not all be called to die for Christ, but we are all called to live boldly for Him. Stand firm, knowing that not one drop of His saints’ blood is wasted. The Lamb is on the throne, the gospel is advancing, and the day is coming when the full number of His people will be gathered, and justice will be complete- His kingdom a visible reality. Until then, we press on, proclaiming His name in every nation, knowing that even in our suffering, Christ is victorious (1 Corinthians 15:24-25).
 
-<script src="https://www.biblegateway.com/public/link-to-us/tooltips/bglinks.js" type="text/javascript"></script>
-<script type="text/javascript">
-BGLinks.version = "ESV";
-BGLinks.linkVerses();
-</script>

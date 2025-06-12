@@ -1,7 +1,8 @@
 ---
-layout: post
+layout: devotional
 title:  "Devotional 25 January 2025"
 date:   2025-01-25 08:00:00 -0600
+author: Steve Torres
 categories: Devotional, Revelation
 ---
 
@@ -16,11 +17,3 @@ The promise is especially encouraging. Jesus assured the church that because of 
 
 This passage reminds us that Christ sees our struggles and faithfulness. Even when we feel weak or insignificant, He has a purpose for us and will vindicate His people in the end. Stay encouraged, knowing that your steadfastness in Him is not overlooked and that His promises are sure.
 
--steve
-
-
-<script src="https://www.biblegateway.com/public/link-to-us/tooltips/bglinks.js" type="text/javascript"></script>
-<script type="text/javascript">
-BGLinks.version = "ESV";
-BGLinks.linkVerses();
-</script>

@@ -1,7 +1,8 @@
 ---
-layout: post
+layout: devotional
 title:  "Devotional 17 January 2025"
 date:   2025-01-17 08:00:00 -0600
+author: Steve Torres
 categories: Devotional, Revelation
 ---
 
@@ -16,11 +17,3 @@ For the church in Thyatira—and for us today—this portrayal of Christ is a ca
 
 As we reflect on this vision of Christ, let it deepen our trust in His sovereign rule. His eyes of fire remind us to walk in integrity, knowing He sees all. His feet of bronze give us confidence that He will ultimately bring justice and establish His eternal kingdom. Let us worship Him as the powerful and authoritative Son of God, worthy of all glory and honor.
 
--steve
-
-
-<script src="https://www.biblegateway.com/public/link-to-us/tooltips/bglinks.js" type="text/javascript"></script>
-<script type="text/javascript">
-BGLinks.version = "ESV";
-BGLinks.linkVerses();
-</script>

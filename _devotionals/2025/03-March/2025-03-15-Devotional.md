@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: devotional
 title:  "Devotional 15 March 2025"
 date:   2025-03-15 05:00:00 -0600
 author: Steve Torres
@@ -19,10 +19,3 @@ This “mystery of God” mentioned in verse 7 points to this very truth — the
 As believers, we are part of this new creation. Our identity is no longer in earthly rituals, cultural status, or ethnic background, but in Christ alone. The world may still rage in turmoil, yet we rest in the security of His finished work — a kingdom that cannot be shaken (Hebrews 12:28).
 
 The fulfillment of God’s plan is still unfolding, but we can trust that Jesus is on the throne, reigning over His people. In Him, we are part of something new — a creation that no enemy can destroy.
-
-
-<script src="https://www.biblegateway.com/public/link-to-us/tooltips/bglinks.js" type="text/javascript"></script>
-<script type="text/javascript">
-BGLinks.version = "ESV";
-BGLinks.linkVerses();
-</script>

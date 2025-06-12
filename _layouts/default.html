@@ -5,10 +5,11 @@
 </head>
 
 <body>
+  {% include lang_switcher.html %} # MOVED HERE!
   {% include nav.html %}
   {% include search-results.html %}
-  
-  <div class="post-container">
+
+ <div class="post-container">
     {{ content }}
     {% include social-share.html %}
   </div>

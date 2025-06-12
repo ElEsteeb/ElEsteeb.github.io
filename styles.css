@@ -139,6 +139,49 @@ nav a:hover {
   color: var(--primary-accent);
 }
 
+/* Add this new .language-switcher block globally, not inside a media query */
+.language-switcher {
+    position: fixed;
+    top: 70px; /* Move it down from the top. You might need to adjust this value. */
+    right: 10px; /* Position it to the right corner */
+    left: unset; /* Important: Ensures it doesn't try to stick to the left as well */
+    
+    z-index: 1001; /* Set a z-index slightly higher than your main nav's z-index (which is 1000) */
+    
+    background-color: rgb(0, 0, 0); /* Your current background color */
+    color: rgb(255, 255, 255);     /* Your current text color */
+    padding: 5px 10px; /* Good padding for a small element */
+    border-radius: 5px; /* Optional: Rounded corners */
+
+    display: flex; /* Keep flexbox for alignment */
+    justify-content: center; /* Center content horizontally within itself */
+    align-items: center; /* Center content vertically */
+    column-gap: 15px; /* Space between the "EN" and "ES" links */
+    
+    width: auto; /* Let the width adjust to the content */
+    min-height: unset; /* Remove min-height from general nav to avoid issues */
+    text-align: center; /* Keep text-align center if you like */
+    
+    /* Keep other transition properties if they apply to the background color */
+    transition: background-color 0.3s ease; /* Simplified transition for clarity */
+}
+
+/* Add or ensure these link styles are also global (not in media queries) */
+.language-switcher a {
+    color: rgb(255, 255, 255); /* White text for links */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.language-switcher a:hover {
+    text-decoration: underline;
+}
+
+.language-switcher .active-lang {
+    color: #007bff; /* A distinct color for the active language */
+    font-weight: bold;
+}
+
 /* Common Content Containers */
 .post-container {
   max-width: 800px;
@@ -682,7 +725,7 @@ html body.dark-mode nav a:hover {
 }
 
 .dark-mode .essay-content blockquote {
-  color: var(--text-dark
+  color: var(--text-dark);
   border-left-color: var(--primary-accent);
 }
 
@@ -948,3 +991,4 @@ html body.dark-mode nav a:hover {
     color: var(--heading-dark);
   }
 }
+  

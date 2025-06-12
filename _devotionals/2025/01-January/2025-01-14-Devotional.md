@@ -1,8 +1,9 @@
 ---
-layout: post
+layout: devotional
 authors: Steve
 title:  "Devotional 14 January 2025"
 date:   2025-01-14 08:00:00 -0600
+author: Steve Torres
 categories: Devotional, Revelation
 ---
 >**Revelation 2:13 ESV**
@@ -19,14 +20,3 @@ Jesus specifically mentions Antipas, "my faithful witness," who was martyred. Th
 Jesus’ words to the church in Pergamum remind us that our faithfulness does not go unnoticed. He sees and honors those who remain steadfast, just as He commended the church for not denying His name. (Galatians 6:9) Our trials are not in vain; Christ acknowledges and rewards the perseverance of His people.
 
 Let us be encouraged by the knowledge that Christ sees our struggles and is with us in the midst of them. Let us resolve to hold fast to His name and remain faithful, even when the culture around us opposes Him.
-
--steve
-
-
-
-
-<script src="https://www.biblegateway.com/public/link-to-us/tooltips/bglinks.js" type="text/javascript"></script>
-<script type="text/javascript">
-BGLinks.version = "ESV";
-BGLinks.linkVerses();
-</script>

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: devotional
 title:  "Devotional 25 February 2025"
 date:   2025-02-25 06:00:00 -0600
 author: Steve Torres
@@ -18,9 +18,3 @@ Then John looks—and what he hears as 144,000, he sees as a great multitude no 
 
 This passage reminds us that God is building His Kingdom through Christ, not through earthly nations or bloodlines (John 1:12-13). The gospel is unstoppable. Though the world rages and opposes Christ’s reign, His people are sealed, and His church will not fail (Matthew 16:18). Whether through persecution or trial, we are held fast, counted among those who will one day stand before the throne, clothed in white. The Lamb has conquered, and His redeemed people—Jew and Gentile together—will praise Him forever. Who can number them? Only God.
 
-
-<script src="https://www.biblegateway.com/public/link-to-us/tooltips/bglinks.js" type="text/javascript"></script>
-<script type="text/javascript">
-BGLinks.version = "ESV";
-BGLinks.linkVerses();
-</script>

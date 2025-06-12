@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: devotional
 title:  "Devotional 01 February 2025"
 date:   2025-02-01 06:00:00 -0600
 author: Steve Torres
@@ -17,9 +17,3 @@ Hebrews 1:3 tells us that after Christ "made purification for sins, he sat down 
 This promise calls us to a mindset shift. If we are seated with Christ, then our perspective must be heavenly, not earthly. The trials we face are temporary, but our position in Him is eternal (2 Corinthians 4:17-18). When the struggles of this world press in, we must remember that we are not merely enduring; we are ruling with Christ, even now, by living in His power and authority. The Spirit calls us to listen—to truly grasp the weight of this promise and walk in it with confidence.
 
 
-
-<script src="https://www.biblegateway.com/public/link-to-us/tooltips/bglinks.js" type="text/javascript"></script>
-<script type="text/javascript">
-BGLinks.version = "ESV";
-BGLinks.linkVerses();
-</script>

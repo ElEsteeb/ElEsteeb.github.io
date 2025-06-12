@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: devotional
 title:  "Devotional 17 March 2025"
 date:   2025-03-17 05:00:00 -0600
 author: Steve Torres
@@ -20,8 +20,3 @@ For us today, this passage is a reminder that God's purposes are always unfoldin
 
 As we embrace the sweetness of salvation, may we also soberly recognize the bitterness of judgment — and let that drive us to proclaim Christ with urgency and compassion.
 
-<script src="https://www.biblegateway.com/public/link-to-us/tooltips/bglinks.js" type="text/javascript"></script>
-<script type="text/javascript">
-BGLinks.version = "ESV";
-BGLinks.linkVerses();
-</script>

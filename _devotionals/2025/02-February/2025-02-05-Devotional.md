@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: devotional
 title:  "Devotional 05 February 2025"
 date:   2025-02-05 04:00:00 -0600
 author: Steve Torres
@@ -18,11 +18,3 @@ The elders’ enthroned posture reflects the authority entrusted to Christ’s f
 Clothed in white, the elders embody the flawless righteousness of Jesus—a stark contrast to our present battles with sin. In eternity, we will stand perfected, cleansed by "the blood of the Lamb" (Revelation 7:14). Their golden crowns signify eternal rewards for faithfulness, yet these honors are not for our acclaim. Like the elders, we will lay our crowns before Christ’s throne (Revelation 4:10), declaring His worthiness above all.  
 
 This vision pierces through life’s temporary struggles, anchoring us in an unshakable hope: our pain is fleeting, but our reign with Christ is everlasting. Whatever challenges you face today, take heart—your steadfastness matters. Your righteousness is irrevocably sealed in Him, and your future shines with the glory of a King who invites you to share His throne. Walk boldly, for victory is your eternal inheritance. 
-
-
-
-<script src="https://www.biblegateway.com/public/link-to-us/tooltips/bglinks.js" type="text/javascript"></script>
-<script type="text/javascript">
-BGLinks.version = "ESV";
-BGLinks.linkVerses();
-</script>

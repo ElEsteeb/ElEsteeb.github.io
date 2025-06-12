@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: devotional
 title:  "Devotional 22 February 2025"
 date:   2025-02-22 06:00:00 -0600
 author: Steve Torres
@@ -22,8 +22,3 @@ This passage also serves as a warning to all nations and people today. If God di
 Yet for those who trust in Him, this judgment is not a terror but a comfort. Just as the destruction of Jerusalem vindicated the saints, so too the final judgment of each nation that stands against the Kingdom of God will bring justice to every wrong. The day will come when all evil is finally crushed, and every tear is wiped away (Revelation 21:4). Until then, we stand firm, proclaiming His kingdom, knowing that though the earth shakes, His throne remains unshaken. “Who shall stand?” Only those who are covered by the blood of the Lamb.
 
 
-<script src="https://www.biblegateway.com/public/link-to-us/tooltips/bglinks.js" type="text/javascript"></script>
-<script type="text/javascript">
-BGLinks.version = "ESV";
-BGLinks.linkVerses();
-</script>

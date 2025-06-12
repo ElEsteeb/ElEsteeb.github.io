@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: devotional
 title:  "Devotional 13 February 2025"
 date:   2025-02-13 08:00:00 -0600
 author: Steve Torres
@@ -16,9 +16,3 @@ The worshippers sing a new song (v. 9), a song of redemption and triumph. This i
 
 As the song of the redeemed rises, the sound swells into an immeasurable chorus—myriads of myriads and thousands of thousands (v. 11). Heaven’s praise is not isolated; it is overwhelming, unstoppable, and filled with the awe of God’s glory. One day, every voice in creation will join this anthem (Philippians 2:10-11). Until then, we participate in this heavenly worship through our prayers and our proclamation of the gospel. The Lamb is worthy, and we, as His redeemed, have the privilege of lifting our voices in the song that will never end.
 
-
-<script src="https://www.biblegateway.com/public/link-to-us/tooltips/bglinks.js" type="text/javascript"></script>
-<script type="text/javascript">
-BGLinks.version = "ESV";
-BGLinks.linkVerses();
-</script>

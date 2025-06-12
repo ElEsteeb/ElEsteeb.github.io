@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: devotional
 title:  "Devotional 06 March 2025"
 date:   2025-03-06 06:00:00 -0600
 author: Steve Torres
@@ -22,8 +22,3 @@ This passage is a warning. This trumpet blast reveals the cost of rejecting Chri
 
 Will we drink from the bitter waters of this world, or will we come to Christ and drink deeply from the well of salvation? “The Spirit and the Bride say, ‘Come.’ And let the one who hears say, ‘Come.’ And let the one who is thirsty come; let the one who desires take the water of life without price.” (Revelation 22:17)
 
-<script src="https://www.biblegateway.com/public/link-to-us/tooltips/bglinks.js" type="text/javascript"></script>
-<script type="text/javascript">
-BGLinks.version = "ESV";
-BGLinks.linkVerses();
-</script>

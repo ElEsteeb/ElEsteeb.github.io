@@ -1,0 +1,7 @@
+# _data/locales/en.yml
+navigation:
+  home: "Home"
+  devotional: "Devotional"
+  class_notes: "Class Notes"
+  class_recordings: "Class Recordings"
+  search_placeholder: "Search..." # Don't forget the search placeholder!

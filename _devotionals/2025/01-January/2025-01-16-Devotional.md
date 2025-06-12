@@ -1,7 +1,8 @@
 ---
-layout: post
+layout: devotional
 title:  "Devotional 16 January 2025"
 date:   2025-01-16 08:00:00 -0600
+author: Steve Torres
 categories: Devotional, Revelation
 ---
 
@@ -16,11 +17,4 @@ On the stone is a "new name" known only to the one who receives it, reflecting t
 
 Christ calls us to perseverance, promising eternal blessings to those who remain faithful (James 1:12). The hidden manna, white stone, and new name are not just future rewards but present encouragements, reminding us that Jesus sustains, secures, and sanctifies us. May this promise strengthen your faith today, and may you find your satisfaction and identity in Him alone. "He who has an ear, let him hear."
 
--steve
 
-
-<script src="https://www.biblegateway.com/public/link-to-us/tooltips/bglinks.js" type="text/javascript"></script>
-<script type="text/javascript">
-BGLinks.version = "ESV";
-BGLinks.linkVerses();
-</script>

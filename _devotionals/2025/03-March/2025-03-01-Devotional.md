@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: devotional
 title:  "Devotional 1 March 2025"
 date:   2025-03-01 06:00:00 -0600
 author: Steve Torres
@@ -19,9 +19,3 @@ For the suffering church, this must have felt like a long pause. John, who ident
 This moment in heaven is the silence before the storm. The prayers of the saints are about to be answered (Revelation 8:3-5). God has heard every cry, seen every tear, and remembered every plea. “Shall not God give justice to his elect, who cry to him day and night? Will he delay long over them?” (Luke 18:7). When it seems like nothing is happening, God is already at work.
 
 If you find yourself in a season of waiting, take heart. Silence does not mean God has forgotten. He is preparing to move, and His timing is perfect. Keep praying. Keep trusting. The silence will not last forever.
-
-<script src="https://www.biblegateway.com/public/link-to-us/tooltips/bglinks.js" type="text/javascript"></script>
-<script type="text/javascript">
-BGLinks.version = "ESV";
-BGLinks.linkVerses();
-</script>

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: devotional
 title:  "Devotional 06 February 2025"
 date:   2025-02-06 08:00:00 -0600
 author: Steve Torres
@@ -22,10 +22,3 @@ The combination of power and presence in this passage offers both comfort and ch
 
 As we meditate on this vision, we are reminded that God is both transcendent and near. He reigns with unmatched authority, yet His Spirit is the very flame that illuminates our path (Ps. 119:105). Let the thunder of His throne stir your reverence, and let the fire of His Spirit ignite a greater passion for His presence in your life.
 
-
-
-<script src="https://www.biblegateway.com/public/link-to-us/tooltips/bglinks.js" type="text/javascript"></script>
-<script type="text/javascript">
-BGLinks.version = "ESV";
-BGLinks.linkVerses();
-</script>

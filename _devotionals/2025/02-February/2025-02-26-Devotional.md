@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: devotional
 title:  "Devotional 26 February 2025"
 date:   2025-02-26 06:00:00 -0600
 author: Steve Torres
@@ -15,9 +15,3 @@ Everywhere we look, division defines our world—nations war against nations, ra
 The scene mirrors Jesus' triumphal entry when the people waved palm branches and cried, “Hosanna! Blessed is he who comes in the name of the Lord!” (John 12:13). Hosanna means "save us," but where they once pleaded for salvation, the multitude in heaven declares it accomplished: "Salvation belongs to our God!" The Feast of Booths, where Israel waved palm branches in celebration of God's provision (Leviticus 23:40), finds its ultimate fulfillment here—God’s people, no longer sojourners, are gathered into His eternal dwelling. The trials and tribulations of this life are over. Their robes are white, purified by the blood of the Lamb (Revelation 7:14).
 
 This vision is not just a future hope—it is a present reality for those in Christ. Even now, we are seated with Him in the heavenly places (Ephesians 2:6). Even now, we are part of this kingdom that knows no borders. The world may rage, but we belong to a kingdom that cannot be shaken (Hebrews 12:28). One day, faith will become sight, and we will join this great multitude, standing before the throne, lifting our voices in unshaken confidence: Salvation belongs to our God!
-
-<script src="https://www.biblegateway.com/public/link-to-us/tooltips/bglinks.js" type="text/javascript"></script>
-<script type="text/javascript">
-BGLinks.version = "ESV";
-BGLinks.linkVerses();
-</script>

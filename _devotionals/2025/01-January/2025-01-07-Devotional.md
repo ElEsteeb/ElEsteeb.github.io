@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: devotional
 title:  "Devotional 07 January 2025"
 date:   2025-01-07 09:00:00 -0600
 author: Steve Torres
@@ -17,10 +17,3 @@ Jesus’ commendation of the Ephesians’ discernment shows that He values a chu
 
 Let us strive to honor Christ by remaining steadfast in truth and lovingly yet firmly rejecting what is false. May our faith be marked by both perseverance and discernment, bringing glory to the One who is the ultimate truth.
 
--steve
-
-<script src="https://www.biblegateway.com/public/link-to-us/tooltips/bglinks.js" type="text/javascript"></script>
-<script type="text/javascript">
-BGLinks.version = "ESV";
-BGLinks.linkVerses();
-</script>

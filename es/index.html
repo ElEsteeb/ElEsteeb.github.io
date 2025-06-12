@@ -1,0 +1,34 @@
+---
+layout: default 
+permalink: /es/ # Explicitly set permalink for clarity (Polyglot should do this, but being explicit can help)
+title: Inicio # Spanish title
+lang: es # Set the language to Spanish
+---
+
+<h2>Esteeb.com (Spanish)</h2>
+
+<p>Este sitio web está diseñado para ampliar nuestra investigación de la escuela dominical más allá del aula. Ya sea que esté buscando revisar una lección con las <a href="/es/class_recordings.html">Grabaciones de Clase</a>, pasar un tiempo tranquilo con el <a href="/es/devotional.html">Devocional Diario</a>, o profundizar con los <a href="/es/notes.html">Apuntes de Clase</a>, espero que encuentre recursos valiosos aquí. ¡Tómese un momento para navegar y ver qué cosas divertidas puede encontrar! A continuación se muestra una lista de algunas de las publicaciones más recientes.</p>
+
+{% comment %} The post loop needs to be localized too! {% endcomment %}
+{% assign temp_empty_array = "" | split: "" %}
+
+{% assign devotionals = site.devotionals | default: temp_empty_array | sort: "date" | reverse %}
+{% assign notes = site.notes | default: temp_empty_array | sort: "date" | reverse %}
+{% assign recordings = site.class_recordings | default: temp_empty_array | sort: "date" | reverse %}
+
+{% assign all_posts = temp_empty_array | concat: devotionals | concat: notes | concat: recordings | sort: "date" | reverse %}
+
+{% for post in all_posts limit:10 %}
+  {% assign post_title = post.title | localize: site.active_lang %} 
+  {% comment %} Ensure the post URL is localized as well {% endcomment %}
+  {% assign post_url = post.url | localize: site.active_lang %} 
+  
+  <div class="lesson-card">
+    <span class="post-meta">{{ post.date | date: "%B %-d, %Y" }}</span> 
+    <h3>
+      <a class="post-link" href="{{ post_url | relative_url }}">
+        {{ post_title }}
+      </a>
+    </h3>
+  </div>
+{% endfor %}

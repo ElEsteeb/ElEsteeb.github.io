@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: devotional
 title:  "Devotional 07 March 2025"
 date:   2025-03-07 06:00:00 -0600
 author: Steve Torres
@@ -17,9 +17,3 @@ Jesus foretold this in Matthew 24:29, saying, "Immediately after the tribulation
 Jesus declared in John 8:12, "I am the light of the world. Whoever follows me will not walk in darkness, but will have the light of life." Earthly kingdoms rise and fall. Their symbols may endure on flags, but their power fades. Yet the kingdom of Christ is everlasting. His rule is not dependent on earthly governments, for His kingdom is not of this world (John 18:36). The judgment that fell on Jerusalem was not the end of God’s people—it was the beginning of a kingdom that cannot be shaken (Hebrews 12:28).
 
 As we witness the uncertainty of nations today, we must remember where our true citizenship lies. The world’s rulers will fail. Their empires will darken. But the kingdom of Christ remains forever. "The Lord will be your everlasting light, and your God will be your glory." (Isaiah 60:19) Let us set our hope on what cannot be destroyed. The light of Christ’s reign will never fade.
-
-<script src="https://www.biblegateway.com/public/link-to-us/tooltips/bglinks.js" type="text/javascript"></script>
-<script type="text/javascript">
-BGLinks.version = "ESV";
-BGLinks.linkVerses();
-</script>

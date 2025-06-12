@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: devotional
 title:  "Devotional 03 February 2025"
 date:   2025-02-03 08:00:00 -0600
 author: Steve Torres
@@ -16,10 +16,3 @@ John’s vision begins with an open door in heaven, a door that was not found or
 Beyond the door, John sees a throne, and upon it, only one is seated. The singularity of this imagery is crucial—there are not many thrones or competing rulers, only one sovereign Lord who reigns over all. This directly confronts the human tendency to seek security in earthly power, personal wisdom, or religious pluralism. It is God alone who governs history, who knows the future, and who calls His people to Himself.
 
 As the vision unfolds, the authority of the One on the throne becomes undeniable. In a world of uncertainty and shifting allegiances, Revelation 4 reminds us that there is only one King, only one way, and only one who knows what is to come. The question remains—have you entered through the door, or are you seeking another way?
-
-
-<script src="https://www.biblegateway.com/public/link-to-us/tooltips/bglinks.js" type="text/javascript"></script>
-<script type="text/javascript">
-BGLinks.version = "ESV";
-BGLinks.linkVerses();
-</script>

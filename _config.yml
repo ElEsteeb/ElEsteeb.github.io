@@ -1,21 +1,22 @@
 title: Esteeb.com
 description: Information for my Sunday School class, and friends of the church.
-permalink: /:categories/:year-:month-:day-:title
+permalink: /:categories/:year-:month-:day-:title # Ensure this works well for both languages within their folders
 url: "https://www.esteeb.com"  # Your custom domain
 baseurl: ""                    # Empty since your site is at the root of the domain
 
 # Google Analytics
 google_analytics: G-Y0QLNLWWLX
+
 collections:
   devotionals:
     output: true
-    permalink: /devotional/:name
+    permalink: /devotionals/:title/ # Example permalink for collection items
   notes:
     output: true
-    permalink: /notes/:name
+    permalink: /notes/:title/
   class_recordings:
     output: true
-    permalink: /recordings/:name
+    permalink: /_class_recordings/:title/
 
 # Default layouts for collections
 defaults:
@@ -27,3 +28,21 @@ defaults:
 
 plugins:
   - jekyll-seo-tag
+  - jekyll-polyglot # CORRECTED: Removed the extra colon here!
+
+languages: ["en", "es"] # Your supported languages
+default_lang: "en"     # Your existing site's language (English in this case)
+lang_from_path: true 
+active_lang: "en"
+exclude_from_localization:
+  - "assets"
+  - "_data"
+  - "images"
+  - "_includes"
+  - "_layouts"
+  - "CNAME"
+  - "robots.txt"
+  - "styles.css" # Assuming it's a static file directly in root, otherwise your 'assets' exclusion should cover it.
+  - "search-index.json"
+  - "old-styles.css" # Only if you still want to serve it, otherwise remove it from repo
+  # Gemfile.lock and Gemfile do not need to be excluded as they are not processed by Jekyll for content.

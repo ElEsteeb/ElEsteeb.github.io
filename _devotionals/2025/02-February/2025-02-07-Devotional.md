@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: devotional
 title:  "Devotional 07 February 2025"
 date:   2025-02-07 08:00:00 -0600
 author: Steve Torres
@@ -19,9 +19,3 @@ The four living creatures represent the fullness of creation giving praise to Go
 These creatures do not rest but declare, “Holy, holy, holy, is the Lord God Almighty”. This threefold declaration of God’s holiness echoes Isaiah 6:3, reinforcing that He is set apart, beyond comparison, and eternally perfect. Worship in heaven is unceasing because God’s holiness is infinite. As we meditate on this vision, we are reminded that our lives should also be marked by worship, recognizing that the One who was, who is, and who is to come reigns forever.
 
 
-
-<script src="https://www.biblegateway.com/public/link-to-us/tooltips/bglinks.js" type="text/javascript"></script>
-<script type="text/javascript">
-BGLinks.version = "ESV";
-BGLinks.linkVerses();
-</script>

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: devotional
 title:  "Devotional 04 March 2025"
 date:   2025-03-04 06:00:00 -0600
 author: Steve Torres
@@ -18,9 +18,3 @@ Yet, even in judgment, Jesus reigns. This was not chaos, nor was it beyond His c
 
 This should sober us. God's justice is real. His judgment is certain. Yet, it should also encourage us—Jesus is always in control. Whether in judgment or deliverance, His plan is unfolding exactly as He has decreed. The destruction of Jerusalem stands as both a warning and a reminder: those who trust in Christ will always find life in Him, no matter the storm.
 
-
-<script src="https://www.biblegateway.com/public/link-to-us/tooltips/bglinks.js" type="text/javascript"></script>
-<script type="text/javascript">
-BGLinks.version = "ESV";
-BGLinks.linkVerses();
-</script>

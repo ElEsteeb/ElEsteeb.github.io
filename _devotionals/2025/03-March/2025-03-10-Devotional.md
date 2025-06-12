@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: devotional
 title:  "Devotional 10 March 2025"
 date:   2025-03-10 06:00:00 -0600
 author: Steve Torres
@@ -24,8 +24,4 @@ Jesus declared, "Whoever follows me will not walk in darkness, but will have the
 
 Today, let this passage stir you to seek God fervently. Do not let your heart grow cold or your devotion become routine. Draw near to Him, for He alone is your security. The darkness is real, but Jesus's light is stronger. Seek Him now — and stand firm in His presence that no darkness can overcome.
 
-<script src="https://www.biblegateway.com/public/link-to-us/tooltips/bglinks.js" type="text/javascript"></script>
-<script type="text/javascript">
-BGLinks.version = "ESV";
-BGLinks.linkVerses();
-</script>
+

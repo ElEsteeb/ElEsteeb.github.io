@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: devotional
 title:  "Devotional 30 January 2025"
 date:   2025-01-30 08:00:00 -0600
 author: Steve Torres
@@ -16,10 +16,3 @@ The imagery of gold refined by fire speaks to the trials that purify our faith (
 
 Christ’s call to repentance is not one of condemnation but of invitation. He longs for His people to return to Him with zeal, fully embracing His grace and truth. If you feel distant from God, take heart—His rebuke is an expression of His love, urging you to draw near. He desires to clothe you in righteousness, open your eyes to His truth, and refine your faith through every challenge. Will you respond with renewed passion and trust in His perfect work today?
 
-
-
-<script src="https://www.biblegateway.com/public/link-to-us/tooltips/bglinks.js" type="text/javascript"></script>
-<script type="text/javascript">
-BGLinks.version = "ESV";
-BGLinks.linkVerses();
-</script>

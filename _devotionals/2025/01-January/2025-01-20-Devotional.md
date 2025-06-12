@@ -1,7 +1,8 @@
 ---
-layout: post
+layout: devotional
 title:  "Devotional 20 January 2025"
 date:   2025-01-20 08:00:00 -0600
+author: Steve Torres
 categories: Devotional, Revelation
 ---
 
@@ -15,12 +16,3 @@ Jesus reassures them that He does not "lay on you any other burden." This echoes
 To the one who overcomes, Jesus promises authority over the nations, reflecting Psalm 2:8-9, where the Messiah is given the nations as His inheritance and rules with a rod of iron. This promise assures us that those who endure will share in Christ's victory (Romans 8:17). The "morning star" symbolizes the ultimate reward: Jesus Himself, as revealed in Revelation 22:16, where He declares, "I am the root and the descendant of David, the bright morning star."
 
 The closing exhortation, "He who has an ear, let him hear," emphasizes the urgency of heeding the Spirit’s words. It recalls Jesus’ warning in Matthew 13:9, urging listeners to respond to His teaching with understanding and obedience. This passage challenges us to remain steadfast (1 Corinthians 15:58), discerning (1 John 4:1), and focused on Christ’s promises (Philippians 3:14), knowing that faithfulness will lead to eternal fellowship with Him. 
-
--steve
-
-
-<script src="https://www.biblegateway.com/public/link-to-us/tooltips/bglinks.js" type="text/javascript"></script>
-<script type="text/javascript">
-BGLinks.version = "ESV";
-BGLinks.linkVerses();
-</script>

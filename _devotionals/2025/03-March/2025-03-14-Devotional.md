@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: devotional
 title:  "Devotional 14 March 2025"
 date:   2025-03-14 06:00:00 -0600
 author: Steve Torres
@@ -21,9 +21,3 @@ This silence reminds us to trust God when His plans seem unclear. Just as the ea
 
 Even when we don’t have all the answers, we can be sure of this: God’s plan is unfolding, and Christ reigns as King over all. Trust in Him, for the Lion who roars is also the Lamb who saves.
 
-
-<script src="https://www.biblegateway.com/public/link-to-us/tooltips/bglinks.js" type="text/javascript"></script>
-<script type="text/javascript">
-BGLinks.version = "ESV";
-BGLinks.linkVerses();
-</script>

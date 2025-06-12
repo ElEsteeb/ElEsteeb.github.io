@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: devotional
 title:  "Devotional 05 March 2025"
 date:   2025-03-05 06:00:00 -0600
 author: Steve Torres
@@ -18,8 +18,3 @@ The sea often represents the Gentile nations (Daniel 7:2-3), and here it signifi
 
 This passage reminds us that God’s judgment is total, but His justice is also faithful. Those who oppress His people will not stand forever. If we are suffering for righteousness today, we can take comfort in knowing that our prayers do not go unheard. The same Jesus who warned, judged, and saved in the first century still reigns today. He hears. He answers. He is in control.
 
-<script src="https://www.biblegateway.com/public/link-to-us/tooltips/bglinks.js" type="text/javascript"></script>
-<script type="text/javascript">
-BGLinks.version = "ESV";
-BGLinks.linkVerses();
-</script>

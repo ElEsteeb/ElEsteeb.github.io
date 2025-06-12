@@ -1,7 +1,8 @@
 ---
-layout: post
+layout: devotional
 title:  "Devotional 21 January 2025"
 date:   2025-01-21 08:00:00 -0600
+author: Steve Torres
 categories: Devotional, Revelation
 ---
 
@@ -19,12 +20,3 @@ Jesus’s message is a reminder that He desires His church to be alive in Him, b
 
 Let this passage lead us to pray, "Search me, O God, and know my heart! Try me and know my thoughts!" (Psalm 139:23). May we strive for a faith that is alive and growing, not for the sake of appearances, but because we long to honor the One who truly knows our works and loves us still.
 
--steve
-
-
-
-<script src="https://www.biblegateway.com/public/link-to-us/tooltips/bglinks.js" type="text/javascript"></script>
-<script type="text/javascript">
-BGLinks.version = "ESV";
-BGLinks.linkVerses();
-</script>

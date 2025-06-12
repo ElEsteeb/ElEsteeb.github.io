@@ -1,7 +1,8 @@
 ---
-layout: post
+layout: devotional
 title:  "Devotional 28 January 2025"
 date:   2025-01-28 08:00:00 -0600
+author: Steve Torres
 categories: Devotional, Revelation
 ---
 
@@ -19,13 +20,4 @@ Lastly, Jesus describes Himself as "the originator of God’s creation." This ec
 
 Revelation 3:14 reminds us that Jesus is the foundation of truth, the perfect revealer of God, and the sovereign Creator. These titles challenge us to trust Him fully, listen to His voice, and align our lives with His purposes. He is not distant or unapproachable; He is the faithful and true One who desires to draw us into deeper communion with Himself.
 
--steve
-
-
-
-<script src="https://www.biblegateway.com/public/link-to-us/tooltips/bglinks.js" type="text/javascript"></script>
-<script type="text/javascript">
-BGLinks.version = "NET";
-BGLinks.linkVerses();
-</script>
 

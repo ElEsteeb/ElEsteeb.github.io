@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: devotional
 title:  "Devotional 20 March 2025"
 date:   2025-03-20 05:00:00 -0600
 author: Steve Torres
@@ -17,9 +17,3 @@ The dragon’s attempt to devour the child reflects Satan’s constant efforts t
 
 This vision reminds us that no opposition can thwart God’s purposes. Jesus’ victory is secure, and His kingdom is unshakable. In times of uncertainty, we can rest in the confidence that the same God who protected His Son is sovereign over our lives as well. The dragon’s rage continues, but Christ’s triumph ensures that his threats will ultimately fail.
 
-
-<script src="https://www.biblegateway.com/public/link-to-us/tooltips/bglinks.js" type="text/javascript"></script>
-<script type="text/javascript">
-BGLinks.version = "ESV";
-BGLinks.linkVerses();
-</script>

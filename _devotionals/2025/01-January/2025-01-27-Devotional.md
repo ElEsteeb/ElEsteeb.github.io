@@ -1,7 +1,8 @@
 ---
-layout: post
+layout: devotional
 title:  "Devotional 27 January 2025"
 date:   2025-01-27 07:00:00 -0600
+author: Steve Torres
 categories: Devotional, Revelation
 ---
 <iframe src="https://drive.google.com/file/d/1YOjcozUv2BrceUf3B-wGuhOvnk4rHX9C/preview" width="640" height="480" allow="autoplay"></iframe>
@@ -22,11 +23,3 @@ Finally, Jesus promises to write on the conqueror "my own new name." This person
 
 Together, these names remind us who we are, where we belong, and to whom we are united forever. In a world full of uncertainty and shifting identities, take heart in this truth: you are marked by God, destined for His eternal city, and bound to Christ in unbreakable love. Let this hope empower you to overcome whatever trials come your way today.
 
--steve
-
-
-<script src="https://www.biblegateway.com/public/link-to-us/tooltips/bglinks.js" type="text/javascript"></script>
-<script type="text/javascript">
-BGLinks.version = "ESV";
-BGLinks.linkVerses();
-</script>

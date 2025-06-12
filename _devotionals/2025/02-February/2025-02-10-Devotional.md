@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: devotional
 title:  "Devotional 10 February 2025"
 date:   2025-02-10 08:00:00 -0600
 author: Steve Torres
@@ -20,10 +20,3 @@ If no one is worthy, then what hope remains? If the scroll remains sealed, where
 The answer has not yet come, and so we wait. But in that waiting, we are forced to ask ourselves: Do we grasp the weight of our own insufficiency? Do we feel the gravity of creation’s silence? The one who can break the seals is not yet revealed—but when He comes, He will shake the reality itself!
 
 
-
-
-<script src="https://www.biblegateway.com/public/link-to-us/tooltips/bglinks.js" type="text/javascript"></script>
-<script type="text/javascript">
-BGLinks.version = "ESV";
-BGLinks.linkVerses();
-</script>

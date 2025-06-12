@@ -1,30 +1,32 @@
 ---
 layout: default
 title: Home
+permalink: / # ADD THIS LINE
 ---
 <h2>Esteeb.com</h2>
 
 <!-- Add your text content here -->
 <div class="intro-section">
-    <p>This website is designed to extend our Sunday School research beyond the classroom. Whether you're looking to revisit a lesson with the <a href="https://www.esteeb.com/class_recordings.html">Class Recordings</a>, spend some quiet time with the <a href="https://www.esteeb.com/devotional.html">Daily Devotional</a>, or delve deeper with <a href="https://www.esteeb.com/notes.html">Class Notes</a>, I hope you'll find valuable resources here. Take a moment to browse and see what fun things you can find! Below are a list of some of the newest posts.</p>
+    <p>This website is designed to extend our Sunday School research beyond the classroom. Whether you're looking to revisit a lesson with the <a href="{{ '/class_recordings.html' | relative_url }}">Class Recordings</a>, spend some quiet time with the <a href="{{ '/devotional.html' | relative_url }}">Daily Devotional</a>, or delve deeper with <a href="{{ '/notes.html' | relative_url }}">Class Notes</a>, I hope you'll find valuable resources here. Take a moment to browse and see what fun things you can find! Below are a list of some of the newest posts.</p>
 </div>
 
 <div class="post-container">
-  {% assign devotionals = site.devotionals | default: site.emptyArray %}
-  {% assign notes = site.notes | default: site.emptyArray %}
-  {% assign recordings = site.class_recordings | default: site.emptyArray %}
-  {% assign site.emptyArray = "" | split: "" %}
-  
-  {% assign all_posts = site.emptyArray | concat: devotionals | concat: notes | concat: recordings | sort: "date" | reverse %}
-  
-  {% for post in all_posts limit:10 %}
-    <div class="lesson-card">
-      <span class="post-meta">{{ post.date | date: "%B %-d, %Y" }}</span>
-      <h3>
-        <a class="post-link" href="{{ post.url | relative_url }}">
-          {{ post.title }}
-        </a>
-      </h3>
-    </div>
-  {% endfor %}
+   {% assign temp_empty_array = "" | split: "" %}
+
+   {% assign devotionals = site.devotionals | default: temp_empty_array | sort: "date" | reverse %}
+   {% assign notes = site.notes | default: temp_empty_array | sort: "date" | reverse %}
+   {% assign recordings = site.class_recordings | default: temp_empty_array | sort: "date" | reverse %}
+
+   {% assign all_posts = temp_empty_array | concat: devotionals | concat: notes | concat: recordings | sort: "date" | reverse %}
+
+   {% for post in all_posts limit:10 %}
+     <div class="lesson-card">
+       <span class="post-meta">{{ post.date | date: "%B %-d, %Y" }}</span>
+       <h3>
+         <a class="post-link" href="{{ post.url | relative_url }}">
+           {{ post.title }}
+         </a>
+       </h3>
+     </div>
+   {% endfor %}
 </div>
