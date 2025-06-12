@@ -1,7 +1,7 @@
 ---
 layout: devotional
-title:  "Devocional 13 Mayo 2025"
-date:   2025-05-13 05:00:00 -0600
+title:  "Devocional 05 Mayo 2025"
+date:   2025-05-05 05:00:00 -0600
 author: Steve Torres
 categories: Devotional, Revelation
 lang: es
