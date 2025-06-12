@@ -10,13 +10,13 @@ google_analytics: G-Y0QLNLWWLX
 collections:
   devotionals:
     output: true
-    permalink: /devotionals/:title/ # Example permalink for collection items
+    permalink: /devotionals/:name/ # Example permalink for collection items
   notes:
     output: true
-    permalink: /notes/:title/
+    permalink: /notes/:name/
   class_recordings:
     output: true
-    permalink: /_class_recordings/:title/
+    permalink: /class_recordings/:name/
 
 # Default layouts for collections
 defaults:
