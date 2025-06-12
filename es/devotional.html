@@ -1,15 +1,15 @@
 ---
 layout: default
-title: Devotional
-permalink: /devotional.html
-lang: en # IMPORTANT: Ensure this page itself is marked as English
+title: Devocional # Spanish title for the page
+permalink: /es/devotional.html
+lang: es # IMPORTANT: Mark this page as Spanish
 ---
-<h2>Devotional (English)</h2>
- 
+<h2>Devocional (Español)</h2>
+
 <div class="post-container">
   {% comment %} Filter devotionals to only show those matching the current page's language {% endcomment %}
   {% assign posts = site.devotionals | where: "lang", page.lang | sort: "date" | reverse %}
- 
+
   {% for post in posts %}
     <div class="lesson-card">
       <span class="post-meta">{{ post.date | date: "%B %-d, %Y" }}</span>

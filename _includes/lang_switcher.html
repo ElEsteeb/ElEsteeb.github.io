@@ -1,26 +1,21 @@
 <nav class="language-switcher">
-  {% assign current_lang = site.active_lang | default: site.default_lang %}
+  {% assign current_lang = page.lang | default: site.default_lang %}
+
+
   {% for lang in site.languages %}
     {% if lang == current_lang %}
       <span class="active-lang">{{ lang | upcase }}</span>
     {% else %}
-      {% assign target_url = "" %}
-
       {% comment %}
-        If the current page is an 'index.html' (like / or /es/),
-        we need special handling to ensure correct language root linking.
+        Determine the target URL to the other language's index page.
+        If switching TO the default language (e.g., from ES to EN), go to site root '/'.
+        If switching TO another language (e.g., from EN to ES), go to '/lang/'.
       {% endcomment %}
-      {% if page.name == 'index.html' %}
-        {% if lang == site.default_lang %}
-          {% comment %} If switching to the default language's index, link to the site root "/" {% endcomment %}
-          {% assign target_url = '/' %}
-        {% else %}
-          {% comment %} If switching to another language's index, link to "/lang/" {% endcomment %}
-          {% assign target_url = '/' | append: lang | append: '/' %}
-        {% endif %}
+      {% assign target_url = "" %}
+      {% if lang == site.default_lang %}
+        {% assign target_url = '/' %}
       {% else %}
-        {% comment %} For all other pages (not index.html), use polyglot's lang_url filter {% endcomment %}
-        {% assign target_url = page.url | lang_url: lang %}
+        {% assign target_url = '/' | append: lang | append: '/' %}
       {% endif %}
 
       <a href="{{ target_url | relative_url }}">{{ lang | upcase }}</a>

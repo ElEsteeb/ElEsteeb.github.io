@@ -2,6 +2,7 @@
 layout: default
 title: Home
 permalink: / # ADD THIS LINE
+lang: en # Set the language to English
 ---
 <h2>Esteeb.com</h2>
 
@@ -13,10 +14,11 @@ permalink: / # ADD THIS LINE
 <div class="post-container">
    {% assign temp_empty_array = "" | split: "" %}
 
-   {% assign devotionals = site.devotionals | default: temp_empty_array | sort: "date" | reverse %}
-   {% assign notes = site.notes | default: temp_empty_array | sort: "date" | reverse %}
-   {% assign recordings = site.class_recordings | default: temp_empty_array | sort: "date" | reverse %}
+   {% assign devotionals = site.devotionals | default: temp_empty_array | where: "lang", page.lang | sort: "date" | reverse %}
+   {% assign notes = site.notes | default: temp_empty_array | where: "lang", page.lang | sort: "date" | reverse %}
+   {% assign recordings = site.class_recordings | default: temp_empty_array | where: "lang", page.lang | sort: "date" | reverse %}
 
+   {% comment %} Concatenate all language-filtered posts and sort them {% endcomment %}
    {% assign all_posts = temp_empty_array | concat: devotionals | concat: notes | concat: recordings | sort: "date" | reverse %}
 
    {% for post in all_posts limit:10 %}

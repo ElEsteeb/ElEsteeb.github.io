@@ -20,11 +20,34 @@ collections:
 
 # Default layouts for collections
 defaults:
+  # Set default language for all pages (HTML, Markdown) to English
+  - scope:
+      path: "" # Applies to all files in the root and subdirectories
+      type: "pages" # Specifically targets HTML/Markdown files that are not collections
+    values:
+      lang: "en" # Automatically set lang: en
+
+  # Your existing default for 'notes' collection (keep this)
   - scope:
       path: ""
       type: "notes"
     values:
       layout: "essay"
+  - scope:
+      path: ""
+      type: "devotionals"
+    values:
+      lang: "en"
+  - scope:
+      path: ""
+      type: "notes"
+    values:
+      lang: "en"
+  - scope:
+      path: ""
+      type: "class_recordings"
+    values:
+      lang: "en"
 
 plugins:
   - jekyll-seo-tag
@@ -33,7 +56,6 @@ plugins:
 languages: ["en", "es"] # Your supported languages
 default_lang: "en"     # Your existing site's language (English in this case)
 lang_from_path: true 
-active_lang: "en"
 exclude_from_localization:
   - "assets"
   - "_data"

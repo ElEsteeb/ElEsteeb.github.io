@@ -5,20 +5,55 @@
     <div class="bar"></div>
   </div>
   <div class="nav-links">
-    <a href="{{ '/' | relative_url }}" {% if page.url == '/' %}style="color: red;"{% endif %}>
-      {{ site.data.locales[site.active_lang].navigation.home }}
+    {% comment %}
+      Home link: This logic is already correct for the root path.
+      It points to "/" for English and "/es/" for Spanish.
+    {% endcomment %}
+    {% assign home_target_url = '/' %}
+    {% if page.lang != site.default_lang %}
+      {% assign home_target_url = '/' | append: page.lang | append: '/' %}
+    {% endif %}
+    <a href="{{ home_target_url | relative_url }}" {% if page.url == home_target_url %}style="color: red;"{% endif %}>
+      {{ site.data.locales[page.lang].navigation.home }}
     </a>
-    <a href="{{ '/devotional.html' | relative_url }}" {% if page.url == '/devotional.html' %}style="color: red;"{% endif %}>
-      {{ site.data.locales[site.active_lang].navigation.devotional }}
+
+    {% comment %}
+      Devotional link: Explicitly set the URL based on the current page's language.
+      If on a Spanish page (page.lang == 'es'), link to /es/devotional.html.
+      Otherwise (e.g., on English page), link to /devotional.html.
+    {% endcomment %}
+    {% assign devotional_target_url = '/devotional.html' %}
+    {% if page.lang == 'es' %}
+      {% assign devotional_target_url = '/es/devotional.html' %}
+    {% endif %}
+    <a href="{{ devotional_target_url | relative_url }}" {% if page.url == devotional_target_url %}style="color: red;"{% endif %}>
+      {{ site.data.locales[page.lang].navigation.devotional }}
     </a>
-    <a href="{{ '/notes.html' | relative_url }}" {% if page.url == '/notes.html' %}style="color: red;"{% endif %}>
-      {{ site.data.locales[site.active_lang].navigation.class_notes }}
+
+    {% comment %}
+      Notes link: Apply the same explicit logic.
+    {% endcomment %}
+    {% assign notes_target_url = '/notes.html' %}
+    {% if page.lang == 'es' %}
+      {% assign notes_target_url = '/es/notes.html' %}
+    {% endif %}
+    <a href="{{ notes_target_url | relative_url }}" {% if page.url == notes_target_url %}style="color: red;"{% endif %}>
+      {{ site.data.locales[page.lang].navigation.class_notes }}
     </a>
-    <a href="{{ '/class_recordings.html' | relative_url }}" {% if page.url == '/class_recordings.html' %}style="color: red;"{% endif %}>
-      {{ site.data.locales[site.active_lang].navigation.class_recordings }}
+
+    {% comment %}
+      Class Recordings link: Apply the same explicit logic.
+    {% endcomment %}
+    {% assign recordings_target_url = '/class_recordings.html' %}
+    {% if page.lang == 'es' %}
+      {% assign recordings_target_url = '/es/class_recordings.html' %}
+    {% endif %}
+    <a href="{{ recordings_target_url | relative_url }}" {% if page.url == recordings_target_url %}style="color: red;"{% endif %}>
+      {{ site.data.locales[page.lang].navigation.class_recordings }}
     </a>
+    
     <div class="search-container">
-      <input type="text" id="search-input" placeholder="{{ site.data.locales[site.active_lang].navigation.search_placeholder }}">
+      <input type="text" id="search-input" placeholder="{{ site.data.locales[page.lang].navigation.search_placeholder }}">
     </div>
   </div>
 </nav>

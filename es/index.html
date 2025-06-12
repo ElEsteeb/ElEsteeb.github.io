@@ -5,30 +5,32 @@ title: Inicio # Spanish title
 lang: es # Set the language to Spanish
 ---
 
-<h2>Esteeb.com (Spanish)</h2>
+<h2>Esteeb.com (Español)</h2>
 
-<p>.</p>
+<!-- Add your text content here -->
+<div class="intro-section">
+    <p>Este sitio web está configurado para que cualquiera pueda acceder a la versión en español de los contenidos que produzco. Lo iré actualizando con más contenidos a medida que avancemos. Si tienes alguna pregunta o sugerencia, no dudes en escribirme a steve@esteeb.com .</p>
+</div>
 
-{% comment %} The post loop needs to be localized too! {% endcomment %}
-{% assign temp_empty_array = "" | split: "" %}
 
-{% assign devotionals = site.devotionals | default: temp_empty_array | sort: "date" | reverse %}
-{% assign notes = site.notes | default: temp_empty_array | sort: "date" | reverse %}
-{% assign recordings = site.class_recordings | default: temp_empty_array | sort: "date" | reverse %}
+<div class="post-container">
+   {% assign temp_empty_array = "" | split: "" %}
 
-{% assign all_posts = temp_empty_array | concat: devotionals | concat: notes | concat: recordings | sort: "date" | reverse %}
+   {% assign devotionals = site.devotionals | default: temp_empty_array | where: "lang", page.lang | sort: "date" | reverse %}
+   {% assign notes = site.notes | default: temp_empty_array | where: "lang", page.lang | sort: "date" | reverse %}
+   {% assign recordings = site.class_recordings | default: temp_empty_array | where: "lang", page.lang | sort: "date" | reverse %}
 
-{% for post in all_posts limit:10 %}
-  {% assign post_title = post.title | localize: site.active_lang %} 
-  {% comment %} Ensure the post URL is localized as well {% endcomment %}
-  {% assign post_url = post.url | localize: site.active_lang %} 
-  
-  <div class="lesson-card">
-    <span class="post-meta">{{ post.date | date: "%B %-d, %Y" }}</span> 
-    <h3>
-      <a class="post-link" href="{{ post_url | relative_url }}">
-        {{ post_title }}
-      </a>
-    </h3>
-  </div>
-{% endfor %}
+   {% comment %} Concatenate all language-filtered posts and sort them {% endcomment %}
+   {% assign all_posts = temp_empty_array | concat: devotionals | concat: notes | concat: recordings | sort: "date" | reverse %}
+
+   {% for post in all_posts limit:10 %}
+     <div class="lesson-card">
+       <span class="post-meta">{{ post.date | date: "%B %-d, %Y" }}</span>
+       <h3>
+         <a class="post-link" href="{{ post.url | relative_url }}">
+           {{ post.title }}
+         </a>
+       </h3>
+     </div>
+   {% endfor %}
+</div>
