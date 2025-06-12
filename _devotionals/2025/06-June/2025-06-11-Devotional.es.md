@@ -4,6 +4,7 @@ title:  "Devocional 11 Junio 2025"
 date:   2025-06-11 05:00:00 -0600
 author: Steve Torres
 categories: Devotional, Hebrews
+lang: es
 ---
 
 
