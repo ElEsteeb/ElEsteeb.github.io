@@ -1,0 +1,22 @@
+---
+layout: devotional
+title:  "Devocional 22 Febrero 2025"
+date:   2025-02-22 05:00:00 -0600
+author: Steve Torres
+categories: Devotional, Revelation
+lang: es
+---
+
+<div class="scripture">
+  "Miré cuando abrió el sexto sello, y he aquí hubo un gran terremoto; y el sol se puso negro como tela de cilicio, y la luna se volvió toda como sangre; y las estrellas del cielo cayeron sobre la tierra, como la higuera deja caer sus higos cuando es sacudida por un fuerte viento. Y el cielo se desvaneció como un pergamino que se enrolla; y todo monte y toda isla se removió de su lugar. Y los reyes de la tierra, y los grandes, los ricos, los capitanes, los poderosos, y todo siervo y todo libre, se escondieron en las cuevas y entre las peñas de los montes; y decían a los montes y a las peñas: Caed sobre nosotros, y escondednos del rostro de aquel que está sentado sobre el trono, y de la ira del Cordero; porque el gran día de su ira ha llegado; ¿y quién podrá sostenerse en pie?"(Apocalipsis 7:12-17, RVR1960)
+</div>
+
+El mundo tiembla ante la idea del juicio, pero pocos comprenden que el mayor juicio jamás derramado en la historia no fue contra los paganos, sino contra Jerusalén, la ciudad que había rechazado a su Rey. El sexto sello no describe el fin del mundo, sino el fin de UN mundo: el mundo del Antiguo Pacto centrado en el templo y los sacrificios. Jesús mismo predijo este juicio en Lucas 21:20-22, advirtiendo que cuando los ejércitos rodearan Jerusalén, serían "días de venganza, para que se cumpla todo lo que está escrito." Lo que Juan ve en esta visión es el mismo juicio que Jesús declaró sobre Israel en Mateo 23:35-36, donde condenó a esa generación por la sangre de los profetas, culminando en Su propia crucifixión.
+
+Las imágenes cósmicas -el sol oscurecido, la luna como sangre y las estrellas cayendo- fueron utilizadas por Isaías y Ezequiel para describir la caída de Babilonia (Isaías 13:6-13) y Egipto (Ezequiel 32:6-9). No se trataba de acontecimientos astronómicos literales, sino de símbolos de la destrucción total de una nación corrupta por parte de Dios. Del mismo modo, el saqueo romano de Jerusalén en el año 70 d.C. supuso el desmoronamiento total del mundo judío. La ciudad ardió, el templo quedó reducido a escombros y más de un millón de personas perecieron. Los que habían rechazado a Cristo gritaron aterrorizados, escondiéndose en cuevas y pidiendo que las montañas cayeran sobre ellos, tal y como Jesús había advertido en el drama de su propia crucifixión en Lucas 23:30. 
+
+Sin embargo, este juicio no fue echo sin razón. La Iglesia primitiva sufrió persecución a manos del pueblo incrédulo de Israel, al igual que sus antepasados habían matado a los profetas. Cuando Esteban fue martirizado, reprendió a los líderes judíos diciendo: "¿A cuál de los profetas no persiguieron vuestros padres?"  (Hechos 7:52). La destrucción de Jerusalén fue también la vindicación de Dios para sus santos, demostrando que ningún pecado queda sin respuesta, ninguna injusticia es olvidada. La ira del Cordero es aterradora, no porque sea cruel, sino porque es perfectamente justa.
+
+Este pasaje sirve también de advertencia a todas las naciones y pueblos de hoy. Si Dios no libró del juicio a Jerusalén, su propio pueblo del pacto, ¿cuánto más juzgará a los que rechazan a su Hijo? Hebreos 10:31 nos recuerda: "Temible cosa es caer en manos del Dios vivo". Todo reino que se oponga a Cristo caerá. Todo poder que se enaltece será humillado (Daniel 2:44). Incluso ahora, vemos a las naciones enfurecerse contra el gobierno de Cristo, pero Su juicio es seguro (Salmo 2). Él es el Cordero, pero también es el León, y su justicia no dormirá para siempre.
+
+Sin embargo, para los que confían en Él, este juicio no es un terror, sino un consuelo. Así como la destrucción de Jerusalén vindicó a los santos, también el juicio final de cada nación que se opone al Reino de Dios traerá justicia a todo mal. Llegará el día en que todo mal será finalmente aplastado, y toda lágrima será secada (Apocalipsis 21:4). Hasta entonces, nos mantenemos firmes, proclamando Su reino, sabiendo que aunque la tierra tiemble, Su trono permanece inconmovible. "¿Quién podrá sostenerse en pie?" Sólo aquellos que están cubiertos por la sangre del Cordero.
