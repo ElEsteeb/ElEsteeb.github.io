@@ -51,7 +51,15 @@
     <a href="{{ recordings_target_url | relative_url }}" {% if page.url == recordings_target_url %}style="color: red;"{% endif %}>
       {{ site.data.locales[page.lang].navigation.class_recordings }}
     </a>
-    
+
+    {% comment %} Donation Link - English Only for now {% endcomment %}
+    {% assign donate_target_url = '/donate.html' %}
+    {% if page.lang == 'en' %} 
+      <a href="{{ donate_target_url | relative_url }}" {% if page.url == donate_target_url %}style="color: red;"{% endif %}>
+        Donate
+      </a>
+    {% endif %}
+
     <div class="search-container">
       <input type="text" id="search-input" placeholder="{{ site.data.locales[page.lang].navigation.search_placeholder }}">
     </div>
