@@ -1,10 +1,23 @@
 ---
 layout: default
-title: Notes
-permalink: /es/notes.html # ADD THIS LINE
+title: Apuntes # Spanish title for the page
+permalink: /es/notes.html # THIS IS CRUCIAL for the Spanish URL
 lang: es # IMPORTANT: Mark this page as Spanish
 ---
-<h2>Notas</h2>
-<div class="intro-section">
-    <p>Esta página aún no se ha creado. Vuelva más tarde para ver la actualización. Agradecemos su paciencia.</p>
+<h2>Apuntes (Español)</h2>
+
+<div class="post-container">
+  {% comment %} Filter notes to only show those matching the current page's language (Spanish) {% endcomment %}
+  {% assign posts = site.notes | where: "lang", page.lang | sort: "date" | reverse %}
+
+  {% for post in posts %}
+    <div class="lesson-card">
+      <span class="post-meta">{{ post.date | date: "%B %-d, %Y" }}</span>
+      <h3>
+        <a class="post-link" href="{{ post.url | relative_url }}">
+          {{ post.title }}
+        </a>
+      </h3>
+    </div>
+  {% endfor %}
 </div>

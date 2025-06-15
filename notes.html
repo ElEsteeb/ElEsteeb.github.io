@@ -1,12 +1,14 @@
 ---
 layout: default
 title: Notes
-permalink: /notes.html # ADD THIS LINE
+permalink: /notes.html # Ensure this line is present
+lang: en # IMPORTANT: Mark this page itself as English
 ---
-<h2>Notes</h2>
+<h2>Notes (English)</h2>
   
 <div class="post-container">
-  {% assign posts = site.notes | sort: "date" | reverse %}
+  {% comment %} Filter notes to only show those matching the current page's language (English) {% endcomment %}
+  {% assign posts = site.notes | where: "lang", page.lang | sort: "date" | reverse %}
   
   {% for post in posts %}
     <div class="lesson-card">

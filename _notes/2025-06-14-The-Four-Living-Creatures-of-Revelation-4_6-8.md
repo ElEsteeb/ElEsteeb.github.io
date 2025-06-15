@@ -4,6 +4,7 @@ title:  "The Four Living Creatures of Revelation 4:6-8"
 date:   2025-06-14 10:00:00 -0600
 author: Steve Torres
 categories: Class Notes, Revelation, Eschatology, Church, God, Angels
+lang: en
 ---
 
 ## Heavenly Representatives of Creation Reflecting God’s Glory
