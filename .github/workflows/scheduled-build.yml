@@ -26,8 +26,7 @@ jobs:
         bundler-cache: true # Installs gems from Gemfile.lock
 
     - name: Build Jekyll site
-      run: bundle exec jekyll build
-
+       run: bundle exec jekyll build --future false # <-- Make sure this line is updated
     - name: Commit and push changes
       run: |
         git config user.name "GitHub Actions Bot"
