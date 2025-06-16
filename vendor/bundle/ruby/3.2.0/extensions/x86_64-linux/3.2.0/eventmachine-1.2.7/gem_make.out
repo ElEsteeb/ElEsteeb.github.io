@@ -1,0 +1,19 @@
+current directory: /home/runner/work/ElEsteeb.github.io/ElEsteeb.github.io/vendor/bundle/ruby/3.2.0/gems/eventmachine-1.2.7/ext/fastfilereader
+/opt/hostedtoolcache/Ruby/3.2.8/x64/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /home/runner/work/ElEsteeb.github.io/ElEsteeb.github.io/vendor/bundle/ruby/3.2.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= sitearchdir\=./.gem.20250616-1962-4uazpf sitelibdir\=./.gem.20250616-1962-4uazpf clean
+
+current directory: /home/runner/work/ElEsteeb.github.io/ElEsteeb.github.io/vendor/bundle/ruby/3.2.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= sitearchdir\=./.gem.20250616-1962-4uazpf sitelibdir\=./.gem.20250616-1962-4uazpf
+compiling mapper.cpp
+compiling rubymain.cpp
+linking shared-object fastfilereaderext.so
+
+current directory: /home/runner/work/ElEsteeb.github.io/ElEsteeb.github.io/vendor/bundle/ruby/3.2.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= sitearchdir\=./.gem.20250616-1962-4uazpf sitelibdir\=./.gem.20250616-1962-4uazpf install
+/usr/bin/install -c -m 0755 fastfilereaderext.so ./.gem.20250616-1962-4uazpf
+
+current directory: /home/runner/work/ElEsteeb.github.io/ElEsteeb.github.io/vendor/bundle/ruby/3.2.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= sitearchdir\=./.gem.20250616-1962-4uazpf sitelibdir\=./.gem.20250616-1962-4uazpf clean
