@@ -6,7 +6,7 @@ author: Steve Torres
 categories: Devotional, Hebrews
 lang: es
 ---
-<img src="https://sitemedia.esteeb.com/file/esteebcomsitemedia/devotional_images/Hebrews/ES-Heb-5_7.jpg?raw=true" alt="Hebreos 5:7.jpg" style="max-width: 100%; height: auto;">
+<img src="https://sitemedia.esteeb.com/file/esteebcomsitemedia/devotional_images/Hebrews/Es-Heb-5_7.jpg?raw=true" alt="Hebreos 5:7.jpg" style="max-width: 100%; height: auto;">
 
 <div class="scripture">
   "Como también dice en otro pasaje: Tú eres sacerdote para siempre según el orden de Melquisedec. Cristo, en los días de su carne, habiendo ofrecido oraciones y súplicas con gran clamor y lágrimas al que podía librarle de la muerte, fue oído a causa de su temor reverente" (Hebreos 5:6-7, RVR1960)
