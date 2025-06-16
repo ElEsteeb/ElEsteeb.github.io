@@ -18,3 +18,7 @@ vendor/bundle/
 # Editor/IDE specific files
 .vscode/
 .idea/
+
+# Planning Files
+# These files are used for planning and should not be included in the repository
+_planning/
