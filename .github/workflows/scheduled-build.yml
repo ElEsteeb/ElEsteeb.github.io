@@ -5,8 +5,9 @@ on:
     # Runs at 11:00 UTC, every day.
     # This corresponds to 5:00 AM CST (UTC-6).
     # Learn more about cron schedules here: https://crontab.guru/
-    - cron: '0 11 * * *' # Changed from '0 0 * * *'
+    - cron: '0 11 * * *'
 
+  # This allows you to manually trigger the workflow from the GitHub Actions tab in your repository
   workflow_dispatch:
 
 jobs:
@@ -25,8 +26,9 @@ jobs:
         ruby-version: '3.x' # IMPORTANT: Use the Ruby version specified in your Gemfile or that GitHub Pages uses (usually 3.x)
         bundler-cache: true # Installs gems from Gemfile.lock
 
-    - name: Build Jekyll site
-       run: bundle exec jekyll build --future false # <-- Make sure this line is updated
+    - name: Build Jekyll site # <-- This is your problem line (approx 29 in your file)
+      run: bundle exec jekyll build --future false # <-- This needs to be indented and on its own line
+
     - name: Commit and push changes
       run: |
         git config user.name "GitHub Actions Bot"
