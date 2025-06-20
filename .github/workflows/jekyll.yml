@@ -1,4 +1,4 @@
-name: Scheduled Jekyll Rebuild v.3
+name: Scheduled Jekyll Rebuild
 
 on:
   schedule:
@@ -8,35 +8,42 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write # <--- ADD THIS BLOCK HERE
+  contents: write
 
 jobs:
   build_and_deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+    - name: Checkout code
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Ensure vendor/bundle directory is writable # <--- ADD THIS NEW STEP
-        run: |
-          mkdir -p vendor/bundle
-          chmod -R 777 vendor/bundle # Grant full permissions for testing. We can refine this later if it works.
+    - name: Ensure vendor/bundle directory is writable # <--- ADD THIS NEW STEP
+      run: |
+        mkdir -p vendor/bundle
+        chmod -R 777 vendor/bundle # Grant full permissions for testing. We can refine this later if it works.
 
-      - name: Set up Ruby
-        uses: ruby/setup-ruby@v1
-        with:
-          ruby-version: '3.2.8' # Use the specific version that works (e.g., '3.2.8')
-          bundler-cache: true
+    - name: Set up Ruby
+      uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: '3.2.8'
+        bundler-cache: true
 
-      - name: Build Jekyll site
-        run: bundle exec jekyll build --future false
+    - name: Build Jekyll site
+      run: bundle exec jekyll build --future false
 
-      - name: Commit and push changes
-        run: |
-          git config user.name "GitHub Actions Bot"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add -A .
-          git commit -m "Scheduled build: Triggered by cron" || echo "No changes to commit"
-          git push
+    - name: Debug _site contents
+      run: |
+        echo "Listing contents of _site/devotionals/"
+        ls -F _site/devotionals/
+        echo "Listing contents of _site/devotionals/2025/06-June/"
+        ls -F _site/devotionals/2025/06-June/
+
+    - name: Commit and push changes
+      run: |
+        git config user.name "GitHub Actions Bot"
+        git config user.email "github-actions[bot]@users.noreply.github.com"
+        git add -A .
+        git commit -m "Scheduled build: Triggered by cron" || echo "No changes to commit"
+        git push
