@@ -16,10 +16,10 @@ La vida puede ser dura, muy dura. Y ante las pruebas, nuestros corazones pueden 
 
 Cuando Jesús se ofreció a sí mismo como sacrificio definitivo por el pecado, no solo cubrió temporalmente la culpa. Rasgó el velo, la cortina que simbolizaba la barrera entre Dios y el hombre, con su propia carne. Este "camino nuevo y vivo" nos da acceso seguro al Padre, no basado en nuestras obras, sino en la obra consumada de Cristo.
 
-Y Él sigue vivo. Como declara Hebreos 7:25: "Él vive siempre para interceder por ellos". Por eso nuestra esperanza es más que una ilusión. Es una esperanza viva basada en un Cristo vivo (1 Pedro 1:3).
+Y Él sigue vivo. Como declara Hebreos 7:25: "viviendo siempre para interceder por ellos". Por eso nuestra esperanza es más que una ilusión. Es una esperanza viva basada en un Cristo vivo (1 Pedro 1:3).
 
 Pablo se hace eco de esta verdad en Romanos 8:32-34, recordándonos que "El que no escatimó ni a su propio Hijo, sino que lo entregó por todos nosotros, ¿cómo no nos dará también con él todas las cosas?". Ninguna acusación puede sostenerse contra aquellos a quienes Cristo ha justificado. Él murió, resucitó y ahora intercede por nosotros desde la diestra de Dios.
 
-Por eso no nos desanimamos. Aunque el mundo nos presiona, Jesús dice: "confiad, yo he vencido al mundo" (Juan 16:33). Y Apocalipsis 1:18 declara con valentía: «Yo morí, y he aquí que vivo por los siglos de los siglos, y tengo las llaves de la muerte y del Hades».
+Por eso no nos desanimamos. Aunque el mundo nos presiona, Jesús dice: "confiad, yo he vencido al mundo" (Juan 16:33). Y Apocalipsis 1:18 declara con valentía: "estuve muerto; mas he aquí que vivo por los siglos de los siglos, amén. Y tengo las llaves de la muerte y del Hades".
 
 Por lo tanto, mantengamos firme nuestra confesión. Nuestra esperanza no está en consuelos fugaces ni en alivios temporales. Está anclada en la vida eterna de Jesucristo, el que murió por nosotros, resucitó y ahora vive para llevarnos a la presencia misma de Dios.
