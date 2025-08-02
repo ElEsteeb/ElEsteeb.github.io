@@ -4,7 +4,7 @@ title:  "Devocional 02 Agosto 2025"
 date:   2025-08-02 04:00:00 -0600
 author: Steve Torres
 categories: Devotional, Hebrews
-lang: en
+lang: es
 ---
 <img src="https://sitemedia.esteeb.com/file/esteebcomsitemedia/devotional_images/Hebrews/ES-Heb-11_39-40.jpg?raw=true" alt="Hebrews 11:39-40.jpg" style="max-width: 100%; height: auto;">
 

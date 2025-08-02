@@ -4,7 +4,7 @@ title:  "Devocional 26 Julio 2025"
 date:   2025-07-26 04:00:00 -0600
 author: Steve Torres
 categories: Devotional, Hebrews
-lang: en
+lang: es
 ---
 <img src="https://sitemedia.esteeb.com/file/esteebcomsitemedia/devotional_images/Hebrews/ES-Heb-11_23.jpg?raw=true" alt="Hebrews 11:23.jpg" style="max-width: 100%; height: auto;">
 

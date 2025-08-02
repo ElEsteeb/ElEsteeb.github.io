@@ -4,7 +4,7 @@ title:  "Devocional 31 Julio 2025"
 date:   2025-07-31 04:00:00 -0600
 author: Steve Torres
 categories: Devotional, Hebrews
-lang: en
+lang: es
 ---
 <img src="https://sitemedia.esteeb.com/file/esteebcomsitemedia/devotional_images/Hebrews/ES-Heb-11_30.jpg?raw=true" alt="Hebrews 11:30.jpg" style="max-width: 100%; height: auto;">
 
