@@ -1,12 +1,12 @@
 ---
 layout: devotional
-title:  "Devotional 09 August 2025"
-date:   2025-08-09 04:00:00 -0600
+title:  "Devotional 12 August 2025"
+date:   2025-08-12 04:00:00 -0600
 author: Steve Torres
 categories: Devotional, Hebrews
 lang: en
 ---
-<img src="https://sitemedia.esteeb.com/file/esteebcomsitemedia/devotional_images/Hebrews/Heb-13_7.jpg?raw=true" alt="Hebrews 13:7.jpg" style="max-width: 100%; height: auto;">
+<img src="https://sitemedia.esteeb.com/file/esteebcomsitemedia/devotional_images/Hebrews/Heb-13_8.jpg?raw=true" alt="Hebrews 13:8.jpg" style="max-width: 100%; height: auto;">
 
 <div class="scripture">
   "Jesus Christ is the same yesterday and today and forever. Do not be led away by diverse and strange teachings, for it is good for the heart to be strengthened by grace, not by foods, which have not benefited those devoted to them. We have an altar from which those who serve the tent have no right to eat." (Hebrews 13:8–10, ESV)
