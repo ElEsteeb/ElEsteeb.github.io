@@ -1,7 +1,7 @@
 ---
 layout: devotional
-title:  "Devotional 09 August 2025"
-date:   2025-08-09 04:00:00 -0600
+title:  "Devotional 11 August 2025"
+date:   2025-08-11 04:00:00 -0600
 author: Steve Torres
 categories: Devotional, Hebrews
 lang: en
