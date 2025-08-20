@@ -1,7 +1,7 @@
 ---
 layout: devotional
-title:  "Devocional 18 Agosto 2025"
-date:   2025-08-18 04:00:00 -0600
+title:  "Devocional 20 Agosto 2025"
+date:   2025-08-20 04:00:00 -0600
 author: Steve Torres
 categories: Devotional, 1 Peter
 lang: es
