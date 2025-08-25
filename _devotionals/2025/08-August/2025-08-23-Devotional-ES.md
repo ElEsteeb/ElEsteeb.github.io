@@ -1,12 +1,12 @@
 ---
 layout: devotional
-title:  "Devocional 21 Agosto 2025"
-date:   2025-08-21 04:00:00 -0600
+title:  "Devocional 23 Agosto 2025"
+date:   2025-08-23 04:00:00 -0600
 author: Steve Torres
 categories: Devotional, 1 Peter
 lang: es
 ---
-<img src="https://sitemedia.esteeb.com/file/esteebcomsitemedia/devotional_images/1+Peter/ES-1Pe-1_12.jpg?raw=true" alt="1 Peter 1:12.jpg" style="max-width: 100%; height: auto;">
+<img src="https://sitemedia.esteeb.com/file/esteebcomsitemedia/devotional_images/1+Peter/ES-1Pe-1_18.jpg?raw=true" alt="1 Peter 1:18.jpg" style="max-width: 100%; height: auto;">
 
 <div class="scripture">
    “Y si invocáis por Padre a aquel que sin acepción de personas juzga según la obra de cada uno, conducíos en temor todo el tiempo de vuestra peregrinación; sabiendo que fuisteis rescatados de vuestra vana manera de vivir, la cual recibisteis de vuestros padres, no con cosas corruptibles, como oro o plata, sino con la sangre preciosa de Cristo, como de un cordero sin mancha y sin contaminación, ya destinado desde antes de la fundación del mundo, pero manifestado en los postreros tiempos por amor de vosotros, y mediante el cual creéis en Dios, quien le resucitó de los muertos y le ha dado gloria, para que vuestra fe y esperanza sean en Dios.” (1 Pedro 1:17–21, RVR1960)

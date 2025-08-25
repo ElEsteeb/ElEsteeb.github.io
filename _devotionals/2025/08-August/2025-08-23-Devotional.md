@@ -6,7 +6,7 @@ author: Steve Torres
 categories: Devotional, 1 Peter
 lang: en
 ---
-<img src="https://sitemedia.esteeb.com/file/esteebcomsitemedia/devotional_images/1+Peter/1Pe-1_17.jpg?raw=true" alt="1 Peter 1:17.jpg" style="max-width: 100%; height: auto;">
+<img src="https://sitemedia.esteeb.com/file/esteebcomsitemedia/devotional_images/1+Peter/1Pe-1_18.jpg?raw=true" alt="1 Peter 1:18.jpg" style="max-width: 100%; height: auto;">
 
 <div class="scripture">
   “And if you call on him as Father who judges impartially according to each one’s deeds, conduct yourselves with fear throughout the time of your exile, knowing that you were ransomed from the futile ways inherited from your forefathers, not with perishable things such as silver or gold, but with the precious blood of Christ, like that of a lamb without blemish or spot. He was foreknown before the foundation of the world but was made manifest in the last times for the sake of you, who through him are believers in God, who raised him from the dead and gave him glory, so that your faith and hope are in God.” (1 Peter 1:17–21, ESV)
