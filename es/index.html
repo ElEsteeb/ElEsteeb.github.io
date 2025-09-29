@@ -23,7 +23,8 @@ lang: es # Set the language to Spanish
    {% comment %} Concatenate all language-filtered posts and sort them {% endcomment %}
    {% assign all_posts = temp_empty_array | concat: devotionals | concat: notes | concat: recordings | sort: "date" | reverse %}
 
-   {% for post in all_posts limit:10 %}
+   {% assign visible_posts = all_posts | where_exp: "post", "post.date <= site.time" %}
+    {% for post in visible_posts limit:10 %}
      <div class="lesson-card">
        <span class="post-meta">{{ post.date | date: "%B %-d, %Y" }}</span>
        <h3>
