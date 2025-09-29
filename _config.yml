@@ -13,10 +13,10 @@ timezone: America/Chicago
 collections:
   devotionals:
     output: true
-    permalink: /:lang/devotionals/:name/ # Example permalink for collection items
+    permalink: /devotionals/:name/ # Example permalink for collection items
   notes:
     output: true
-    permalink: /:lang/notes/:name/
+    permalink: /notes/:name/
   class_recordings:
     output: true
     permalink: /class_recordings/:name/
