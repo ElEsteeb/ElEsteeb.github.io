@@ -11,25 +11,4 @@ lang: en # Set the language to English
     <p>This website is designed to extend our Sunday School research beyond the classroom. Whether you're looking to revisit a lesson with the <a href="{{ '/class_recordings.html' | relative_url }}">Class Recordings</a>, spend some quiet time with the <a href="{{ '/devotional.html' | relative_url }}">Daily Devotional</a>, or delve deeper with <a href="{{ '/notes.html' | relative_url }}">Class Notes</a>, I hope you'll find valuable resources here. Take a moment to browse and see what fun things you can find! Below are a list of some of the newest posts.</p>
 </div>
 
-<div class="post-container">
-   {% assign temp_empty_array = "" | split: "" %}
-
-   {% assign devotionals = site.devotionals | default: temp_empty_array | where: "lang", page.lang | sort: "date" | reverse %}
-   {% assign notes = site.notes | default: temp_empty_array | where: "lang", page.lang | sort: "date" | reverse %}
-   {% assign recordings = site.class_recordings | default: temp_empty_array | where: "lang", page.lang | sort: "date" | reverse %}
-
-   {% comment %} Concatenate all language-filtered posts and sort them {% endcomment %}
-   {% assign all_posts = temp_empty_array | concat: devotionals | concat: notes | concat: recordings | sort: "date" | reverse %}
-
-   {% assign visible_posts = all_posts | where_exp: "post", "post.date <= site.time" %}
-    {% for post in visible_posts limit:10 %}
-     <div class="lesson-card">
-       <span class="post-meta">{{ post.date | date: "%B %-d, %Y" }}</span>
-       <h3>
-         <a class="post-link" href="{{ post.url | relative_url }}">
-           {{ post.title }}
-         </a>
-       </h3>
-     </div>
-   {% endfor %}
-</div>
+{% include home-posts.html lang="en" %}
