@@ -1,6 +1,6 @@
 title: Esteeb.com
 description: Information for my Sunday School class, and friends of the church.
-permalink: /:categories/:year-:month-:day-:title # Ensure this works well for both languages within their folders
+permalink: /:year/:month/:day/:title/ # Ensure this works well for both languages within their folders
 url: "https://www.esteeb.com"  # Your custom domain
 baseurl: ""                    # Empty since your site is at the root of the domain
 
