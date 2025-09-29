@@ -4,6 +4,7 @@ title:  "Enduring Through Tribulation"
 date:   2025-03-14 10:00:00 -0600
 author: Steve Torres
 categories: Class Notes, Revelation, Eschatology, Church, Tribulation, Jesus
+lang: en
 ---
 [Download PDF](https://drive.google.com/file/d/1OffG0B1-yRrMB6nbvoMPIs8Ex2qNaToM/view)
 

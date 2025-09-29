@@ -3,6 +3,7 @@ title:  "Revelation 2:1-7: Letter to Ephesus"
 date:   2025-03-01 01:00:00 -0600
 author: Steve Torres
 categories: Class Notes, Revelation, Eschatology
+lang: en
 ---
 
 [Download Slides PDF](https://drive.google.com/file/d/1WzWsFF6qq7Q0IxNbCJ4BkF-e0OHOZMK8/view)

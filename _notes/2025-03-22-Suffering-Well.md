@@ -4,6 +4,7 @@ title:  "Suffering Well"
 date:   2025-03-22 10:00:00 -0600
 author: Steve Torres
 categories: Class Notes, Revelation, Eschatology, Church, Tribulation, Jesus, Suffering
+lang: en
 ---
 <a href="https://sitemedia.esteeb.com/file/esteebcomsitemedia/docs/Revelation/Suffering-Well.pdf" download>Download PDF</a>
 

@@ -9,4 +9,5 @@ resources:
     url: "https://drive.google.com/file/d/1Bm-pUytclMmHfyifBYKh_2YFoqaSIao4VIYKpveFFkE/view"
   - name: "Download PDF"
     url: "https://drive.google.com/file/d/1p3Ze5V5g7wci0zyev_0XosMN8FVjSjr-/view"
+lang: en
 ---

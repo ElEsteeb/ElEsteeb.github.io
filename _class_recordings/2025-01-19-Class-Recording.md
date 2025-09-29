@@ -7,4 +7,5 @@ audio_url: "https://drive.google.com/file/d/1eShzMHyQrXIgQCerXYe4n2eu2Q1c4oOm/pr
 resources:
   - name: "Download PDF"
     url: "https://drive.google.com/file/d/1FtYGqP9VSY7Z-EsL3VDlsVFWrVW7BZF3/view"
+lang: en
 ---

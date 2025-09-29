@@ -4,6 +4,7 @@ title:  "Devotional 22 January 2025"
 date:   2025-01-22 08:00:00 -0600
 author: Steve Torres
 categories: Devotional, Revelation
+lang: en
 ---
 
 >**Revelation 3:2-3 ESV**

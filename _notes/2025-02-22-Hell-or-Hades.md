@@ -3,6 +3,7 @@ title:  "Hell or Hades"
 date:   2025-02-22 09:00:00 -0600
 author: Steve Torres
 categories: Revelation
+lang: en
 ---
 
 [Download PDF](https://drive.google.com/file/d/1nR223PIYAnWoOX73AEmgeuowEacygTAW/view)

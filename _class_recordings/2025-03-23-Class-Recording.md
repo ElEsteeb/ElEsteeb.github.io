@@ -7,4 +7,5 @@ audio_url: "https://sitemedia.esteeb.com/file/esteebcomsitemedia/class_recording
 resources:
   - name: "Download Slides"
     url: "https://sitemedia.esteeb.com/file/esteebcomsitemedia/docs/Revelation/Suffering-Well.pdf"
+lang: en
 ---

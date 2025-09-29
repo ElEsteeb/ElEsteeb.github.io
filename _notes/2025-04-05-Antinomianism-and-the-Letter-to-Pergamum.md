@@ -4,6 +4,7 @@ title:  "Antinomianism and the Letter to Pergamum"
 date:   2025-04-05 10:00:00 -0600
 author: Steve Torres
 categories: Class Notes, Revelation, Eschatology, Church, Tribulation, Jesus, Antinomianism
+lang: en
 ---
 
 ## The Danger of Compromise and Christ's Authority as Judge

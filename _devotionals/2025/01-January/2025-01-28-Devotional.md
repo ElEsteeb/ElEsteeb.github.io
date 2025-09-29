@@ -4,6 +4,7 @@ title:  "Devotional 28 January 2025"
 date:   2025-01-28 08:00:00 -0600
 author: Steve Torres
 categories: Devotional, Revelation
+lang: en
 ---
 
 <iframe src="https://drive.google.com/file/d/1Z57JTNBjFPvULz0iCYiSC042KSNDKzU2/preview" width="640" height="480" allow="autoplay"></iframe>

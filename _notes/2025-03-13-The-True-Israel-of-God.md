@@ -3,6 +3,7 @@ title:  "The True Israel of God"
 date:   2025-03-13 01:00:00 -0600
 author: Steve Torres
 categories: Class Notes, Revelation, Eschatology, Church, Israel, Jesus
+lang: en
 ---
 [Download PDF](https://drive.google.com/file/d/1MLlw0oERpsj7kZv7ixETmNxsOwu6QhfZ/view)
 

@@ -4,6 +4,7 @@ title:  "Devotional 15 February 2025"
 date:   2025-02-15 07:00:00 -0600
 author: Steve Torres
 categories: Devotional, Revelation
+lang: en
 ---
 <img src="https://github.com/ElEsteeb/ElEsteeb.github.io/blob/main/images/devotionals/Rev-5_13-14.jpg?raw=true" alt="Revelation 5:13-14.jpg" style="max-width: 80%; height: auto;">
 

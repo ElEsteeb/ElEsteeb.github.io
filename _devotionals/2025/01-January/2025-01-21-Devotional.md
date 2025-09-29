@@ -4,6 +4,7 @@ title:  "Devotional 21 January 2025"
 date:   2025-01-21 08:00:00 -0600
 author: Steve Torres
 categories: Devotional, Revelation
+lang: en
 ---
 
 

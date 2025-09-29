@@ -4,6 +4,7 @@ title:  "Devotional 31 January 2025"
 date:   2025-01-31 08:00:00 -0600
 author: Steve Torres
 categories: Devotional, Revelation
+lang: en
 ---
 <img src="https://github.com/ElEsteeb/ElEsteeb.github.io/blob/main/images/devotionals/Rev-3_20-22.jpg?raw=true" alt="Rev 3:20-22" style="max-width: 80%; height: auto;">
 

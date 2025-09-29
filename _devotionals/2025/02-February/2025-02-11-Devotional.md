@@ -4,6 +4,7 @@ title:  "Devotional 11 February 2025"
 date:   2025-02-11 08:00:00 -0600
 author: Steve Torres
 categories: Devotional, Revelation
+lang: en
 ---
 <img src="https://github.com/ElEsteeb/ElEsteeb.github.io/blob/main/images/devotionals/Rev-5_4-5.jpg?raw=true" alt="Revelation 5:4-5.jpg" style="max-width: 80%; height: auto;">
 

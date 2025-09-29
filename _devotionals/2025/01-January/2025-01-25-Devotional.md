@@ -4,6 +4,7 @@ title:  "Devotional 25 January 2025"
 date:   2025-01-25 08:00:00 -0600
 author: Steve Torres
 categories: Devotional, Revelation
+lang: en
 ---
 
 >**Revelation 3:8-10 ESV**

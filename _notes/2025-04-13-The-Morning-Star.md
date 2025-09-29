@@ -4,6 +4,7 @@ title:  "The Morning Star"
 date:   2025-04-13 10:00:00 -0600
 author: Steve Torres
 categories: Class Notes, Revelation, Eschatology, Church, Tribulation, Jesus, Morning Star, Thyatira
+lang: en
 ---
 
 ## Christ's Message to Thyatira in Revelation 2:18-29

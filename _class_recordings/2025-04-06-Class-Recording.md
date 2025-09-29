@@ -9,4 +9,5 @@ resources:
     url: "https://sitemedia.esteeb.com/file/esteebcomsitemedia/docs/Revelation/Antinomianism-and-the-Letter-to-Pergamum.pdf"
   - name: "Download Slides"
     url: "https://sitemedia.esteeb.com/file/esteebcomsitemedia/docs/Revelation/Antinomianism-and-the-Letter-to-Pergamum-Slides.pdf"
+lang: en
 ---

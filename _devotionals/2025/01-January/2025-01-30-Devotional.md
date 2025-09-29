@@ -4,6 +4,7 @@ title:  "Devotional 30 January 2025"
 date:   2025-01-30 08:00:00 -0600
 author: Steve Torres
 categories: Devotional, Revelation
+lang: en
 ---
 <iframe src="https://drive.google.com/file/d/1agJPGMPIA3tbvMRforGJrw4aHQANE1ti/preview" width="640" height="480" allow="autoplay"></iframe>
 

@@ -7,4 +7,5 @@ audio_url: "https://sitemedia.esteeb.com/file/esteebcomsitemedia/class_recording
 resources:
   - name: "Download Notes"
     url: "https://sitemedia.esteeb.com/file/esteebcomsitemedia/docs/Revelation/The+Morning+Star_+Christ's+Message+to+Thyatira+in+Revelation+2_18-29+(1).pdf"
+lang: en
 ---

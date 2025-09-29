@@ -7,4 +7,5 @@ audio_url: "https://sitemedia.esteeb.com/file/esteebcomsitemedia/class_recording
 resources:
   - name: "Download Notes"
     url: "https://sitemedia.esteeb.com/file/esteebcomsitemedia/docs/Revelation/The-Letter-to-Sardis_+A-Church-with-a-Reputation.pdf"
+lang: en
 ---

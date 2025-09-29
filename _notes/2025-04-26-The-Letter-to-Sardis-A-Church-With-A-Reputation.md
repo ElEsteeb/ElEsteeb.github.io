@@ -4,6 +4,7 @@ title:  "The Letter to the Church in Sardis"
 date:   2025-04-26 10:00:00 -0600
 author: Steve Torres
 categories: Class Notes, Revelation, Eschatology, Church, Jesus, Sardis, Complacency
+lang: en
 ---
 ## A Church with a Reputation
 <a class="download-link" href="https://sitemedia.esteeb.com/file/esteebcomsitemedia/docs/Revelation/The-Letter-to-Sardis_+A-Church-with-a-Reputation.pdf" download>Download PDF</a>

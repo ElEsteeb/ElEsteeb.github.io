@@ -4,6 +4,7 @@ title:  "Devotional 20 January 2025"
 date:   2025-01-20 08:00:00 -0600
 author: Steve Torres
 categories: Devotional, Revelation
+lang: en
 ---
 
 >**Revelation 2:24-29 ESV**

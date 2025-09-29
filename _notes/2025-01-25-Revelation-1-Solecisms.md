@@ -3,6 +3,7 @@ layout: essay
 title:  "Revelation 1 Solecisms"
 date:   2025-01-25 09:00:00 -0600
 categories: Class Notes, Revelation, Eschatology
+lang: en
 ---
 
 <iframe src="https://drive.google.com/file/d/1OMwKY94iPj5BEQDo8G7DfCjS5rib4SHY/preview" width="640" height="480" allow="autoplay"></iframe>

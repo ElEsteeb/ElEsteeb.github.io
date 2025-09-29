@@ -4,6 +4,7 @@ title:  "Devotional 24 January 2025"
 date:   2025-01-24 08:00:00 -0600
 author: Steve Torres
 categories: Devotional, Revelation
+lang: en
 ---
 
 >**Revelation 3:7 ESV**

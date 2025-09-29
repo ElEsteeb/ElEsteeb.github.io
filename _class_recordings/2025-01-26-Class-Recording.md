@@ -11,4 +11,5 @@ resources:
     url: "https://youtube.com/playlist?list=PL_ZEkhXyLW9WsCkcrVY2jVyoTpbPtAsX8"
   - name: "Spotify Playlist"
     url: "https://open.spotify.com/playlist/1kFkCrBpbZx0bxgeed8k2v?si=yoTgviJNTP-A_Rh80UVNBw&pi=u-Av4kwKamTh2f"
+lang: en
 ---

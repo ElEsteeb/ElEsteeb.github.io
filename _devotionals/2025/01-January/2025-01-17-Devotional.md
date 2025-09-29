@@ -4,6 +4,7 @@ title:  "Devotional 17 January 2025"
 date:   2025-01-17 08:00:00 -0600
 author: Steve Torres
 categories: Devotional, Revelation
+lang: en
 ---
 
 >**Revelation 2:18 ESV**
