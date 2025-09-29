@@ -28,7 +28,7 @@ defaults:
       path: "" # Applies to all files in the root and subdirectories
       type: "pages" # Specifically targets HTML/Markdown files that are not collections
     values:
-      lang: "en" # Automatically set lang: en
+      lang: "en"
 
   # Your existing default for 'notes' collection (keep this)
   - scope:
