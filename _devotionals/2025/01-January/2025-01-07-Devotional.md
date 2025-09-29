@@ -4,6 +4,7 @@ title:  "Devotional 07 January 2025"
 date:   2025-01-07 09:00:00 -0600
 author: Steve Torres
 categories: Devotional, Revelation
+lang: en
 ---
 
 >**Revelation 2:2 ESV**
