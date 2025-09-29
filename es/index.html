@@ -12,26 +12,4 @@ lang: es # Set the language to Spanish
     <p>Este sitio web está configurado para que cualquiera pueda acceder a la versión en español de los contenidos que produzco. Lo iré actualizando con más contenidos a medida que avancemos. Si tienes alguna pregunta o sugerencia, no dudes en escribirme a steve@esteeb.com .</p>
 </div>
 
-
-<div class="post-container">
-   {% assign temp_empty_array = "" | split: "" %}
-
-   {% assign devotionals = site.devotionals | default: temp_empty_array | where: "lang", page.lang | sort: "date" | reverse %}
-   {% assign notes = site.notes | default: temp_empty_array | where: "lang", page.lang | sort: "date" | reverse %}
-   {% assign recordings = site.class_recordings | default: temp_empty_array | where: "lang", page.lang | sort: "date" | reverse %}
-
-   {% comment %} Concatenate all language-filtered posts and sort them {% endcomment %}
-   {% assign all_posts = temp_empty_array | concat: devotionals | concat: notes | concat: recordings | sort: "date" | reverse %}
-
-   {% assign visible_posts = all_posts | where_exp: "post", "post.date <= site.time" %}
-    {% for post in visible_posts limit:10 %}
-     <div class="lesson-card">
-       <span class="post-meta">{{ post.date | date: "%B %-d, %Y" }}</span>
-       <h3>
-         <a class="post-link" href="{{ post.url | relative_url }}">
-           {{ post.title }}
-         </a>
-       </h3>
-     </div>
-   {% endfor %}
-</div>
+{% include home-posts.html lang="es" %}

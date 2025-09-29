@@ -1,0 +1,21 @@
+{% assign temp_empty_array = "" | split: "" %}
+
+{% assign devotionals = site.devotionals | default: temp_empty_array | where: "lang", include.lang | sort: "date" | reverse %}
+{% assign notes = site.notes | default: temp_empty_array | where: "lang", include.lang | sort: "date" | reverse %}
+{% assign recordings = site.class_recordings | default: temp_empty_array | where: "lang", include.lang | sort: "date" | reverse %}
+
+{% assign all_posts = temp_empty_array | concat: devotionals | concat: notes | concat: recordings | sort: "date" | reverse %}
+{% assign visible_posts = all_posts | where_exp: "post", "post.date <= site.time" %}
+
+<div class="post-container">
+  {% for post in visible_posts limit:10 %}
+    <div class="lesson-card">
+      <span class="post-meta">{{ post.date | date: "%B %-d, %Y" }}</span>
+      <h3>
+        <a class="post-link" href="{{ post.url | relative_url }}">
+          {{ post.title }}
+        </a>
+      </h3>
+    </div>
+  {% endfor %}
+</div>
