@@ -7,13 +7,16 @@ baseurl: ""                    # Empty since your site is at the root of the dom
 # Google Analytics
 google_analytics: G-Y0QLNLWWLX
 
+# Timezone for consistent publishing behavior
+timezone: America/Chicago
+
 collections:
   devotionals:
     output: true
-    permalink: /devotionals/:name/ # Example permalink for collection items
+    permalink: /:lang/devotionals/:name/ # Example permalink for collection items
   notes:
     output: true
-    permalink: /notes/:name/
+    permalink: /:lang/notes/:name/
   class_recordings:
     output: true
     permalink: /class_recordings/:name/
@@ -33,11 +36,24 @@ defaults:
       type: "notes"
     values:
       layout: "essay"
+
+  # Add layout and lang defaults for devotionals
   - scope:
       path: ""
       type: "devotionals"
     values:
+      layout: "post"
       lang: "en"
+
+  # Add lang defaults for Spanish devotionals
+  - scope:
+      path: "es"
+      type: "devotionals"
+    values:
+      layout: "post"
+      lang: "es"
+
+  # Keep existing lang defaults for notes and recordings
   - scope:
       path: ""
       type: "notes"
@@ -48,6 +64,14 @@ defaults:
       type: "class_recordings"
     values:
       lang: "en"
+
+# Devotional series tracking for homepage curation
+series:
+  completed:
+    - Revelation
+    - Hebrews
+    - 1 Peter
+  current: 2 Peter
 
 plugins:
   - jekyll-seo-tag
