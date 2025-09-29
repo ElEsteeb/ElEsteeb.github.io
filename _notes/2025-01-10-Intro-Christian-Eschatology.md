@@ -3,6 +3,7 @@ layout: essay
 title:  "Introduction to Christian Eschatology"
 date:   2025-01-05 09:00:00 -0600
 categories: Class Notes, Revelation, Eschatology
+lang: en
 ---
 <iframe src="https://drive.google.com/file/d/1kApXB-dN805mHJLXCelnENaWA5_ZrDo6/preview" width="640" height="480" allow="autoplay"></iframe>
 
