@@ -1,7 +1,7 @@
 ---
 layout: devotional
-title:  "Devocional 2 Octubre 2025"
-date:   2025-10-02 04:00:00 -0500
+title:  "Devocional 3 Octubre 2025"
+date:   2025-10-03 04:00:00 -0500
 author: Steve Torres
 categories: Devotional, 2 Pedro
 lang: es
