@@ -6,7 +6,7 @@ author: Steve Torres
 categories: Devotional, 1 Corinthians
 lang: en
 ---
-<img src="https://sitemedia.esteeb.com/file/esteebcomsitemedia/devotional_images/1-Corinthians/1-Cor-1_9.jpg?raw=true" alt="1 Corinthians 1:9.jpg" style="max-width: 100%; height: auto;">
+<img src="https://sitemedia.esteeb.com/file/esteebcomsitemedia/devotional_images/1-Corinthians/1Cor-1_9.jpg?raw=true" alt="1 Corinthians 1:9.jpg" style="max-width: 100%; height: auto;">
 
 <div class="scripture">
   “I give thanks to my God always for you because of the grace of God that was given you in Christ Jesus, that in every way you were enriched in him in all speech and all knowledge—even as the testimony about Christ was confirmed among you—so that you are not lacking in any gift, as you wait for the revealing of our Lord Jesus Christ, who will sustain you to the end, guiltless in the day of our Lord Jesus Christ. God is faithful, by whom you were called into the fellowship of his Son, Jesus Christ our Lord.” (1 Corinthians 1:4–9, ESV)
