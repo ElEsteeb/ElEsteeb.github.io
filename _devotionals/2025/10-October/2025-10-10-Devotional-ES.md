@@ -6,7 +6,7 @@ author: Steve Torres
 categories: Devotional, 2 Pedro
 lang: es
 ---
-<img src="https://sitemedia.esteeb.com/file/esteebcomsitemedia/devotional_images/1-Corinthians/ES-1Cor-1_1-3.jpg?raw=true" alt="1 Corintios 1L1-3.jpg" style="max-width: 100%; height: auto;">
+<img src="https://sitemedia.esteeb.com/file/esteebcomsitemedia/devotional_images/1-Corinthians/ES-1Cor-1_1-3.jpg?raw=true" alt="1 Corintios 1:1-3.jpg" style="max-width: 100%; height: auto;">
 
 <div class="scripture">
    “Pablo, llamado a ser apóstol de Jesucristo por la voluntad de Dios, y el hermano Sóstenes, a la iglesia de Dios que está en Corinto, a los santificados en Cristo Jesús, llamados a ser santos con todos los que en cualquier lugar invocan el nombre de nuestro Señor Jesucristo, Señor de ellos y nuestro: Gracia y paz a vosotros, de Dios nuestro Padre y del Señor Jesucristo.” (1 Corintios 1:1–3, RVR1960)
