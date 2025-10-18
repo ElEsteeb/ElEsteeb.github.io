@@ -3,7 +3,7 @@ layout: devotional
 title:  "Devocional 15 Octubre 2025"
 date:   2025-10-15 04:00:00 -0500
 author: Steve Torres
-categories: Devotional, 2 Pedro
+categories: Devotional, 1 Corintios
 lang: es
 ---
 <img src="https://sitemedia.esteeb.com/file/esteebcomsitemedia/devotional_images/1-Corinthians/ES-1Cor-1_25.jpg?raw=true" alt="1 Corintios 1:25.jpg" style="max-width: 100%; height: auto;">
