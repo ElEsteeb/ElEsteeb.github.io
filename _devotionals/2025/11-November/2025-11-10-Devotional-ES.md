@@ -9,8 +9,7 @@ lang: es
 <img src="https://sitemedia.esteeb.com/file/esteebcomsitemedia/devotional_images/1-Corinthians/ES-1Cor-6_11.jpg?raw=true" alt="1 Corintios 6:11.jpg" style="max-width: 100%; height: auto;">
 
 <div class="scripture">
-  “¿No sabéis que los injustos no heredarán el reino de Dios? No erréis; ni los fornicarios, ni los idólatras, ni los adúlteros, ni los afeminados, ni los que se echan con varones,
-ni los ladrones, ni los avaros, ni los borrachos, ni los maldicientes, ni los estafadores heredarán el reino de Dios. Y esto erais algunos; mas ya habéis sido lavados, ya habéis sido santificados, ya habéis sido justificados en el nombre del Señor Jesús, y por el Espíritu de nuestro Dios.” (1 Corintios 6:9–11, RVR1960)
+  “¿No sabéis que los injustos no heredarán el reino de Dios? No erréis; ni los fornicarios, ni los idólatras, ni los adúlteros, ni los afeminados, ni los que se echan con varones,ni los ladrones, ni los avaros, ni los borrachos, ni los maldicientes, ni los estafadores heredarán el reino de Dios. Y esto erais algunos; mas ya habéis sido lavados, ya habéis sido santificados, ya habéis sido justificados en el nombre del Señor Jesús, y por el Espíritu de nuestro Dios.” (1 Corintios 6:9–11, RVR1960)
 </div>
 
 Pablo les recuerda a los corintios que el orgullo no tiene lugar en aquellos que han sido redimidos. Después de reprenderlos por demandarse unos a otros, dirige su mirada hacia la gracia que los salvó. Los injustos no heredarán el reino de Dios (Efesios 5:5), y ellos estaban entre ellos. Pero Dios hizo lo que ellos jamás podrían haber hecho: los lavó, los santificó y los justificó por medio de la obra de Cristo y del Espíritu. No es la disciplina humana ni la reforma moral lo que rescata al pecador, sino la misericordia divina (Tito 3:4–7).
