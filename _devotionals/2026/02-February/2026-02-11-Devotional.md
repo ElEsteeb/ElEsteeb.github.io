@@ -1,7 +1,7 @@
 ---
 layout: devotional
 title:  "Many Members, One Body"
-date:   2026-02-1 04:00:00 -0500
+date:   2026-02-11 04:00:00 -0500
 author: Steve Torres
 categories: Devotional, 1 Corinthians
 lang: en
