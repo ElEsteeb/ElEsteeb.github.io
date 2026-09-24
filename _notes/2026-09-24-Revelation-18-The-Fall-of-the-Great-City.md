@@ -1,7 +1,7 @@
 ---
 layout: essay
 title: "Revelation 18: The Fall of the Great City"
-date: 2026-09-24 17:11:00 -0500
+date: 2026-09-20 09:30:00 -0500
 author: Steve Torres
 categories: Class Notes, Revelation, Eschatology, Church
 lang: en
