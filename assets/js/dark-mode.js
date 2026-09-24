@@ -1,60 +1,31 @@
-// Check if the script has already run
-if (!window.darkModeInitialized) {
-  window.darkModeInitialized = true;
+// Respect a saved choice, otherwise follow the device preference.
+(function () {
+  const key = 'darkMode';
+  const media = window.matchMedia('(prefers-color-scheme: dark)');
+  const button = document.querySelector('.dark-mode-toggle');
+  if (!button) return;
 
-  try {
-    setTimeout(function() {
-      const darkModeToggle = document.querySelector('.dark-mode-toggle');
-      console.log('Dark mode toggle element:', darkModeToggle);
-      if (darkModeToggle) {
-        const toggleDarkMode = () => {
-          console.log('Before toggling - Body classes:', document.body.classList.toString());
-          if (document.body.classList.contains('dark-mode')) {
-            document.body.classList.remove('dark-mode');
-            document.body.classList.add('light-mode');
-            localStorage.setItem('darkMode', 'disabled');
-          } else {
-            document.body.classList.remove('light-mode');
-            document.body.classList.add('dark-mode');
-            localStorage.setItem('darkMode', 'enabled');
-          }
-          console.log('After toggling - Body classes:', document.body.classList.toString());
-        };
-        // Remove any existing listeners to be safe
-        darkModeToggle.removeEventListener('click', toggleDarkMode);
-        darkModeToggle.removeEventListener('touchstart', toggleDarkMode);
-        // Add the listeners
-        darkModeToggle.addEventListener('click', toggleDarkMode);
-        darkModeToggle.addEventListener('touchstart', toggleDarkMode);
-      } else {
-        console.error('Dark mode toggle button not found');
-      }
-
-      // Initialize the mode
-      const storedDarkMode = localStorage.getItem('darkMode');
-      const prefersDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches;
-      if (storedDarkMode) {
-        if (storedDarkMode === 'enabled') {
-          document.body.classList.add('dark-mode');
-          document.body.classList.remove('light-mode');
-        } else {
-          document.body.classList.add('light-mode');
-          document.body.classList.remove('dark-mode');
-        }
-      } else {
-        if (prefersDarkMode) {
-          document.body.classList.add('dark-mode');
-          document.body.classList.remove('light-mode');
-          localStorage.setItem('darkMode', 'enabled');
-        } else {
-          document.body.classList.add('light-mode');
-          document.body.classList.remove('dark-mode');
-          localStorage.setItem('darkMode', 'disabled');
-        }
-      }
-      console.log('Initial body classes:', document.body.classList.toString());
-    }, 100);
-  } catch (e) {
-    console.error('Error in dark mode toggle script:', e);
+  function savedChoice() {
+    try { return localStorage.getItem(key); } catch (_) { return null; }
   }
-}
+  function apply(dark) {
+    document.body.classList.toggle('dark-mode', dark);
+    document.body.classList.toggle('light-mode', !dark);
+    button.setAttribute('aria-label', dark ? 'Switch to light mode' : 'Switch to dark mode');
+    button.setAttribute('title', dark ? 'Switch to light mode' : 'Switch to dark mode');
+    button.setAttribute('aria-pressed', String(dark));
+    button.textContent = dark ? '☀' : '☾';
+  }
+
+  const choice = savedChoice();
+  apply(choice === 'enabled' || (choice !== 'disabled' && media.matches));
+
+  button.addEventListener('click', function () {
+    const dark = !document.body.classList.contains('dark-mode');
+    apply(dark);
+    try { localStorage.setItem(key, dark ? 'enabled' : 'disabled'); } catch (_) {}
+  });
+  media.addEventListener('change', function (event) {
+    if (!savedChoice()) apply(event.matches);
+  });
+})();
