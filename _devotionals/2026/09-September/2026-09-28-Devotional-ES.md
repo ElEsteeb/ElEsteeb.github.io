@@ -1,6 +1,6 @@
 ---
 layout: devotional
-title:  "Romanos 10:14–21"
+title:  "Escucha el Evangelio"
 date:   2026-09-28 04:00:00 -0500
 author: Steve Torres
 categories: Devotional, Romanos
