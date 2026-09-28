@@ -1,6 +1,6 @@
 ---
 layout: devotional
-title:  "Romans 10:14–21"
+title:  "Hear the Gospel"
 date:   2026-09-28 04:00:00 -0500
 author: Steve Torres
 categories: Devotional, Romans
